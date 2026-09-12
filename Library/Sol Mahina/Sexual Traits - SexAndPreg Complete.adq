@@ -1,0 +1,2037 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "t2aJTPRzIqymhBN4t",
+			"name": "Elastic Genitals",
+			"reference": "SexAndPreg:12",
+			"reference_highlight": "Elastic Genitals",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 2,
+			"calc": {
+				"points": 2
+			},
+			"local_notes": "Existing convenience entry. The source defines Elastic Vagina and Elastic Penis separately, both as 2-point cinematic Elastic Body Parts. Specific source entries are also included below."
+		},
+		{
+			"id": "tserFtHaEjUL-HBiN",
+			"name": "Fertility",
+			"reference": "SexAndPreg:12",
+			"reference_highlight": "Fertility",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"modifiers": [
+				{
+					"id": "m-r5LW2v3woyWy5QX",
+					"name": "Super Bukkake",
+					"reference": "SexAndPreg:12",
+					"reference_highlight": "Super Bukkake",
+					"local_notes": "Super Effort",
+					"cost_adj": "+300%"
+				}
+			],
+			"points_per_level": 3,
+			"max_levels": "4",
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 3,
+				"current_level": 1
+			},
+			"local_notes": "+1 per level to Conception rolls, up to 4 normal levels; cumulative with partner. The source also gives a reaction bonus from evidence of a large family and optional cinematic output rules."
+		},
+		{
+			"id": "tAeyNYw7eQCZ5eew7",
+			"name": "Elastic Breasts",
+			"reference": "SexAndPreg:11",
+			"reference_highlight": "Elastic Breasts",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 2,
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "tq89UO7ciH9QFxSeR",
+			"name": "Multiorgasmic",
+			"reference": "SexAndPreg:14",
+			"reference_highlight": "Multiorgasmic",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 5,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "ttnM07Evw0LdHaFPm",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Bio-Tech/Bio-Tech Traits.adq",
+				"id": "tqoZjoMK01Dz00QE5"
+			},
+			"name": "Reproductive Control",
+			"reference": "BT59,SexAndPreg:20",
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tUlbqZuM8AghEakdp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Bio-Tech/Bio-Tech Traits.adq",
+				"id": "tny2gjhcdhsBVRmXl"
+			},
+			"name": "Oviparous (@Gestation Length@)",
+			"reference": "BT59",
+			"modifiers": [
+				{
+					"id": "mevFfk_v1Mhu3xFO0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+						"id": "mpgXdAagogt4zVPtE"
+					},
+					"name": "Switchable",
+					"reference": "PU4:17",
+					"cost_adj": "10%"
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tRS4d3AiBOdycqSrY",
+			"name": "Regenerative Hymen",
+			"reference": "SexAndPreg:20",
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			},
+			"reference_highlight": "Regenerative Hymen"
+		},
+		{
+			"id": "tUHT4UXkpw44rlKXk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Bio-Tech/Bio-Tech Traits.adq",
+				"id": "tV-sKMFCpL6KwPcgC"
+			},
+			"name": "Parthenogenesis",
+			"reference": "BT59, SexAndPreg:20",
+			"modifiers": [
+				{
+					"id": "mKphyZz7ADs0JufFN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Bio-Tech/Bio-Tech Traits.adq",
+						"id": "m5-Mvxb4d8jzP6a8t"
+					},
+					"name": "In addition to sexual reproduction",
+					"cost_adj": "1",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			},
+			"local_notes": "Bio-Tech version retained. Sex and Pregnancy also lists Parthenogenesis as a perk and allows it alongside normal sexual reproduction or Cross-Species Surrogacy."
+		},
+		{
+			"id": "tCXU4AFDXJ6S7s-ON",
+			"source": {
+				"library": "/tsargoth/Sol-Mahina",
+				"path": "Sol Mahina/Sexual Traits.adq",
+				"id": "tKGiA1kQx1OXIZH38"
+			},
+			"name": "Large Breasts",
+			"reference": "SexAndPreg:19",
+			"reference_highlight": "Large Breasts",
+			"local_notes": "Leveled perk, 1-4 levels; +1 Sex Appeal per level and +3 inches Breast Thickness per level. Realistic games: level 2 requires Bad Back or Chronic Pain; level 3 also gives -1 Basic Move; level 4 gives -2 Basic Move. Breast Strikers may require some level of Large Breasts at GM discretion.",
+			"points_per_level": 1,
+			"max_levels": "4",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Sex Appeal"
+					},
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "TUZPps7LVaVkxS6rD",
+			"name": "Slit",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "tLVto6UFJNVMHrjoz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t7a13kFVl53ZfbkrK"
+					},
+					"name": "Payload",
+					"reference": "B74",
+					"local_notes": "<script>\nif(entity.exists) {\n  measure.formatWeight(\n    self.level * entity.encumbrance.basicLift / 10,\n    entity.displayWeightUnits,\n  )\n} else {\n  \"Payload will be calculated when added to a character sheet\"\n}\n</script>",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mywub5bdy4hyL7lOy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mjLLPKjkvP1SLBWS_"
+							},
+							"name": "Exposed",
+							"reference": "B74",
+							"cost_adj": "-50%",
+							"disabled": true
+						}
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 1,
+						"resolved_notes": "Payload will be calculated when added to a character sheet",
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tPbwBb02fvzBlr2AB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tkCi-pV0exqSyPhyv"
+					},
+					"name": "Prehensile Dick",
+					"reference": "B53",
+					"local_notes": "(Extra Arm)",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"replacements": {
+						"Condition": "Only while male or herm"
+					},
+					"modifiers": [
+						{
+							"id": "msVwXKfHGc7E7m7l1",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mhfT3jOm77X0lsw0V"
+							},
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "mBEYGblhKi91gEZMU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m3ZOlq1dfMlW8qaPl"
+							},
+							"name": "Long",
+							"reference": "B53",
+							"cost_adj": "100%",
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mqZg0qCdMPfPGn8Bo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mSGbdtO-DZBOaWAoA"
+							},
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "mk9_q6o45kWDwQROC",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mTUB-Bxsd5N5I3oNZ"
+							},
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost_adj": "-50%"
+						},
+						{
+							"id": "msfYiIYFgHbi3sXGY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m89lI8CJ8eNDfHWep"
+							},
+							"name": "Short",
+							"reference": "B53",
+							"cost_adj": "-50%"
+						},
+						{
+							"id": "m40lrZ7Gnp6lzHMqo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mc2NdhAqBuOzyWJmZ"
+							},
+							"name": "Weak",
+							"reference": "B53",
+							"local_notes": "Half body ST",
+							"cost_adj": "-25%",
+							"disabled": true
+						},
+						{
+							"id": "mBu0hsCRfCXtITnzX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mpI-MFLT0jUoEXyQO"
+							},
+							"name": "Weak",
+							"reference": "B53",
+							"local_notes": "Quarter body ST",
+							"cost_adj": "-50%"
+						},
+						{
+							"id": "mbCIxUg-5o4eBgSPb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mHxnoD7dy7NDF1Ror"
+							},
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost_adj": "-80%",
+							"disabled": true
+						},
+						{
+							"id": "meQUvLbbN0mo4-gc0",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "madd_pwVzAc1jtW5M"
+							},
+							"name": "No Grasping Hand",
+							"reference": "MATG28",
+							"cost_adj": "-40%",
+							"disabled": true
+						},
+						{
+							"id": "mroVdnvaRXnh_TZwU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mCXxiI6HbVwzKMQ4R"
+							},
+							"name": "Racial Skill Bonus: Erotic Art",
+							"cost_adj": "2",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Erotic Art"
+									},
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "mGtmBBXTRpsbOnies",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mb1WWa7oMZPMAArbM"
+							},
+							"name": "Trait Modifier"
+						},
+						{
+							"id": "mlrx9Ko64zvOZK_fX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mpgXdAagogt4zVPtE"
+							},
+							"name": "Switchable",
+							"reference": "PU4:17",
+							"cost_adj": "10%"
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 3,
+						"current_level": 1
+					}
+				}
+			],
+			"calc": {
+				"points": 4
+			}
+		},
+		{
+			"id": "tX3u_0Pfu0w_SP87P",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tknKLIc0OqWueFpSw"
+			},
+			"name": "Sexual Sadism",
+			"reference": "B152, SexAndPreg:30",
+			"local_notes": "Treated as Sadism for point costs, though sometimes you can restrict your sadism to sexual situations in which case it is reduced by -10 or -20%, if you only want to inflict minor/superficial pain, and restrict it to sexual situations the modifier may be as low as -80% (or possibly a quirk) but this is at the GM discretion. Sexual Masochism is the desire to be in painful sexual situations and takes modifiers as per sadism.\n\nA pimp who would express any sort of violence toward a pregnant whore is eligible for the full blown disadvantage.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -15,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from those who become aware of your Sadism unless they are from a culture that holds life in little esteem",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"points": -15
+			},
+			"reference_highlight": "Sexual Sadism/Masochism"
+		},
+		{
+			"id": "t__r8aEXRLRSSR5UnL",
+			"name": "Cosmetic Unaging",
+			"reference": "SexAndPreg:10",
+			"reference_highlight": "Cosmetic Unaging",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 7,
+			"local_notes": "You age normally but retain the apparent age and appearance you had when the trait was acquired. The source presents this as Unaging with a -50% limitation.",
+			"calc": {
+				"points": 7
+			}
+		},
+		{
+			"id": "tz3_fms4T6uRPaPW1P",
+			"name": "Elastic Vagina",
+			"reference": "SexAndPreg:12",
+			"reference_highlight": "Elastic Genitals",
+			"tags": [
+				"Advantage",
+				"Cinematic",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 2,
+			"local_notes": "May expand or contract to fit safely and snugly; grants the source's +1 Erotic Art fit benefit. Also permits childbirth in seconds.",
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "t9-cLnrjCm3_Fwr0mi",
+			"name": "Elastic Penis",
+			"reference": "SexAndPreg:12",
+			"reference_highlight": "Elastic Genitals",
+			"tags": [
+				"Advantage",
+				"Cinematic",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 2,
+			"local_notes": "May expand up to personal SM-4 and contract down to default size.",
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "tJmoWlg5VrihrxS5C2",
+			"name": "Aphrodisiac Slime",
+			"reference": "SexAndPreg:12",
+			"reference_highlight": "Aphrodisiac Slime",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical",
+				"Sexual"
+			],
+			"points_per_level": 15,
+			"can_level": true,
+			"levels": 1,
+			"local_notes": "Affliction build from the source: Aura/Contact Agent inflicting Nymphomania, Try-Sexual, and Xenophilia for 1 minute × margin of failed HT resistance.",
+			"calc": {
+				"points": 15,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "toNO9K2wD_BA3aN6WH",
+			"name": "Sex Missiles",
+			"reference": "SexAndPreg:12",
+			"reference_highlight": "Sex Missiles",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical",
+				"Sexual"
+			],
+			"points_per_level": 18,
+			"can_level": true,
+			"levels": 1,
+			"local_notes": "Affliction (Ecstasy) delivered through ejaculate; source build is normally gender-restricted.",
+			"calc": {
+				"points": 18,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "tVqCo2mWUMZoMOXCO-",
+			"name": "Shuddering Touch",
+			"reference": "SexAndPreg:12",
+			"reference_highlight": "Shuddering Touch",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical",
+				"Sexual"
+			],
+			"points_per_level": 20,
+			"can_level": true,
+			"levels": 1,
+			"local_notes": "Contact/Aura Ecstasy Affliction affecting those attracted to the user's gender.",
+			"calc": {
+				"points": 20,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "taGBsOyrvPfilOpKKJ",
+			"name": "Greater Bulletproof Nudity",
+			"reference": "SexAndPreg:13",
+			"reference_highlight": "Greater Bulletproof Nudity",
+			"tags": [
+				"Advantage",
+				"Cinematic",
+				"Physical",
+				"Sexual"
+			],
+			"points_per_level": 30,
+			"can_level": true,
+			"levels": 1,
+			"local_notes": "Defense Bonus at 30 points/level with Can't Wear Armor, Cosmic maximum based on Appearance, and half power when skimpily clothed. Buy levels up to the applicable Appearance modifier.",
+			"calc": {
+				"points": 30,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "tjo7JwKwRwz3amX_Ye",
+			"name": "Orgasmic Beauty",
+			"reference": "SexAndPreg:14",
+			"reference_highlight": "Orgasmic Beauty",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental",
+				"Sexual"
+			],
+			"points_per_level": 53,
+			"can_level": true,
+			"levels": 1,
+			"local_notes": "Source Innate Attack build: reverse Vision-Based crushing attack with Ecstasy side effect and Heart Attack symptom. 53 points per level.",
+			"calc": {
+				"points": 53,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "tfsp2FK-sBKiuYa1mL",
+			"name": "Lend Energy (Sexual)",
+			"reference": "SexAndPreg:14",
+			"reference_highlight": "Lend Energy",
+			"tags": [
+				"Advantage",
+				"Supernatural",
+				"Sexual"
+			],
+			"base_points": 45,
+			"local_notes": "Healing build that transfers FP only; Empathic prevents meaningful self-use.",
+			"calc": {
+				"points": 45
+			}
+		},
+		{
+			"id": "tsGNi_TaFoXIXjwOcG",
+			"name": "Sexual Magery",
+			"reference": "SexAndPreg:14",
+			"reference_highlight": "Sexual Magery and Magical Powers Talent",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural",
+				"Sexual"
+			],
+			"points_per_level": 6,
+			"can_level": true,
+			"levels": 1,
+			"local_notes": "Talent/Magery for sexual magic; source assumes strong emotional generation requirements worth about -40%.",
+			"calc": {
+				"points": 6,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "tcHGW-4Hva9SJm38qg",
+			"name": "Shorter Gestation (2/3 normal)",
+			"reference": "SexAndPreg:15",
+			"reference_highlight": "Shorter Gestation",
+			"tags": [
+				"Feature",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 0,
+			"local_notes": "2/3 normal gestation; the source prices this at 0 points.",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tgqYowlrepdf9GSN1r",
+			"name": "Shorter Gestation (1/3 normal)",
+			"reference": "SexAndPreg:15",
+			"reference_highlight": "Shorter Gestation",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "1/3 normal gestation.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tiPjVvtIk2HgtPJuqv",
+			"name": "Shorter Gestation (1/9 normal)",
+			"reference": "SexAndPreg:15",
+			"reference_highlight": "Shorter Gestation",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 2,
+			"local_notes": "1/9 normal gestation.",
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "tWyOw3qfkXnR-5GWTX",
+			"name": "Shorter Gestation (1/18 normal)",
+			"reference": "SexAndPreg:15",
+			"reference_highlight": "Shorter Gestation",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 5,
+			"local_notes": "1/18 normal gestation; without Elastic Vagina, the source imposes maternal thrust damage at delivery.",
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tlL3chWPTen1PvWRjh",
+			"name": "Shorter Gestation (1/36 normal)",
+			"reference": "SexAndPreg:15",
+			"reference_highlight": "Shorter Gestation",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 10,
+			"local_notes": "1/36 normal gestation; without Elastic Vagina, the source imposes maternal thrust damage at delivery.",
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "tF7YuffpoYY6QFtez-",
+			"name": "Small Breasts",
+			"reference": "SexAndPreg:15",
+			"reference_highlight": "Small Breasts",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Usually a 1-point Classic Feature; may be 2 points if it also grants Rules Exemption from the Breast hit location.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tNhMsuPvdzm3Pa9VI0",
+			"name": "Social Regard (Known Virgin)",
+			"reference": "SexAndPreg:16",
+			"reference_highlight": "Known Virgin",
+			"tags": [
+				"Advantage",
+				"Social",
+				"Sexual"
+			],
+			"base_points": 5,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "possible suitors or people with similar motivations",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "ty2VDCQXnI6jrKD0ga",
+			"name": "Social Regard (Pregnant)",
+			"reference": "SexAndPreg:16",
+			"reference_highlight": "Pregnant",
+			"tags": [
+				"Advantage",
+				"Social",
+				"Sexual"
+			],
+			"points_per_level": 5,
+			"can_level": true,
+			"levels": 1,
+			"max_levels": "2",
+			"local_notes": "Obvious pregnancy draws protective/forgiving treatment. The source allows one level for second trimester and optionally two by third trimester.",
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "those inclined to protect or accommodate visibly pregnant people",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"calc": {
+				"points": 5,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "tI12FlEv6tC-N7gokW",
+			"name": "Trained by a Master",
+			"reference": "SexAndPreg:16",
+			"reference_highlight": "Trained By a Master or Weapon Master (Erotic)",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Cinematic",
+				"Sexual"
+			],
+			"base_points": 24,
+			"local_notes": "Aspected: Erotic (-20%) version of Trained by a Master. Allows cinematic sexual skills/techniques/perks, sex toys as weapons without improvised penalties, and Erotic Art techniques at double default.",
+			"calc": {
+				"points": 24
+			},
+			"notes": "Erotic"
+		},
+		{
+			"id": "t4AojxLo8HZzGI5VUF",
+			"name": "Walking Erogenous Zone",
+			"reference": "SexAndPreg:16",
+			"reference_highlight": "Walking Erogenous Zone",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"points_per_level": 5,
+			"can_level": true,
+			"levels": 1,
+			"local_notes": "Partner success with Erotic Art or Massage automatically yields the technique's highest Stimulation plus this trait's level; also +1 reaction per level from interested partners.",
+			"calc": {
+				"points": 5,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "twVR0NFtpWGe6oUSFI",
+			"name": "Altered Sex Ratio",
+			"reference": "SexAndPreg:17",
+			"reference_highlight": "Altered Sex Ratio",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Changes the species' typical male/female birth ratio; may specify a fixed ratio or one sex only.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "txtuSbbMwRazNXqqyj",
+			"name": "Breast Flop Parry",
+			"reference": "SexAndPreg:17",
+			"reference_highlight": "Breast Flop Parry",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Requires Breast Strikers. Once per turn may use an unarmed parry against a punch or kick to the torso by using a breast; successful parry may set up trapping follow-ups.",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Breast Strikers"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t487a11-6zOic8_xfw",
+			"name": "Classic Features",
+			"reference": "SexAndPreg:17",
+			"reference_highlight": "Classic Features",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Cosmetic/classic phenotype feature such as animalistic or ethnic traits; can waive physiology penalties where appropriate.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tOLQ54kYgZXV-i8LTj",
+			"name": "Cross-Species Surrogacy",
+			"reference": "SexAndPreg:17",
+			"reference_highlight": "Cross-Species Surrogacy",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Eggs may be fertilized by members of specified other races; exact inheritance is campaign-defined.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t2EJlzZo9-sPqPkRT0",
+			"name": "Easy Childbirth",
+			"reference": "SexAndPreg:18",
+			"reference_highlight": "Easy Childbirth",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "+2 to HT rolls determining pregnancy success. May instead be a 0% modifier on Reproductive Control; automatic with Elastic Vagina.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tVp6C-9LrrXDgYd1gq",
+			"name": "High-Heeled Heroine",
+			"reference": "SexAndPreg:18",
+			"reference_highlight": "High-Heeled Heroine",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Ignore special bad-footing penalties from high heels while running, climbing, fighting, etc.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tRJyLZglS8T12Icnop",
+			"name": "High-Heeled Hurt",
+			"reference": "SexAndPreg:18",
+			"reference_highlight": "High-Heeled Hurt",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Requires High-Heeled Heroine. High-heeled kicks deal thrust-1 large piercing plus unarmed skill bonuses.",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "High-Heeled Heroine"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t5g6phEIZqJ1LCVnxP",
+			"name": "Light Menses",
+			"reference": "SexAndPreg:20",
+			"reference_highlight": "Light Menses",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Greatly reduced PMS/menstrual discomfort; only meaningful in campaigns where those effects are modeled.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tpMN0tRv4qR1bvuUHk",
+			"name": "Rules Exemption (Chainmail Bikini)",
+			"reference": "SexAndPreg:21",
+			"reference_highlight": "Rules Exemption (Chainmail Bikini)",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Ignore probabilistic hit-location coverage rules for qualifying minimal armor; its listed DR protects relevant hits automatically.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t7oWL7l5II3koIRwvZ",
+			"name": "Rules Exemption (Striker Critical Failures)",
+			"reference": "SexAndPreg:21",
+			"reference_highlight": "Rules Exemption (Striker Critical Failures)",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Characters with Breast Strikers do not risk striking themselves in the face on the listed critical failures.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tqW7PnxsUMKQn3kpI8",
+			"name": "Shtick: Double Sided Tape",
+			"reference": "SexAndPreg:21",
+			"reference_highlight": "Shtick: Double Sided Tape",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Outrageous or revealing clothing always stays in place despite stunts and damage, subject to the source's supers costume logic.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tdd6Kjs9VamPbmDj4-",
+			"name": "Sexy Feints",
+			"reference": "SexAndPreg:21",
+			"reference_highlight": "Sexy Feints",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Use Sex Appeal, or Erotic Art for the relevant style, in place of weapon skill when making Feints; does not help recognize Feints.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tPo5gqUfd7_UlxJMDq",
+			"name": "Sexy Pose",
+			"reference": "SexAndPreg:21",
+			"reference_highlight": "Sexy Pose",
+			"tags": [
+				"Perk",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Use Sex Appeal through posing/gestures when visual contact is possible even when approach is unsafe or impractical.",
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tRKUKLqdbDzfNRK7UF",
+			"name": "Early Maturation",
+			"reference": "SexAndPreg:17",
+			"reference_highlight": "Early Maturation",
+			"tags": [
+				"Feature",
+				"Physical",
+				"Sexual"
+			],
+			"points_per_level": 0,
+			"can_level": true,
+			"levels": 1,
+			"max_levels": "5",
+			"local_notes": "0-point racial feature. Levels reduce age of maturity: 1=9y, 2=4y, 3=2y, 4=1y, 5=6 months for a human baseline; apply relative to racial maturity for other species.",
+			"calc": {
+				"points": 0,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "trqT1veUNQ4poqPaRe",
+			"name": "Estrus",
+			"reference": "SexAndPreg:18",
+			"reference_highlight": "Estrus",
+			"tags": [
+				"Feature",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 0,
+			"local_notes": "Seasonal fertility window, normally about one month per year. Often paired with Lecherousness limited to mating season, but not required.",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tPjxcY74t_xj49cltH",
+			"name": "Breast Strikers",
+			"reference": "SexAndPreg:19",
+			"reference_highlight": "Striker (Breast)",
+			"tags": [
+				"Advantage",
+				"Cinematic",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 2,
+			"local_notes": "Striker (Crushing; Clumsy -20%; Limited Arc -40%) [2]. Can strike to the front, parry with breast tissue, and unlock Breast Striker moves. GM sets any Large Breasts prerequisite.",
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "tgRMB0tdBQxyleOqnC",
+			"name": "Large Penis",
+			"reference": "SexAndPreg:20",
+			"reference_highlight": "Large Penis or Tight Vagina/Anus",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Distinctive sexual feature plus +1 Erotic Art. Size/accommodation interactions use Stuffing and related techniques.",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Erotic Art"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tTF4hyyW1RxdIOcy-x",
+			"name": "Tight Vagina",
+			"reference": "SexAndPreg:20",
+			"reference_highlight": "Large Penis or Tight Vagina/Anus",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Distinctive sexual feature plus +1 Erotic Art. Size/accommodation interactions use Stuffing and related techniques.",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Erotic Art"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tg7m6gLxhQLgpCIkg5",
+			"name": "Tight Anus",
+			"reference": "SexAndPreg:20",
+			"reference_highlight": "Large Penis or Tight Vagina/Anus",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 1,
+			"local_notes": "Distinctive sexual feature plus +1 Erotic Art. Size/accommodation interactions use Stuffing and related techniques.",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Erotic Art"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "twOohjhHgAFgUtQ4Gd",
+			"name": "Sexually Responsive",
+			"reference": "SexAndPreg:21",
+			"reference_highlight": "Sexually Responsive",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Sexual"
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"local_notes": "Add level to Stimulation values of techniques used on you under Advanced Sexual Encounters; otherwise levels improve partner Erotic Art interactions as described in the source.",
+			"calc": {
+				"points": 1,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "twoodcI6qPneMysqiL",
+			"name": "Addiction (Sex)",
+			"reference": "SexAndPreg:22",
+			"reference_highlight": "Addiction (Sex)",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "Sex addiction without necessarily requiring Lecherous advances; regular access satisfies the addiction.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tbs_MbKl4rQlRKDxiB",
+			"name": "Bestiality",
+			"reference": "SexAndPreg:22",
+			"reference_highlight": "Bestiality",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "Variable social/legal disadvantage. Source suggests roughly -5 to -10 depending on setting and whether sentient beastfolk are common.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "ttnxuknEQynBNxdKIy",
+			"name": "Sexuality Stigma (Bisexual/Homosexual)",
+			"reference": "SexAndPreg:22",
+			"reference_highlight": "Bisexuality/Homosexuality",
+			"tags": [
+				"Disadvantage",
+				"Social",
+				"Sexual"
+			],
+			"base_points": -1,
+			"local_notes": "Culturally contingent only. Source ranges from a -1 quirk to -10 for conspicuous sexuality in hostile settings; 0 where not stigmatized.",
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "thHYDpRJIhjBWVG6G0",
+			"name": "Body Dysmorphic Disorder",
+			"reference": "SexAndPreg:23",
+			"reference_highlight": "Body Dysmorphic Disorder",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -18,
+			"local_notes": "Source build: Obsession [-10] plus Low Self-Image limited to appearance-based influence [-8].",
+			"calc": {
+				"points": -18
+			}
+		},
+		{
+			"id": "tv5Q41SR5KmezVYbjK",
+			"name": "Compulsive Behavior (Hopeless Romantic)",
+			"reference": "SexAndPreg:23",
+			"reference_highlight": "Hopeless Romantic",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "twUNP8fy1W43W6TfBO",
+			"name": "Compulsive Behavior (Flirt)",
+			"reference": "SexAndPreg:23",
+			"reference_highlight": "Flirt",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "t0Jz7RmBmsE3VNc75r",
+			"name": "Compulsive Behavior (Topsharking)",
+			"reference": "SexAndPreg:23",
+			"reference_highlight": "Compulsive Topsharking",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tCtPpBTRf5tqHKdE0z",
+			"name": "Erotophobia",
+			"reference": "SexAndPreg:24",
+			"reference_highlight": "Erotophobia",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -10,
+			"local_notes": "Fear/discomfort around sex and overtly sexual situations; usually -10, but source allows GM variation.",
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tYSmOcbwahMsUWE61S",
+			"name": "Exhibitionism",
+			"reference": "SexAndPreg:24",
+			"reference_highlight": "Exhibitionism",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "Source treats this variably as OPH or Compulsive Behavior, typically around -5; quirk-level versions are also possible.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tU0TD2STFfhG1txbvf",
+			"name": "Gerontophilia",
+			"reference": "SexAndPreg:25",
+			"reference_highlight": "Gerontophilia",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -1,
+			"local_notes": "Attraction to elderly adults. Source suggests a quirk [-1] or a -5 social stigma depending on setting.",
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "tI0FXMTS9-i5h9snFm",
+			"name": "Genetic Sexual Attraction (GSA)",
+			"reference": "SexAndPreg:25",
+			"reference_highlight": "Genetic Sexual Attraction (GSA)",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "Variable adult incest-related fetish/social disadvantage. Source scales cost by closeness of relation and setting; predatory cases are not modeled in this library entry.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tUvz1wk3IW2NcpYB_8",
+			"name": "Homophobia",
+			"reference": "SexAndPreg:25",
+			"reference_highlight": "Homophobia",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "Source uses -5 for intolerance or -10 for fear.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tpevtyeVJYx_WGXm7N",
+			"name": "Hypersexuality (Nymphomania/Satyriasis)",
+			"reference": "SexAndPreg:25",
+			"reference_highlight": "Hypersexuality, a.k.a Nymphomania or Satyriasis",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -20,
+			"local_notes": "Source build: Lecherousness [-15] + Addiction (Sex) [-5]. Requires regular sexual activity and self-control to avoid overindulgence.",
+			"calc": {
+				"points": -20
+			}
+		},
+		{
+			"id": "tchk3MhimJCvAOxeLO",
+			"name": "Intolerance (Gender)",
+			"reference": "SexAndPreg:26",
+			"reference_highlight": "Intolerance (Gender)",
+			"tags": [
+				"Disadvantage",
+				"Social",
+				"Sexual"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tlQia_SdfuJbqIft3j",
+			"name": "Jaded 1",
+			"reference": "SexAndPreg:26",
+			"reference_highlight": "Jaded",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -4,
+			"local_notes": "+1 to resist seduction, paired with increasingly severe Bad Temper limited to seduction/appearance compliments.",
+			"calc": {
+				"points": -4
+			}
+		},
+		{
+			"id": "t2oJu0u18SohDFViS3",
+			"name": "Jaded 2",
+			"reference": "SexAndPreg:26",
+			"reference_highlight": "Jaded",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -8,
+			"local_notes": "+2 to resist seduction, paired with increasingly severe Bad Temper limited to seduction/appearance compliments.",
+			"calc": {
+				"points": -8
+			}
+		},
+		{
+			"id": "tS6xtA7zXHYOKoc5u6",
+			"name": "Jaded 3",
+			"reference": "SexAndPreg:26",
+			"reference_highlight": "Jaded",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -13,
+			"local_notes": "+3 to resist seduction, paired with increasingly severe Bad Temper limited to seduction/appearance compliments.",
+			"calc": {
+				"points": -13
+			}
+		},
+		{
+			"id": "tYMjjcD1G5HRnwGvJw",
+			"name": "Jaded 4",
+			"reference": "SexAndPreg:26",
+			"reference_highlight": "Jaded",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -16,
+			"local_notes": "+4 to resist seduction, paired with increasingly severe Bad Temper limited to seduction/appearance compliments.",
+			"calc": {
+				"points": -16
+			}
+		},
+		{
+			"id": "tL10lMupZWGRqGjLd-",
+			"name": "Necrophilia",
+			"reference": "SexAndPreg:27",
+			"reference_highlight": "Necrophilia",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -15,
+			"local_notes": "Source-defined severe social/mental disadvantage; no additional descriptive content reproduced here.",
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "tJhXKSMkBuK8HDeklu",
+			"name": "Nudism",
+			"reference": "SexAndPreg:27",
+			"reference_highlight": "Nudism",
+			"tags": [
+				"Disadvantage",
+				"Social",
+				"Sexual"
+			],
+			"base_points": -20,
+			"local_notes": "Source build: Social Stigma (Minority Group) plus Vow not to wear clothing/armor; reactions vary by audience.",
+			"calc": {
+				"points": -20
+			}
+		},
+		{
+			"id": "tRyGclsUeAOUNIMwaM",
+			"name": "Pregophilia",
+			"reference": "SexAndPreg:28",
+			"reference_highlight": "Pregophilia",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -10,
+			"local_notes": "Compulsive attraction to visibly pregnant adults. Source treats it roughly as aspected Lecherousness; becomes a quirk if the character is already Lecherous.",
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tuU6zeR3lHuImmQU5c",
+			"name": "Pregophobia",
+			"reference": "SexAndPreg:28",
+			"reference_highlight": "Pregophobia",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "Fear of impregnation or fear of visibly pregnant people; choose version when purchased.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tZm-FlBJdr_cOqXCUE",
+			"name": "Raptophilia",
+			"reference": "SexAndPreg:29",
+			"reference_highlight": "Raptophilia",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -15,
+			"local_notes": "Source-defined coercive sexual fetish; this entry records the mechanical point value only.",
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "t-0LgckFJGcQVAI2Fy",
+			"name": "Biastophilia",
+			"reference": "SexAndPreg:29",
+			"reference_highlight": "Biastophilia",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "Source treats this as variable by setting, usually around -5 where stigmatized.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tKKS94IgY3wiMc1_gF",
+			"name": "Reputation (Unfavorable Genitals)",
+			"reference": "SexAndPreg:29",
+			"reference_highlight": "Unfavorable Genitals",
+			"tags": [
+				"Disadvantage",
+				"Social",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "-1 reaction reputation that the character has unusually small/loose genitals; separate from the actual Unfavorable Genitals disadvantage.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tUGAVoznaSBYhoIxwG",
+			"name": "Sexual Killjoy",
+			"reference": "SexAndPreg:29",
+			"reference_highlight": "Sexual Killjoy",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -12,
+			"local_notes": "Killjoy limited to sexual situations (-20%): -3 to Carousing and Erotic Art in sexual contexts, but +3 to resist seduction/inhibition.",
+			"calc": {
+				"points": -12
+			}
+		},
+		{
+			"id": "tQHQPxeyOSUwuJrdmL",
+			"name": "Sexual Masochism",
+			"reference": "SexAndPreg:30",
+			"reference_highlight": "Sexual Sadism/Masochism",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -15,
+			"local_notes": "Uses Sadism-style point structure for desire to be in painful sexual situations; source allows sexual-only and minor-pain limitations at GM discretion.",
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "tESi-8usR07OxAVjS9",
+			"name": "Sterile/Barren",
+			"reference": "SexAndPreg:30",
+			"reference_highlight": "Sterile/Barren",
+			"tags": [
+				"Feature",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 0,
+			"local_notes": "Source value ranges from -5 to +1 depending on stigma and whether exemption from pregnancy rolls is advantageous. Use 0 when socially irrelevant.",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tHCVibztfydM4FdG-e",
+			"name": "Social Disease",
+			"reference": "SexAndPreg:30",
+			"reference_highlight": "Social Disease",
+			"tags": [
+				"Disadvantage",
+				"Physical",
+				"Social",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "Obvious non-terminal sexually transmitted disease. Source suggests -20% if undetectable outside intimate situations.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "t15f85qo__axqomU5l",
+			"name": "Social Stigma (Unpopular Sexual Profession)",
+			"reference": "SexAndPreg:30",
+			"reference_highlight": "Social Stigma",
+			"tags": [
+				"Disadvantage",
+				"Social",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "Variable -1 to -10 depending on profession and setting; -5 is a convenient template value.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tRW9IIhNCcKA0drrQk",
+			"name": "The Vapors (Melodramatic)",
+			"reference": "SexAndPreg:31",
+			"reference_highlight": "The Vapors",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "On failed Will after emotional upset, lose 1d FP and become mentally stunned for 2d seconds.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tRiokV4qZc-Fcbzy9L",
+			"name": "The Vapors (Fainting)",
+			"reference": "SexAndPreg:31",
+			"reference_highlight": "The Vapors",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -10,
+			"local_notes": "On failed Will after emotional upset, faint for 1d minutes; then HT each minute to recover.",
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "trN1CdSq8Sk0Q1Bldx",
+			"name": "Transvestism",
+			"reference": "SexAndPreg:32",
+			"reference_highlight": "Transvestism",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -10,
+			"local_notes": "Source treats this as sexual arousal from cross-dressing; often accompanied by Secret or Social Stigma depending on setting.",
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tV9VSYIPh1NGV_aDHy",
+			"name": "Try-Sexual",
+			"reference": "SexAndPreg:32",
+			"reference_highlight": "Try-Sexual",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -15,
+			"local_notes": "Sexual version of On the Edge: Will to refuse sexual suggestions or break off; source applies -5 to refusal when it is something never tried before.",
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "t0sOtFipQntHlONEiD",
+			"name": "Unfavorable Genitals",
+			"reference": "SexAndPreg:32",
+			"reference_highlight": "Unfavorable Genitals",
+			"tags": [
+				"Disadvantage",
+				"Physical",
+				"Sexual"
+			],
+			"points_per_level": -5,
+			"can_level": true,
+			"levels": 1,
+			"max_levels": "4",
+			"local_notes": "Anti-Talent: -1 per level to Erotic Art, Prostitute, Sex Appeal, and Stripper. Source also defines progressively smaller penis or greater vaginal depth by level.",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Erotic Art"
+					},
+					"amount": -1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Prostitute"
+					},
+					"amount": -1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Sex Appeal"
+					},
+					"amount": -1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Stripper"
+					},
+					"amount": -1,
+					"per_level": true
+				}
+			],
+			"calc": {
+				"points": -5,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "t7h4r8ojsE3r_Ot6AC",
+			"name": "Vow of Chastity",
+			"reference": "SexAndPreg:33",
+			"reference_highlight": "Vow of Chastity",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Social",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "+1 to resist seduction; may be traded for Wedding Vows on marriage.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tpEQZy_rxWIuKA-nOD",
+			"name": "Wedding Vows",
+			"reference": "SexAndPreg:33",
+			"reference_highlight": "Wedding Vows",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Social",
+				"Sexual"
+			],
+			"base_points": -5,
+			"local_notes": "+1 to resist outside seduction; under Advanced Sexual Encounters, -1 Inhibition with spouse and +1 against everyone else. Open relationships do not use this disadvantage.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tdiFgP29u-UATT23Rb",
+			"name": "Voyeurism",
+			"reference": "SexAndPreg:33",
+			"reference_highlight": "Voyeurism",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -1,
+			"local_notes": "Variable from quirk [-1] through about -10 depending on compulsion, secrecy, illegality, and setting.",
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "tnR2rhEZuKuzQlUHKo",
+			"name": "Xenophilia",
+			"reference": "SexAndPreg:34",
+			"reference_highlight": "Xenophilia",
+			"tags": [
+				"Disadvantage",
+				"Mental",
+				"Sexual"
+			],
+			"base_points": -15,
+			"local_notes": "Attraction to nonhuman/alien partners. Source treats severity and social consequences as strongly campaign-dependent; -15 is its 'secret' full-disadvantage example.",
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "tP6sx4PelhrnOWWI0K",
+			"name": "Constant Wardrobe Malfunctions",
+			"reference": "SexAndPreg:35",
+			"reference_highlight": "Constant Wardrobe Malfunctions",
+			"tags": [
+				"Quirk",
+				"Disadvantage",
+				"Sexual"
+			],
+			"base_points": -1,
+			"local_notes": "Frequent accidental exposure caused by movement, failed physical actions, or clothing behavior. If used with Sexy Feints for its +1 benefit, purchase as a perk instead.",
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "tgwXrHwVqQrX8h_3iq",
+			"name": "Free Spirited",
+			"reference": "SexAndPreg:36",
+			"reference_highlight": "Free Spirited",
+			"tags": [
+				"Quirk",
+				"Disadvantage",
+				"Sexual"
+			],
+			"base_points": -1,
+			"local_notes": "Quirk-level Try-Sexual: willing to push ordinary sexual boundaries with consent, without the full compulsion.",
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "tjnNEs2VEAR-Er_sYf",
+			"name": "Immodest",
+			"reference": "SexAndPreg:36",
+			"reference_highlight": "Immodest",
+			"tags": [
+				"Quirk",
+				"Disadvantage",
+				"Sexual"
+			],
+			"base_points": -1,
+			"local_notes": "Comfortable changing, breastfeeding, or exposing the body in situations where others may be more reserved.",
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "tzbSNYgfBcAuUwwu9G",
+			"name": "Sexless",
+			"reference": "SexAndPreg:36",
+			"reference_highlight": "Sexless",
+			"tags": [
+				"Quirk",
+				"Disadvantage",
+				"Sexual"
+			],
+			"base_points": -1,
+			"local_notes": "Missing normal sex organs or physically sexless; source notes immunity to seduction and accidental parenthood, with a 0% variant if still susceptible to seduction.",
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "tKxDweMWP9l2w8NO16",
+			"name": "Sexually Incompetent",
+			"reference": "SexAndPreg:36",
+			"reference_highlight": "Sexually Incompetent",
+			"tags": [
+				"Quirk",
+				"Disadvantage",
+				"Sexual"
+			],
+			"base_points": -1,
+			"local_notes": "-1 to Erotic Art, Massage, Sex Appeal, and Enthrallment defaults; must buy off before spending points on those skills.",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Erotic Art"
+					},
+					"amount": -1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Esoteric Medicine"
+					},
+					"amount": -1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Sex Appeal"
+					},
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "tdDzHzTs8fZL6idhVj",
+			"name": "Pregnancy: First Trimester",
+			"reference": "SexAndPreg:51",
+			"reference_highlight": "First Trimester",
+			"tags": [
+				"Meta-Trait",
+				"Physical",
+				"Mental",
+				"Pregnancy"
+			],
+			"base_points": -25,
+			"local_notes": "0-12 weeks. Source totals Manic-Depressive [-20] plus Morning Sickness [-5].",
+			"calc": {
+				"points": -25
+			}
+		},
+		{
+			"id": "t79p00FPLW9cTMTR1K",
+			"name": "Morning Sickness",
+			"reference": "SexAndPreg:51",
+			"reference_highlight": "Morning Sickness",
+			"tags": [
+				"Disadvantage",
+				"Physical",
+				"Pregnancy"
+			],
+			"base_points": -5,
+			"local_notes": "Each morning the GM may call for HT; failure causes retching for turns equal to margin of failure.",
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tB2eqq92j6vXDiNwub",
+			"name": "Pregnancy: Second Trimester",
+			"reference": "SexAndPreg:51",
+			"reference_highlight": "Second Trimester",
+			"tags": [
+				"Meta-Trait",
+				"Physical",
+				"Pregnancy"
+			],
+			"base_points": 0,
+			"local_notes": "13-26 weeks. Base package is Reduced Move -1 [-5] plus Social Regard (Pregnant) [5] = 0. Morning Sickness may optionally make the total -5.",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tmm4YTdRQGSr_mIR32",
+			"name": "Pregnancy: Third Trimester",
+			"reference": "SexAndPreg:51",
+			"reference_highlight": "Third Trimester",
+			"tags": [
+				"Meta-Trait",
+				"Physical",
+				"Mental",
+				"Pregnancy"
+			],
+			"base_points": -25,
+			"local_notes": "27+ weeks. Source package: Reduced Move -2 [-10], Social Regard (Pregnant) [5], and Manic-Depressive [-20], total -25.",
+			"calc": {
+				"points": -25
+			}
+		}
+	]
+}

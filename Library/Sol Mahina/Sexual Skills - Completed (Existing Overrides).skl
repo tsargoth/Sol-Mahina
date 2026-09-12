@@ -1,0 +1,3749 @@
+{
+  "version": 5,
+  "rows": [
+    {
+      "id": "qR4i4G3sjHfUpifXi",
+      "name": "Anal",
+      "reference": "SexAndPreg:82",
+      "reference_highlight": "Anal",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -1
+      },
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "local_notes": "Receptive accommodation; no Stimulation itself. Max Erotic Art. Apply source size/anatomy modifiers and failure/injury rules."
+    },
+    {
+      "id": "qEmPleRnKhrK9lbe9",
+      "name": "Anal",
+      "reference": "SexAndPreg:82",
+      "reference_highlight": "Anal",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Holdout"
+        },
+        "modifier": -3
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "local_notes": "Receptive accommodation; no Stimulation itself. Max Erotic Art. Apply source size/anatomy modifiers and failure/injury rules."
+    },
+    {
+      "id": "qT9rcy_lQrYk8sfy3",
+      "source": {
+        "library": "/tsargoth/Sol-Mahina",
+        "path": "Sol Mahina/Sexual Skills.skl",
+        "id": "qM7grMqPiUy9WqKKJ"
+      },
+      "name": "Anal",
+      "reference": "SexAndPreg:82",
+      "reference_highlight": "Anal",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "ht",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -3
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "local_notes": "Receptive accommodation; no Stimulation itself. Max Erotic Art. Apply source size/anatomy modifiers and failure/injury rules."
+    },
+    {
+      "id": "qmiZqgiGGyrdlFtvV",
+      "name": "Breast Sex",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Breast Sex",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "dx",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -3
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "local_notes": "Stimulation 4(2). Maximum Erotic Art+4."
+    },
+    {
+      "id": "qwyX1W2Z9b6SI8Qh_",
+      "name": "Breast Sex",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Breast Sex",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -1
+      },
+      "limit": 4,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "local_notes": "Stimulation 4(2). Maximum Erotic Art+4."
+    },
+    {
+      "id": "qUTt5zfZjGM0hq0yr",
+      "name": "Breast Sex",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Breast Sex",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "iq",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -5
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "local_notes": "Stimulation 4(2). Maximum Erotic Art+4."
+    },
+    {
+      "id": "q9aUYnqCjreyJn_4q",
+      "name": "Cervical Accommodation",
+      "reference": "Sol:13",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Stuffing"
+        },
+        "modifier": -4
+      },
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Stuffing"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "reference_highlight": "Cervical Accommodation",
+      "local_notes": "Requires appropriate receptive anatomy. No Stimulation. Maximum Stuffing; success gives +50% effective depth, or take an extra -4 for +100%. Optional Sol Mahina fertility rule: +2 conception if ejaculation occurs while maintained."
+    },
+    {
+      "id": "q58_crkcGB2KoNU1K",
+      "name": "Cowgirl",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Cowgirl/Reverse Cowgirl",
+      "local_notes": "Reverse Cowgirl",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        }
+      },
+      "limit": 4,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "q2ldiqFjbh1IPdhRB",
+      "name": "Cowgirl",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Cowgirl/Reverse Cowgirl",
+      "local_notes": "Reverse Cowgirl",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "ht",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -2
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "q_ywMxClJSmP5BQIh",
+      "name": "Deep Guidance",
+      "reference": "Sol:14",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -5
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 14
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Trained by a Master"
+            },
+            "level": {
+              "compare": "at_least"
+            },
+            "notes": {
+              "compare": "is",
+              "qualifier": "Erotic"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "reference_highlight": "Deep Guidance",
+      "local_notes": "Cinematic. No Stimulation. Maximum Erotic Art. Assists Stuffing, Cervical Accommodation, or Mating-Lock Management; see PDF for margin-based modifier."
+    },
+    {
+      "id": "qhNTV0QOAVkv3N33N",
+      "name": "Deep Throat",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Deep Throat",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -5
+      },
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "local_notes": "Stimulation 6 plus applicable Sexual Feature bonus. Maximum Oral. Failure costs 1 FP; -2/level Large Penis."
+    },
+    {
+      "id": "qZ0mWgkLJzhjb33xc",
+      "name": "Deep Throat",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Deep Throat",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Oral"
+        },
+        "modifier": -2
+      },
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "local_notes": "Stimulation 6 plus applicable Sexual Feature bonus. Maximum Oral. Failure costs 1 FP; -2/level Large Penis."
+    },
+    {
+      "id": "qzm6gHjYVk8yCnlQO",
+      "name": "Dominance",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Dominance",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Acting"
+        },
+        "modifier": -6
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "prereq_list",
+            "all": false,
+            "prereqs": [
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Interrogation"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              },
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Intimidation"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              },
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Acting"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              }
+            ]
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Sexual Sadism"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "local_notes": "Maximum base skill+4. Stimulation is conditional as described in the source."
+    },
+    {
+      "id": "qGF4lg1JAaA8RhqV9",
+      "name": "Dominance",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Dominance",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Interrogation"
+        },
+        "modifier": -3
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "prereq_list",
+            "all": false,
+            "prereqs": [
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Interrogation"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              },
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Intimidation"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              },
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Acting"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              }
+            ]
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Sexual Sadism"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "local_notes": "Maximum base skill+4. Stimulation is conditional as described in the source."
+    },
+    {
+      "id": "q577sHmEg3p1Y2NDI",
+      "name": "Dominance",
+      "reference": "SexAndPreg:83",
+      "reference_highlight": "Dominance",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Intimidation"
+        },
+        "modifier": -3
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "prereq_list",
+            "all": false,
+            "prereqs": [
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Interrogation"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              },
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Intimidation"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              },
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Acting"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              }
+            ]
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Sexual Sadism"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "local_notes": "Maximum base skill+4. Stimulation is conditional as described in the source."
+    },
+    {
+      "id": "qsKZcMPb8XxSw_pmo",
+      "name": "Double Play",
+      "reference": "SexAndPreg:84",
+      "reference_highlight": "Double Play",
+      "local_notes": "Two Techniques - Manually set",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Skill"
+        }
+      },
+      "points": 2
+    },
+    {
+      "id": "qGDQDLvlm9OY-Plul",
+      "name": "Face Sex",
+      "reference": "SexAndPreg:84",
+      "reference_highlight": "Face Sex",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        }
+      },
+      "limit": 3,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "local_notes": "Stimulation 5(2). Maximum Erotic Art+3. Apply Position and failure/Deep Throat rules from source."
+    },
+    {
+      "id": "qZY4Q0GIiJ1YDFlLf",
+      "name": "Face Sex",
+      "reference": "SexAndPreg:84",
+      "reference_highlight": "Face Sex",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "ht",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -3
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "local_notes": "Stimulation 5(2). Maximum Erotic Art+3. Apply Position and failure/Deep Throat rules from source."
+    },
+    {
+      "id": "qeWx4bp7HPIKWXkHh",
+      "name": "Fisting",
+      "reference": "SexAndPreg:84",
+      "reference_highlight": "Fisting",
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Anal"
+        },
+        "specialization": {
+          "compare": "is",
+          "qualifier": "Male"
+        },
+        "modifier": -4
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Anal"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Male"
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Masturbation"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Female"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "tags": [
+        "Sexual"
+      ],
+      "local_notes": "Stimulation 6. Whole-hand penetration; use source Stuffing/injury rules."
+    },
+    {
+      "id": "qmOlVW-M3Lj6H5Geo",
+      "name": "Fisting",
+      "reference": "SexAndPreg:84",
+      "reference_highlight": "Fisting",
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -6
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Anal"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Male"
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Masturbation"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Female"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "tags": [
+        "Sexual"
+      ],
+      "local_notes": "Stimulation 6. Whole-hand penetration; use source Stuffing/injury rules."
+    },
+    {
+      "id": "qbWOlHvYL6k16BPbP",
+      "name": "Fisting",
+      "reference": "SexAndPreg:84",
+      "reference_highlight": "Fisting",
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Masturbation"
+        },
+        "specialization": {
+          "compare": "is",
+          "qualifier": "Female"
+        },
+        "modifier": -4
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Anal"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Male"
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Masturbation"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Female"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "tags": [
+        "Sexual"
+      ],
+      "local_notes": "Stimulation 6. Whole-hand penetration; use source Stuffing/injury rules."
+    },
+    {
+      "id": "qYAfhTTJQyyou20-J",
+      "name": "Fondling",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Fondling",
+      "local_notes": "Modifiers: +3 if you know your partner well, +1 for DX of 12 or higher, +2 if DX is 16 or above, +1 if Esoteric Medicine (Massage) is at 12+, +2 if it is at 20+",
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Arts"
+        },
+        "modifier": -2
+      },
+      "points": 2,
+      "tags": [
+        "Sexual"
+      ]
+    },
+    {
+      "id": "q1-Bl4nVz_rhP8ecz",
+      "name": "Fondling",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Fondling",
+      "local_notes": "Modifiers: +3 if you know your partner well, +1 for DX of 12 or higher, +2 if DX is 16 or above, +1 if Esoteric Medicine (Massage) is at 12+, +2 if it is at 20+",
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Masturbation"
+        },
+        "modifier": -2
+      },
+      "points": 2,
+      "tags": [
+        "Sexual"
+      ]
+    },
+    {
+      "id": "qEhiNVoghS29RnRmR",
+      "name": "Go Slow",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Go Slow",
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -4
+      },
+      "points": 2,
+      "tags": [
+        "Sexual"
+      ],
+      "local_notes": "No Stimulation. Maximum Will+4; used to help hold the partner at the current Arousal phase."
+    },
+    {
+      "id": "qN3_0RXNdNMQ1Sq2l",
+      "name": "Go Slow",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Go Slow",
+      "difficulty": "h",
+      "default": {
+        "type": "will",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -4
+      },
+      "limit": 4,
+      "points": 2,
+      "tags": [
+        "Sexual"
+      ],
+      "local_notes": "No Stimulation. Maximum Will+4; used to help hold the partner at the current Arousal phase."
+    },
+    {
+      "id": "q5XnvEhPmEHl534Op",
+      "name": "Grind",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Grind",
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Lapdance"
+        },
+        "specialization": {
+          "compare": "is",
+          "qualifier": "Female"
+        },
+        "modifier": -2
+      },
+      "points": 1,
+      "tags": [
+        "Sexual"
+      ],
+      "local_notes": "Maximum Erotic Art. Add +2 Stimulation to the woman; source explicitly allows Scissoring as a separate technique."
+    },
+    {
+      "id": "qeq8DXf1vKvvRbqlF",
+      "name": "Grind",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Grind",
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Masturbation"
+        },
+        "specialization": {
+          "compare": "is",
+          "qualifier": "Female"
+        },
+        "modifier": -2
+      },
+      "points": 1,
+      "tags": [
+        "Sexual"
+      ],
+      "local_notes": "Maximum Erotic Art. Add +2 Stimulation to the woman; source explicitly allows Scissoring as a separate technique."
+    },
+    {
+      "id": "q896YW-KD2bKBPDAI",
+      "name": "Karezza",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Karezza",
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -5
+      },
+      "limit": 4,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Trained By A Master"
+            },
+            "level": {
+              "compare": "at_least"
+            },
+            "notes": {
+              "compare": "is",
+              "qualifier": "Erotic"
+            }
+          }
+        ]
+      },
+      "points": 2,
+      "tags": [
+        "Sexual"
+      ],
+      "local_notes": "No Stimulation itself. Maximum Erotic Art+4; on success returns target from Orgasmic to Plateau instead of Resolution."
+    },
+    {
+      "id": "qUFIiJnf9-QvLlYIS",
+      "name": "Kissing",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Kissing",
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        }
+      },
+      "limit": 4,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "tags": [
+        "Sexual"
+      ],
+      "local_notes": "Stimulation 3(1). Maximum Erotic Art+4."
+    },
+    {
+      "id": "qmAhjnNg0mjaFmKe0",
+      "name": "Lap Dance",
+      "local_notes": "Reverse Lap Dance",
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -3
+      },
+      "points": 1,
+      "reference": "SexAndPreg:86",
+      "reference_highlight": "Lap Dance/Reverse Lap Dance",
+      "tags": [
+        "Sexual"
+      ]
+    },
+    {
+      "id": "q_aSppTCOwa16Tfgb",
+      "name": "Lap Dance",
+      "local_notes": "Reverse Lap Dance",
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Sex Apeal"
+        },
+        "modifier": -5
+      },
+      "points": 1,
+      "reference": "SexAndPreg:86",
+      "reference_highlight": "Lap Dance/Reverse Lap Dance",
+      "tags": [
+        "Sexual"
+      ]
+    },
+    {
+      "id": "qrwM4I8WnlWs2TCiN",
+      "name": "Masturbation",
+      "local_notes": "@specialize by gender, or optionally by physiology@",
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -2
+      },
+      "limit": 4,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Esoteric Medicine"
+            },
+            "level": {
+              "compare": "at_least"
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Massage"
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "reference": "SexAndPreg:86",
+      "reference_highlight": "Masturbation",
+      "tags": [
+        "Sexual"
+      ]
+    },
+    {
+      "id": "qkPuEBcoHkaqOcwzZ",
+      "name": "Masturbation",
+      "local_notes": "@specialize by gender, or optionally by physiology@",
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Esoteric Medicine"
+        },
+        "modifier": -2
+      },
+      "limit": 4,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Esoteric Medicine"
+            },
+            "level": {
+              "compare": "at_least"
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Massage"
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "reference": "SexAndPreg:86",
+      "reference_highlight": "Masturbation",
+      "tags": [
+        "Sexual"
+      ]
+    },
+    {
+      "id": "qk5SaVh7eEPhIgghK",
+      "name": "Stuffing",
+      "reference": "SexAndPreg:90",
+      "reference_highlight": "Stuffing",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -3
+      },
+      "limit": 3,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "local_notes": "No Stimulation. Maximum Erotic Art+3; receptive accommodation for unusually large anatomy/objects."
+    },
+    {
+      "id": "qoMvJr_Ky1D-2pnsB",
+      "name": "Stuffing",
+      "reference": "SexAndPreg:90",
+      "reference_highlight": "Stuffing",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Hold Out"
+        },
+        "modifier": -3
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "local_notes": "No Stimulation. Maximum Erotic Art+3; receptive accommodation for unusually large anatomy/objects."
+    },
+    {
+      "id": "qiPnarwcIz1Nh1uG0",
+      "name": "Stuffing",
+      "reference": "SexAndPreg:90",
+      "reference_highlight": "Stuffing",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "ht",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -3
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "local_notes": "No Stimulation. Maximum Erotic Art+3; receptive accommodation for unusually large anatomy/objects."
+    },
+    {
+      "id": "qeGc5fDVqmK-2FD4I",
+      "name": "Stuffing",
+      "reference": "SexAndPreg:90",
+      "reference_highlight": "Stuffing",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "st",
+        "name": {
+          "compare": "is"
+        }
+      },
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 1,
+      "local_notes": "No Stimulation. Maximum Erotic Art+3; receptive accommodation for unusually large anatomy/objects."
+    },
+    {
+      "id": "qCACvpBIPW5QBPvjl",
+      "name": "Grind",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Grind",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Skill"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Added from PDF to complete the existing technique. Maximum Erotic Art. Add +2 Stimulation to the woman; source explicitly allows Scissoring as a separate technique. Vaginal Technique -2 (manually set appropriate vaginal technique)",
+      "points": 1
+    },
+    {
+      "id": "q6_hwMpah_4D_-yju",
+      "name": "Kissing",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Kissing",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "ht",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Added from PDF to complete the existing technique. Stimulation 3(1). Maximum Erotic Art+4.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qr2buStAfRWuhMa1M",
+      "name": "Kissing",
+      "reference": "SexAndPreg:85",
+      "reference_highlight": "Kissing",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "dx",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Added from PDF to complete the existing technique. Stimulation 3(1). Maximum Erotic Art+4.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qlu4J2UCrCIs8JuG_",
+      "name": "Masturbation",
+      "reference": "SexAndPreg:86",
+      "reference_highlight": "Masturbation",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "iq",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -4
+      },
+      "local_notes": "Added from PDF to complete the existing technique. Specialize by gender, or optionally physiology. Stimulation 5(3). Maximum prerequisite skill+4.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Esoteric Medicine"
+            },
+            "level": {
+              "compare": "at_least"
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Massage"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "q1vctUSxl2Dz1CpdD",
+      "name": "Masturbation",
+      "reference": "SexAndPreg:86",
+      "reference_highlight": "Masturbation",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "dx",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -4
+      },
+      "local_notes": "Added from PDF to complete the existing technique. Specialize by gender, or optionally physiology. Stimulation 5(3). Maximum prerequisite skill+4.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Esoteric Medicine"
+            },
+            "level": {
+              "compare": "at_least"
+            },
+            "specialization": {
+              "compare": "is",
+              "qualifier": "Massage"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qSdEl0Cqts7RppsQJ",
+      "name": "Cervical Accommodation",
+      "reference": "Sol:13",
+      "reference_highlight": "Cervical Accommodation",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -7
+      },
+      "local_notes": "Added from PDF to complete the existing technique. Requires appropriate receptive anatomy. No Stimulation. Maximum Stuffing; success gives +50% effective depth, or take an extra -4 for +100%. Optional Sol Mahina fertility rule: +2 conception if ejaculation occurs while maintained.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Stuffing"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qfd7mzyFdzYhMLeCS",
+      "name": "Motorboat Choke",
+      "reference": "SexAndPreg:87",
+      "reference_highlight": "Motorboat Choke",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Lap Dance"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Cinematic combat/sexual choke. Stimulation 3 only for a target with the relevant asphyxia fetish; see source for choke/FP rules.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Breast Strikers"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qxiPY_4IW83kuchXN",
+      "name": "Motorboat Choke",
+      "reference": "SexAndPreg:87",
+      "reference_highlight": "Motorboat Choke",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -5
+      },
+      "local_notes": "Cinematic combat/sexual choke. Stimulation 3 only for a target with the relevant asphyxia fetish; see source for choke/FP rules.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Breast Strikers"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qPJt3hGeuNUEX0zx_",
+      "name": "Motorboat Choke",
+      "reference": "SexAndPreg:87",
+      "reference_highlight": "Motorboat Choke",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Sex Appeal"
+        },
+        "modifier": -7
+      },
+      "local_notes": "Cinematic combat/sexual choke. Stimulation 3 only for a target with the relevant asphyxia fetish; see source for choke/FP rules.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Breast Strikers"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qEOyKjXiwQJ1ks2TP",
+      "name": "Multiple Partners",
+      "reference": "SexAndPreg:88",
+      "reference_highlight": "Multiple Partners",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Skill"
+        },
+        "modifier": -4
+      },
+      "local_notes": "MANUAL SPECIALIZATION: choose two specific techniques. Default is the lowest technique used -4; maximum the lowest technique used.",
+      "limit": 0,
+      "points": 2
+    },
+    {
+      "id": "qZithBqhBbq5oZcZG",
+      "name": "Oral",
+      "reference": "SexAndPreg:88",
+      "reference_highlight": "Oral",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -1
+      },
+      "local_notes": "Stimulation 5(3) for genital play; 4(2) for breasts. +1 with Breath Control 12+.",
+      "points": 1
+    },
+    {
+      "id": "q33MMs3Kv62fArqy3",
+      "name": "Oral",
+      "reference": "SexAndPreg:88",
+      "reference_highlight": "Oral",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "iq",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -5
+      },
+      "local_notes": "Stimulation 5(3) for genital play; 4(2) for breasts. +1 with Breath Control 12+.",
+      "points": 1
+    },
+    {
+      "id": "qnZFYyciL1yvsee9T",
+      "name": "Penis Choke",
+      "reference": "SexAndPreg:88",
+      "reference_highlight": "Penis Choke",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -5
+      },
+      "local_notes": "Cinematic choking application. Strap-on users require the source perk or TBaM. Stimulation is variable; see source.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Trained by a Master"
+            },
+            "level": {
+              "compare": "at_least"
+            },
+            "notes": {
+              "compare": "is",
+              "qualifier": "Erotic"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qCT5ZapQ36oivmi6L",
+      "name": "Penis Choke",
+      "reference": "SexAndPreg:88",
+      "reference_highlight": "Penis Choke",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Face Sex"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Cinematic choking application. Strap-on users require the source perk or TBaM. Stimulation is variable; see source.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Trained by a Master"
+            },
+            "level": {
+              "compare": "at_least"
+            },
+            "notes": {
+              "compare": "is",
+              "qualifier": "Erotic"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qzyWbXGVEMuYuE0pr",
+      "name": "Pile Driver",
+      "reference": "SexAndPreg:88",
+      "reference_highlight": "Pile Driver",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Skill"
+        },
+        "modifier": -5
+      },
+      "local_notes": "Specialize by other position. Add +2 Stimulation to the base technique; only the partner on top can attempt it. See source for FP/injury and ST modifiers. Other penetration position -5 (manually set specialization)",
+      "points": 1
+    },
+    {
+      "id": "qH_ju-YCZ0vT7wK7l",
+      "name": "Pile Driver",
+      "reference": "SexAndPreg:88",
+      "reference_highlight": "Pile Driver",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -5
+      },
+      "local_notes": "Specialize by other position. Add +2 Stimulation to the base technique; only the partner on top can attempt it. See source for FP/injury and ST modifiers. Erotic Art -5 implies Missionary",
+      "points": 1
+    },
+    {
+      "id": "qSIWHlHtG0DNxMs_Z",
+      "name": "Rear Entry",
+      "reference": "SexAndPreg:89",
+      "reference_highlight": "Rear Entry",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Doggy Style. Stimulation 5(2)/3(1), with +1 additional Stimulation to the woman; source modifiers apply.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "q-eclzZS64kbG7JMC",
+      "name": "Rear Entry",
+      "reference": "SexAndPreg:89",
+      "reference_highlight": "Rear Entry",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "ht",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Doggy Style. Stimulation 5(2)/3(1), with +1 additional Stimulation to the woman; source modifiers apply.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qlzZDYT1B7wDdOknL",
+      "name": "Snapper",
+      "reference": "SexAndPreg:89",
+      "reference_highlight": "Snapper",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -5
+      },
+      "local_notes": "Advanced Kegel Exercises / Mare's Trick. Stimulation 7 plus applicable modifiers. Maximum Erotic Art.",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "prereq_list",
+            "all": false,
+            "prereqs": [
+              {
+                "type": "trait_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Tight Vagina"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              },
+              {
+                "type": "trait_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Elastic Vagina"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qgsZGf_QXBQX3t9oB",
+      "name": "Zen Sex",
+      "reference": "SexAndPreg:90",
+      "reference_highlight": "Zen Sex",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -5
+      },
+      "local_notes": "No Stimulation itself. Maximum Erotic Art+4. Speeds techniques using the source time penalties; Unusual Training may replace TBaM in the source's cinematic alternative.",
+      "limit": 4,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Trained by a Master"
+            },
+            "level": {
+              "compare": "at_least"
+            },
+            "notes": {
+              "compare": "is",
+              "qualifier": "Erotic"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qEDvQ-qh-5V2kLoTC",
+      "name": "69",
+      "reference": "Sol:10",
+      "reference_highlight": "69",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Oral"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Stimulation 5(3) to each participant. Each participant rolls separately; maximum Oral.",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qdoSR0lt3T5yyvaEn",
+      "name": "69",
+      "reference": "Sol:10",
+      "reference_highlight": "69",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -3
+      },
+      "local_notes": "Stimulation 5(3) to each participant. Each participant rolls separately; maximum Oral.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "q9OVjfMzdKVH2eZzc",
+      "name": "Auto-Fellatio (Oral)",
+      "reference": "Sol:11",
+      "reference_highlight": "Auto-Fellatio (Oral)",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Oral"
+        },
+        "modifier": -5
+      },
+      "local_notes": "Stimulation 5(3). Maximum Oral. Flexibility may be replaced by anatomy/morphology that makes full self-fellatio possible; the generic +3 self-use modifier does not stack.",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qQgcxwOybiDlAkpjM",
+      "name": "Auto-Fellatio (Oral)",
+      "reference": "Sol:11",
+      "reference_highlight": "Auto-Fellatio (Oral)",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -6
+      },
+      "local_notes": "Stimulation 5(3). Maximum Oral. Flexibility may be replaced by anatomy/morphology that makes full self-fellatio possible; the generic +3 self-use modifier does not stack.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qdRu5Xy6BMILfZG2-",
+      "name": "Auto-Fellatio (Oral)",
+      "reference": "Sol:11",
+      "reference_highlight": "Auto-Fellatio (Oral)",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "iq",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -10
+      },
+      "local_notes": "Stimulation 5(3). Maximum Oral. Flexibility may be replaced by anatomy/morphology that makes full self-fellatio possible; the generic +3 self-use modifier does not stack.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qiBSCRKjN_T_yg5Fn",
+      "name": "Auto-Fellatio (Deep Throat)",
+      "reference": "Sol:11",
+      "reference_highlight": "Auto-Fellatio (Deep Throat)",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Deep Throat"
+        },
+        "modifier": -5
+      },
+      "local_notes": "Stimulation 6 plus applicable Sexual Feature bonus. Maximum Oral. Flexibility may be replaced by equivalent morphology; inherits Deep Throat risks and modifiers.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qHKDQKttNdl51w25e",
+      "name": "Auto-Fellatio (Deep Throat)",
+      "reference": "Sol:11",
+      "reference_highlight": "Auto-Fellatio (Deep Throat)",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Auto-Fellatio (Oral)"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Stimulation 6 plus applicable Sexual Feature bonus. Maximum Oral. Flexibility may be replaced by equivalent morphology; inherits Deep Throat risks and modifiers.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qsHYIPsEUendxH0D-",
+      "name": "Auto-Fellatio (Deep Throat)",
+      "reference": "Sol:11",
+      "reference_highlight": "Auto-Fellatio (Deep Throat)",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Oral"
+        },
+        "modifier": -7
+      },
+      "local_notes": "Stimulation 6 plus applicable Sexual Feature bonus. Maximum Oral. Flexibility may be replaced by equivalent morphology; inherits Deep Throat risks and modifiers.",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qEqhr9V2U7uTz4hgN",
+      "name": "Auto-Fellatio (Deep Throat)",
+      "reference": "Sol:11",
+      "reference_highlight": "Auto-Fellatio (Deep Throat)",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -10
+      },
+      "local_notes": "Stimulation 6 plus applicable Sexual Feature bonus. Maximum Oral. Flexibility may be replaced by equivalent morphology; inherits Deep Throat risks and modifiers.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qpCQ6iHSBTuRNUe1R",
+      "name": "Scissoring",
+      "reference": "Sol:12",
+      "reference_highlight": "Scissoring",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Primary use gives 4(2) Stimulation to each participant; adjunct use adds +2 to each participant receiving direct genital contact. Maximum Erotic Art.",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qW8atalb4oHcErTbA",
+      "name": "Scissoring",
+      "reference": "Sol:12",
+      "reference_highlight": "Scissoring",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Grind"
+        }
+      },
+      "local_notes": "Primary use gives 4(2) Stimulation to each participant; adjunct use adds +2 to each participant receiving direct genital contact. Maximum Erotic Art.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qCt6atnoa1kI7G4Jx",
+      "name": "Scissoring",
+      "reference": "Sol:12",
+      "reference_highlight": "Scissoring",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Masturbation"
+        },
+        "specialization": {
+          "compare": "is",
+          "qualifier": "Female"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Primary use gives 4(2) Stimulation to each participant; adjunct use adds +2 to each participant receiving direct genital contact. Maximum Erotic Art.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qr_wNA3qqTQsbXF-x",
+      "name": "Thigh Sex / Intercrural",
+      "reference": "Sol:12",
+      "reference_highlight": "Thigh Sex / Intercrural",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -1
+      },
+      "local_notes": "Stimulation 4(2) to recipient; 2(1) to thigh partner only if directly stimulated. Maximum Erotic Art+4.",
+      "limit": 4,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qw7f37cfac09ln99Q",
+      "name": "Thigh Sex / Intercrural",
+      "reference": "Sol:12",
+      "reference_highlight": "Thigh Sex / Intercrural",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Masturbation"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Stimulation 4(2) to recipient; 2(1) to thigh partner only if directly stimulated. Maximum Erotic Art+4.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "q1AyuW_8Gd4_k0y--",
+      "name": "Thigh Sex / Intercrural",
+      "reference": "Sol:12",
+      "reference_highlight": "Thigh Sex / Intercrural",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "dx",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -3
+      },
+      "local_notes": "Stimulation 4(2) to recipient; 2(1) to thigh partner only if directly stimulated. Maximum Erotic Art+4.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qsS_9p1Qnz20sacQY",
+      "name": "Frottage / Body Rubbing",
+      "reference": "Sol:13",
+      "reference_highlight": "Frottage / Body Rubbing",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -1
+      },
+      "local_notes": "Stimulation 3(1) to each participant receiving direct erogenous contact. Maximum Erotic Art+4.",
+      "limit": 4,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qScpPgq7IAnhUQw7N",
+      "name": "Frottage / Body Rubbing",
+      "reference": "Sol:13",
+      "reference_highlight": "Frottage / Body Rubbing",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "dx",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -3
+      },
+      "local_notes": "Stimulation 3(1) to each participant receiving direct erogenous contact. Maximum Erotic Art+4.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qEZNocNhUD2ZC8KXw",
+      "name": "Mating-Lock Management",
+      "reference": "Sol:14",
+      "reference_highlight": "Mating-Lock Management",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Stuffing"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Requires partner anatomy capable of locking. No Stimulation. Maximum whichever skill the technique defaults from; receiving-side lock management.",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Stuffing"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "q-M6GZ0_9z7mZKInY",
+      "name": "Mating-Lock Management",
+      "reference": "Sol:14",
+      "reference_highlight": "Mating-Lock Management",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -4
+      },
+      "local_notes": "Requires partner anatomy capable of locking. No Stimulation. Maximum whichever skill the technique defaults from; receiving-side lock management.",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": false,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Stuffing"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "q5UcqRrK3o1pHxnW4",
+      "name": "Prehensile Appendage Play",
+      "reference": "Sol:15",
+      "reference_highlight": "Prehensile Appendage Play",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Masturbation"
+        },
+        "specialization": {
+          "compare": "is",
+          "qualifier": "appropriate physiology"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Requires a functional fine-manipulation prehensile appendage. Stimulation 4(2) to recipient. Maximum Erotic Art+4.",
+      "points": 1
+    },
+    {
+      "id": "qQeTo5nxV_T4KVpYa",
+      "name": "Prehensile Appendage Play",
+      "reference": "Sol:15",
+      "reference_highlight": "Prehensile Appendage Play",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Requires a functional fine-manipulation prehensile appendage. Stimulation 4(2) to recipient. Maximum Erotic Art+4.",
+      "limit": 4,
+      "points": 1
+    },
+    {
+      "id": "qGK66tvIIDkbcH6Cq",
+      "name": "Knot-Tying",
+      "reference": "Sol:15",
+      "reference_highlight": "Knot-Tying",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Skill"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Exotic Genitalia must actually include locking anatomy. Maximum relevant penetration technique. Add +2 to the base technique; see PDF for failure/critical rules. Relevant penetration technique -2 (manually set)",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Exotic Genitalia"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qaEsKyMsq0xIFtA5J",
+      "name": "Knot-Tying",
+      "reference": "Sol:15",
+      "reference_highlight": "Knot-Tying",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -4
+      },
+      "local_notes": "Exotic Genitalia must actually include locking anatomy. Maximum relevant penetration technique. Add +2 to the base technique; see PDF for failure/critical rules.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Erotic Art"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Exotic Genitalia"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qgFfZYzNAC5aT3am6",
+      "name": "Frost Kiss",
+      "reference": "Sol:16",
+      "reference_highlight": "Frost Kiss",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Oral"
+        },
+        "modifier": -4
+      },
+      "local_notes": "Cold Breath must be controllable to a harmless trace. Maximum Oral. Stimulation 7(2), with +2 on success by 5+ while Orgasmic; only special in Plateau/Orgasmic.",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Cold Breath"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qBd8QwD4A674jPkTb",
+      "name": "Frost Kiss",
+      "reference": "Sol:16",
+      "reference_highlight": "Frost Kiss",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -6
+      },
+      "local_notes": "Cold Breath must be controllable to a harmless trace. Maximum Oral. Stimulation 7(2), with +2 on success by 5+ while Orgasmic; only special in Plateau/Orgasmic.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Oral"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Cold Breath"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qQ6rFKv8vP-7n5mS2",
+      "name": "Auto-Cunnilingus",
+      "reference": "Sol:17",
+      "reference_highlight": "Auto-Cunnilingus",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Oral"
+        },
+        "modifier": -5
+      },
+      "local_notes": "Stimulation 5(3). Maximum Oral. Flexibility may be replaced by suitable anatomy/morphology; generic +3 self-use does not stack.",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "qUSOyvB4jGhVvt2df",
+      "name": "Auto-Cunnilingus",
+      "reference": "Sol:17",
+      "reference_highlight": "Auto-Cunnilingus",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Erotic Art"
+        },
+        "modifier": -6
+      },
+      "local_notes": "Stimulation 5(3). Maximum Oral. Flexibility may be replaced by suitable anatomy/morphology; generic +3 self-use does not stack.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "q8SvMtMJ0Azf1hmc_",
+      "name": "Auto-Cunnilingus",
+      "reference": "Sol:17",
+      "reference_highlight": "Auto-Cunnilingus",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "a",
+      "default": {
+        "type": "iq",
+        "name": {
+          "compare": "is"
+        },
+        "modifier": -10
+      },
+      "local_notes": "Stimulation 5(3). Maximum Oral. Flexibility may be replaced by suitable anatomy/morphology; generic +3 self-use does not stack.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Flexibility"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 1
+    },
+    {
+      "id": "q2fa_j107fUgiuge8",
+      "name": "Auto-Knotting",
+      "reference": "Sol:17",
+      "reference_highlight": "Auto-Knotting",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Skill"
+        },
+        "modifier": -4
+      },
+      "local_notes": "Maximum lower of Auto-Fellatio (Oral) or Knot-Tying. Stimulation 8(3). Self-oral plus self-lock engagement; generic +3 self-use does not stack. Lower of Auto-Fellatio (Oral) and Knot-Tying -4 (manually set lower skill)",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Auto-Fellatio (Oral)"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Knot-Tying"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Exotic Genitalia"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "qpGuZdHV6-TYY8quQ",
+      "name": "Deep Auto-Knotting",
+      "reference": "Sol:18",
+      "reference_highlight": "Deep Auto-Knotting",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Auto-Knotting"
+        },
+        "modifier": -2
+      },
+      "local_notes": "Maximum lower of Auto-Fellatio (Deep Throat) or Knot-Tying. Stimulation 10(4). Deep-throat self-locking variant; inherits Deep Throat Large Penis penalty and suffocation rules.",
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Auto-Knotting"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Auto-Fellatio (Deep Throat)"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 1
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Exotic Genitalia"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "prereq_list",
+            "all": false,
+            "prereqs": [
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Breath Control"
+                },
+                "level": {
+                  "compare": "at_least",
+                  "qualifier": 12
+                }
+              },
+              {
+                "type": "trait_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Doesn't Breathe"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "points": 2
+    },
+    {
+      "id": "q2UTqAFEyXyFwc4V6",
+      "name": "Deep Auto-Knotting",
+      "reference": "Sol:18",
+      "reference_highlight": "Deep Auto-Knotting",
+      "tags": [
+        "Sexual"
+      ],
+      "difficulty": "h",
+      "default": {
+        "type": "skill",
+        "name": {
+          "compare": "is",
+          "qualifier": "Skill"
+        },
+        "modifier": -4
+      },
+      "local_notes": "Maximum lower of Auto-Fellatio (Deep Throat) or Knot-Tying. Stimulation 10(4). Deep-throat self-locking variant; inherits Deep Throat Large Penis penalty and suffocation rules. Lower of Auto-Fellatio (Deep Throat) and Knot-Tying -4 (manually set lower skill)",
+      "limit": 0,
+      "prereqs": {
+        "type": "prereq_list",
+        "all": true,
+        "prereqs": [
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Auto-Knotting"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "skill_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Auto-Fellatio (Deep Throat)"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 12
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Large Penis"
+            },
+            "level": {
+              "compare": "at_least",
+              "qualifier": 1
+            }
+          },
+          {
+            "type": "trait_prereq",
+            "has": true,
+            "name": {
+              "compare": "is",
+              "qualifier": "Exotic Genitalia"
+            },
+            "level": {
+              "compare": "at_least"
+            }
+          },
+          {
+            "type": "prereq_list",
+            "all": false,
+            "prereqs": [
+              {
+                "type": "skill_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Breath Control"
+                },
+                "level": {
+                  "compare": "at_least",
+                  "qualifier": 12
+                }
+              },
+              {
+                "type": "trait_prereq",
+                "has": true,
+                "name": {
+                  "compare": "is",
+                  "qualifier": "Doesn't Breathe"
+                },
+                "level": {
+                  "compare": "at_least"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "points": 2
+    }
+  ]
+}
