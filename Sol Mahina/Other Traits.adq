@@ -1,0 +1,83 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "TIcWRS9gRn5FQBGVp",
+			"source": {
+				"library": "/tsargoth/Sol-Mahina",
+				"path": "Sol Mahina/Other Traits.adq",
+				"id": "Tmys_WkoPt1jmdBV9"
+			},
+			"name": "Virtual Pockets",
+			"reference": "PTW25",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "tDytyLu90HTegVxXJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t7a13kFVl53ZfbkrK"
+					},
+					"name": "Payload (@Load@)",
+					"reference": "B74",
+					"local_notes": "<script>\nif(entity.exists) {\n  measure.formatWeight(\n    self.level * ($hp*$hp) / 1000*20,\n    entity.displayWeightUnits,\n  )\n} else {\n  \"Payload will be calculated when added to a character sheet\"\n}\n</script>",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"replacements": {
+						"Load": "Dimensional Pocket"
+					},
+					"modifiers": [
+						{
+							"id": "mVqsGlfopi7tZIeES",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m9__OPCLvraPguwtt"
+							},
+							"name": "Cosmic",
+							"local_notes": "Extra dimensional",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "m0UEH4a5VCdYm8HVf",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m8ryk1FMvdE9AfG6t"
+							},
+							"name": "Weird",
+							"cost_adj": "-10%"
+						},
+						{
+							"id": "mp9uF7yxwxgUqrOZq",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mGh-isHWgGGI8Y7vb"
+							},
+							"name": "Exposed",
+							"reference": "B74",
+							"cost_adj": "-50%",
+							"disabled": true
+						}
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 2,
+						"resolved_notes": "Payload will be calculated when added to a character sheet",
+						"current_level": 1
+					}
+				}
+			],
+			"calc": {
+				"points": 2
+			}
+		}
+	]
+}

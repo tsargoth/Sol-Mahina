@@ -1,0 +1,437 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "t2aJTPRzIqymhBN4t",
+			"name": "Elastic Genitals",
+			"reference": "SexAndPreg:11",
+			"reference_highlight": "Elastic Genitals",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 2,
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "tserFtHaEjUL-HBiN",
+			"name": "Fertility",
+			"reference": "SexAndPreg:12",
+			"reference_highlight": "Fertility",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"modifiers": [
+				{
+					"id": "m-r5LW2v3woyWy5QX",
+					"name": "Super Bukkake",
+					"reference": "SexAndPreg:12",
+					"reference_highlight": "Super Bukkake",
+					"local_notes": "Super Effort",
+					"cost_adj": "+300%"
+				}
+			],
+			"points_per_level": 3,
+			"max_levels": "4",
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 12,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "tAeyNYw7eQCZ5eew7",
+			"name": "Elastic Breasts",
+			"reference": "SexAndPreg:10",
+			"reference_highlight": "Elastic Breasts",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 2,
+			"calc": {
+				"points": 2
+			}
+		},
+		{
+			"id": "tq89UO7ciH9QFxSeR",
+			"name": "Multiorgasmic",
+			"reference": "SexAndPreg:14",
+			"reference_highlight": "Multiorgasmic",
+			"tags": [
+				"Advantage",
+				"Physical",
+				"Sexual"
+			],
+			"base_points": 5,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "ttnM07Evw0LdHaFPm",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Bio-Tech/Bio-Tech Traits.adq",
+				"id": "tqoZjoMK01Dz00QE5"
+			},
+			"name": "Reproductive Control",
+			"reference": "BT59,SexAndPreg:20",
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tUlbqZuM8AghEakdp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Bio-Tech/Bio-Tech Traits.adq",
+				"id": "tny2gjhcdhsBVRmXl"
+			},
+			"name": "Oviparous (@Gestation Length@)",
+			"reference": "BT59",
+			"modifiers": [
+				{
+					"id": "mevFfk_v1Mhu3xFO0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+						"id": "mpgXdAagogt4zVPtE"
+					},
+					"name": "Switchable",
+					"reference": "PU4:17",
+					"cost_adj": "10%"
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tRS4d3AiBOdycqSrY",
+			"name": "Regenerative Hymen",
+			"reference": "SexAndPreg:20",
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tUHT4UXkpw44rlKXk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Bio-Tech/Bio-Tech Traits.adq",
+				"id": "tV-sKMFCpL6KwPcgC"
+			},
+			"name": "Parthenogenesis",
+			"reference": "BT59, SexAndPreg:20",
+			"modifiers": [
+				{
+					"id": "mKphyZz7ADs0JufFN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Bio-Tech/Bio-Tech Traits.adq",
+						"id": "m5-Mvxb4d8jzP6a8t"
+					},
+					"name": "In addition to sexual reproduction",
+					"cost_adj": "1",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tCXU4AFDXJ6S7s-ON",
+			"source": {
+				"library": "/tsargoth/Sol-Mahina",
+				"path": "Sol Mahina/Sexual Traits.adq",
+				"id": "tKGiA1kQx1OXIZH38"
+			},
+			"name": "Large Breasts ",
+			"reference": "SexAndPreg:19",
+			"reference_highlight": "Large Breasts ",
+			"local_notes": "-1 Basic Move on lvl 3, -2 Basic Move on Level 4",
+			"points_per_level": 1,
+			"max_levels": "4",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Sex Appeal"
+					},
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "TUZPps7LVaVkxS6rD",
+			"name": "Slit",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "tLVto6UFJNVMHrjoz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t7a13kFVl53ZfbkrK"
+					},
+					"name": "Payload",
+					"reference": "B74",
+					"local_notes": "<script>\nif(entity.exists) {\n  measure.formatWeight(\n    self.level * entity.encumbrance.basicLift / 10,\n    entity.displayWeightUnits,\n  )\n} else {\n  \"Payload will be calculated when added to a character sheet\"\n}\n</script>",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mywub5bdy4hyL7lOy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mjLLPKjkvP1SLBWS_"
+							},
+							"name": "Exposed",
+							"reference": "B74",
+							"cost_adj": "-50%",
+							"disabled": true
+						}
+					],
+					"points_per_level": 1,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 1,
+						"resolved_notes": "Payload will be calculated when added to a character sheet",
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tPbwBb02fvzBlr2AB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tkCi-pV0exqSyPhyv"
+					},
+					"name": "Prehensile Dick",
+					"reference": "B53",
+					"local_notes": "(Extra Arm)",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"replacements": {
+						"Condition": "Only while male or herm"
+					},
+					"modifiers": [
+						{
+							"id": "msVwXKfHGc7E7m7l1",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mhfT3jOm77X0lsw0V"
+							},
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "mBEYGblhKi91gEZMU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m3ZOlq1dfMlW8qaPl"
+							},
+							"name": "Long",
+							"reference": "B53",
+							"cost_adj": "100%",
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mqZg0qCdMPfPGn8Bo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mSGbdtO-DZBOaWAoA"
+							},
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "mk9_q6o45kWDwQROC",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mTUB-Bxsd5N5I3oNZ"
+							},
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost_adj": "-50%"
+						},
+						{
+							"id": "msfYiIYFgHbi3sXGY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m89lI8CJ8eNDfHWep"
+							},
+							"name": "Short",
+							"reference": "B53",
+							"cost_adj": "-50%"
+						},
+						{
+							"id": "m40lrZ7Gnp6lzHMqo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mc2NdhAqBuOzyWJmZ"
+							},
+							"name": "Weak",
+							"reference": "B53",
+							"local_notes": "Half body ST",
+							"cost_adj": "-25%",
+							"disabled": true
+						},
+						{
+							"id": "mBu0hsCRfCXtITnzX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mpI-MFLT0jUoEXyQO"
+							},
+							"name": "Weak",
+							"reference": "B53",
+							"local_notes": "Quarter body ST",
+							"cost_adj": "-50%"
+						},
+						{
+							"id": "mbCIxUg-5o4eBgSPb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mHxnoD7dy7NDF1Ror"
+							},
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost_adj": "-80%",
+							"disabled": true
+						},
+						{
+							"id": "meQUvLbbN0mo4-gc0",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "madd_pwVzAc1jtW5M"
+							},
+							"name": "No Grasping Hand",
+							"reference": "MATG28",
+							"cost_adj": "-40%",
+							"disabled": true
+						},
+						{
+							"id": "mroVdnvaRXnh_TZwU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mCXxiI6HbVwzKMQ4R"
+							},
+							"name": "Racial Skill Bonus: Erotic Art",
+							"cost_adj": "2",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Erotic Art"
+									},
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "mGtmBBXTRpsbOnies",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mb1WWa7oMZPMAArbM"
+							},
+							"name": "Trait Modifier"
+						},
+						{
+							"id": "mlrx9Ko64zvOZK_fX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mpgXdAagogt4zVPtE"
+							},
+							"name": "Switchable",
+							"reference": "PU4:17",
+							"cost_adj": "10%"
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 3,
+						"current_level": 1
+					}
+				}
+			],
+			"calc": {
+				"points": 4
+			}
+		},
+		{
+			"id": "tX3u_0Pfu0w_SP87P",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tknKLIc0OqWueFpSw"
+			},
+			"name": "Sexual Sadism",
+			"reference": "B152, SexAndPreg:30",
+			"local_notes": "Treated as Sadism for point costs, though sometimes you can restrict your sadism to sexual situations in which case it is reduced by -10 or -20%, if you only want to inflict minor/superficial pain, and restrict it to sexual situations the modifier may be as low as -80% (or possibly a quirk) but this is at the GM discretion. Sexual Masochism is the desire to be in painful sexual situations and takes modifiers as per sadism.\n\nA pimp who would express any sort of violence toward a pregnant whore is eligible for the full blown disadvantage.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -15,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from those who become aware of your Sadism unless they are from a culture that holds life in little esteem",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"points": -15
+			}
+		}
+	]
+}

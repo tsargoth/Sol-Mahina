@@ -1,0 +1,1437 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "qeGc5fDVqmK-2FD4I",
+			"name": "Stuffing",
+			"reference": "SexAndPreg:90",
+			"reference_highlight": "Stuffing",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "st",
+				"name": {
+					"compare": "is"
+				}
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qiPnarwcIz1Nh1uG0",
+			"name": "Stuffing",
+			"reference": "SexAndPreg:90",
+			"reference_highlight": "Stuffing",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "ht",
+				"name": {
+					"compare": "is"
+				},
+				"modifier": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qoMvJr_Ky1D-2pnsB",
+			"name": "Stuffing",
+			"reference": "SexAndPreg:90",
+			"reference_highlight": "Stuffing",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Hold Out"
+				},
+				"modifier": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qk5SaVh7eEPhIgghK",
+			"name": "Stuffing",
+			"reference": "SexAndPreg:90",
+			"reference_highlight": "Stuffing",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -3
+			},
+			"limit": 3,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qZ0mWgkLJzhjb33xc",
+			"name": "Deep Throat",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Deep Throat",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Oral"
+				},
+				"modifier": -2
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Oral"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qYAfhTTJQyyou20-J",
+			"name": "Fondling",
+			"reference": "SexAndPreg:85",
+			"reference_highlight": "Fondling",
+			"local_notes": "Modifiers: +3 if you know your partner well, +1 for DX of 12 or higher, +2 if DX is 16 or above, +1 if Esoteric Medicine (Massage) is at 12+, +2 if it is at 20+",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Arts"
+				},
+				"modifier": -2
+			},
+			"points": 2
+		},
+		{
+			"id": "qrwM4I8WnlWs2TCiN",
+			"name": "Masturbation",
+			"local_notes": "@specialize by gender, or optionally by physiology@",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -2
+			},
+			"limit": 4,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Esoteric Medicine"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Massage"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qkPuEBcoHkaqOcwzZ",
+			"name": "Masturbation",
+			"local_notes": "@specialize by gender, or optionally by physiology@",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Esoteric Medicine"
+				},
+				"modifier": -2
+			},
+			"limit": 4,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Esoteric Medicine"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Massage"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "q1-Bl4nVz_rhP8ecz",
+			"name": "Fondling",
+			"reference": "SexAndPreg:85",
+			"reference_highlight": "Fondling",
+			"local_notes": "Modifiers: +3 if you know your partner well, +1 for DX of 12 or higher, +2 if DX is 16 or above, +1 if Esoteric Medicine (Massage) is at 12+, +2 if it is at 20+",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Masturbation"
+				},
+				"modifier": -2
+			},
+			"points": 2
+		},
+		{
+			"id": "qN3_0RXNdNMQ1Sq2l",
+			"name": "Go Slow",
+			"reference": "SexAndPreg:85",
+			"reference_highlight": "Go Slow",
+			"difficulty": "h",
+			"default": {
+				"type": "will",
+				"modifier": -4
+			},
+			"limit": 4,
+			"points": 2
+		},
+		{
+			"id": "qEhiNVoghS29RnRmR",
+			"name": "Go Slow",
+			"reference": "SexAndPreg:85",
+			"reference_highlight": "Go Slow",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -4
+			},
+			"points": 2
+		},
+		{
+			"id": "qeq8DXf1vKvvRbqlF",
+			"name": "Grind",
+			"reference": "SexAndPreg:85",
+			"reference_highlight": "Grind",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Masturbation"
+				},
+				"specialization": {
+					"compare": "is",
+					"qualifier": "Female"
+				},
+				"modifier": -2
+			},
+			"points": 1
+		},
+		{
+			"id": "q5XnvEhPmEHl534Op",
+			"name": "Grind",
+			"reference": "SexAndPreg:85",
+			"reference_highlight": "Grind",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Lapdance"
+				},
+				"specialization": {
+					"compare": "is",
+					"qualifier": "Female"
+				},
+				"modifier": -2
+			},
+			"points": 1
+		},
+		{
+			"id": "q896YW-KD2bKBPDAI",
+			"name": "Karezza",
+			"reference": "SexAndPreg:85",
+			"reference_highlight": "Karezza",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -5
+			},
+			"limit": 4,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Trained By A Master"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "is",
+							"qualifier": "Erotic"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qUFIiJnf9-QvLlYIS",
+			"name": "Kissing",
+			"reference": "SexAndPreg:85",
+			"reference_highlight": "Kissing",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				}
+			},
+			"limit": 4,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qhNTV0QOAVkv3N33N",
+			"name": "Deep Throat",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Deep Throat",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -5
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Oral"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "q_ywMxClJSmP5BQIh",
+			"name": "Deep Guidance",
+			"reference": "Sol:14",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -5
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 14
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Trained by a Master"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "is",
+							"qualifier": "Erotic"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qmAhjnNg0mjaFmKe0",
+			"name": "Lap Dance",
+			"local_notes": "Reverse Lap Dance",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -3
+			},
+			"points": 1
+		},
+		{
+			"id": "q_aSppTCOwa16Tfgb",
+			"name": "Lap Dance",
+			"local_notes": "Reverse Lap Dance",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Sex Apeal"
+				},
+				"modifier": -5
+			},
+			"points": 1
+		},
+		{
+			"id": "qzm6gHjYVk8yCnlQO",
+			"name": "Dominance",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Dominance",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Acting"
+				},
+				"modifier": -6
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Interrogation"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Intimidation"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Acting"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Sexual Sadism"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qGDQDLvlm9OY-Plul",
+			"name": "Face Sex",
+			"reference": "SexAndPreg:84",
+			"reference_highlight": "Face Sex",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				}
+			},
+			"limit": 3,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qZY4Q0GIiJ1YDFlLf",
+			"name": "Face Sex",
+			"reference": "SexAndPreg:84",
+			"reference_highlight": "Face Sex",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "ht",
+				"name": {
+					"compare": "is"
+				},
+				"modifier": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qbWOlHvYL6k16BPbP",
+			"name": "Fisting",
+			"reference": "SexAndPreg:84",
+			"reference_highlight": "Fisting",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Masturbation"
+				},
+				"specialization": {
+					"compare": "is",
+					"qualifier": "Female"
+				},
+				"modifier": -4
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Anal"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Male"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Masturbation"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Female"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qmOlVW-M3Lj6H5Geo",
+			"name": "Fisting",
+			"reference": "SexAndPreg:84",
+			"reference_highlight": "Fisting",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -6
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Anal"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Male"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Masturbation"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Female"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qeWx4bp7HPIKWXkHh",
+			"name": "Fisting",
+			"reference": "SexAndPreg:84",
+			"reference_highlight": "Fisting",
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Anal"
+				},
+				"specialization": {
+					"compare": "is",
+					"qualifier": "Male"
+				},
+				"modifier": -4
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Anal"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Male"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Masturbation"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Female"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qGF4lg1JAaA8RhqV9",
+			"name": "Dominance",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Dominance",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Interrogation"
+				},
+				"modifier": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Interrogation"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Intimidation"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Acting"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Sexual Sadism"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "q577sHmEg3p1Y2NDI",
+			"name": "Dominance",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Dominance",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Intimidation"
+				},
+				"modifier": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Interrogation"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Intimidation"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Acting"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Sexual Sadism"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "q2ldiqFjbh1IPdhRB",
+			"name": "Cowgirl",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Cowgirl/Reverse Cowgirl",
+			"local_notes": "Reverse Cowgirl",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "ht",
+				"modifier": -2
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "q58_crkcGB2KoNU1K",
+			"name": "Cowgirl",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Cowgirl/Reverse Cowgirl",
+			"local_notes": "Reverse Cowgirl",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				}
+			},
+			"limit": 4,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "q9aUYnqCjreyJn_4q",
+			"name": "Cervical Accommodation",
+			"reference": "Sol:13",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Stuffing"
+				},
+				"modifier": -4
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Stuffing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qUTt5zfZjGM0hq0yr",
+			"name": "Breast Sex",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Breast Sex",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "iq",
+				"name": {
+					"compare": "is"
+				},
+				"modifier": -5
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qwyX1W2Z9b6SI8Qh_",
+			"name": "Breast Sex",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Breast Sex",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -1
+			},
+			"limit": 4,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qmiZqgiGGyrdlFtvV",
+			"name": "Breast Sex",
+			"reference": "SexAndPreg:83",
+			"reference_highlight": "Breast Sex",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "a",
+			"default": {
+				"type": "dx",
+				"name": {
+					"compare": "is"
+				},
+				"modifier": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "qT9rcy_lQrYk8sfy3",
+			"source": {
+				"library": "/tsargoth/Sol-Mahina",
+				"path": "Sol Mahina/Sexual Skills.skl",
+				"id": "qM7grMqPiUy9WqKKJ"
+			},
+			"name": "Anal",
+			"reference": "SexAndPreg:82",
+			"reference_highlight": "Anal",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "ht",
+				"name": {
+					"compare": "is"
+				},
+				"modifier": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qEmPleRnKhrK9lbe9",
+			"name": "Anal",
+			"reference": "SexAndPreg:82",
+			"reference_highlight": "Anal",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Holdout"
+				},
+				"modifier": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qR4i4G3sjHfUpifXi",
+			"name": "Anal",
+			"reference": "SexAndPreg:82",
+			"reference_highlight": "Anal",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Erotic Art"
+				},
+				"modifier": -1
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Erotic Art"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 2
+		},
+		{
+			"id": "qsKZcMPb8XxSw_pmo",
+			"name": "Double Play",
+			"reference": "SexAndPreg:84",
+			"reference_highlight": "Double Play",
+			"local_notes": "Two Techniques - Manually set",
+			"tags": [
+				"Sexual"
+			],
+			"difficulty": "h",
+			"default": {
+				"type": "skill",
+				"name": {
+					"compare": "is",
+					"qualifier": "Skill"
+				}
+			},
+			"points": 2
+		}
+	]
+}
