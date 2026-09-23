@@ -1506,145 +1506,168 @@
           "levels": 1,
           "calc": {
             "points": 1,
-            "resolved_notes": "Payload will be calculated when added to a character sheet",
             "current_level": 1
           }
         },
         {
-          "id": "tPbwBb02fvzBlr2AB",
-          "source": {
-            "library": "richardwilkes/gcs_master_library",
-            "path": "Basic Set/Basic Set Traits.adq",
-            "id": "tkCi-pV0exqSyPhyv"
-          },
+          "id": "TY7SZ6Apjkn-K3FLg",
           "name": "Prehensile Dick",
-          "reference": "B53",
-          "local_notes": "(Extra Arm)",
-          "tags": [
-            "Advantage",
-            "Exotic",
-            "Physical"
-          ],
-          "replacements": {
-            "Condition": "Only while male or herm"
-          },
-          "modifiers": [
+          "container_type": "meta_trait",
+          "children": [
             {
-              "id": "msVwXKfHGc7E7m7l1",
+              "id": "tPbwBb02fvzBlr2AB",
               "source": {
                 "library": "richardwilkes/gcs_master_library",
                 "path": "Basic Set/Basic Set Traits.adq",
-                "id": "mhfT3jOm77X0lsw0V"
+                "id": "tkCi-pV0exqSyPhyv"
               },
-              "name": "Extra-Flexible",
+              "name": "Prehensile Dick",
               "reference": "B53",
-              "cost_adj": "50%"
-            },
-            {
-              "id": "mBEYGblhKi91gEZMU",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "m3ZOlq1dfMlW8qaPl"
+              "local_notes": "Extra Arm component of the Prehensile Dick package. MM: 10 × 1.60 × 0.20 = 3.2 → [4]. The separate racial Erotic Art bonus [2] is not discounted by arm limitations. No Physical Attack, Short and quarter-ST Weak apply.",
+              "tags": [
+                "Advantage",
+                "Exotic",
+                "Physical"
+              ],
+              "replacements": {
+                "Condition": "Only while male or herm"
               },
-              "name": "Long",
-              "reference": "B53",
-              "cost_adj": "100%",
+              "modifiers": [
+                {
+                  "id": "msVwXKfHGc7E7m7l1",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Basic Set/Basic Set Traits.adq",
+                    "id": "mhfT3jOm77X0lsw0V"
+                  },
+                  "name": "Extra-Flexible",
+                  "reference": "B53",
+                  "cost_adj": "50%"
+                },
+                {
+                  "id": "mBEYGblhKi91gEZMU",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Basic Set/Basic Set Traits.adq",
+                    "id": "m3ZOlq1dfMlW8qaPl"
+                  },
+                  "name": "Long",
+                  "reference": "B53",
+                  "cost_adj": "100%",
+                  "levels": 1,
+                  "disabled": true
+                },
+                {
+                  "id": "mqZg0qCdMPfPGn8Bo",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Basic Set/Basic Set Traits.adq",
+                    "id": "mSGbdtO-DZBOaWAoA"
+                  },
+                  "name": "Foot Manipulators",
+                  "reference": "B53",
+                  "cost_adj": "-30%",
+                  "disabled": true
+                },
+                {
+                  "id": "mk9_q6o45kWDwQROC",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Basic Set/Basic Set Traits.adq",
+                    "id": "mTUB-Bxsd5N5I3oNZ"
+                  },
+                  "name": "No Physical Attack",
+                  "reference": "B53",
+                  "cost_adj": "-50%"
+                },
+                {
+                  "id": "msfYiIYFgHbi3sXGY",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Basic Set/Basic Set Traits.adq",
+                    "id": "m89lI8CJ8eNDfHWep"
+                  },
+                  "name": "Short",
+                  "reference": "B53",
+                  "cost_adj": "-50%"
+                },
+                {
+                  "id": "m40lrZ7Gnp6lzHMqo",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Basic Set/Basic Set Traits.adq",
+                    "id": "mc2NdhAqBuOzyWJmZ"
+                  },
+                  "name": "Weak",
+                  "reference": "B53",
+                  "local_notes": "Half body ST",
+                  "cost_adj": "-25%",
+                  "disabled": true
+                },
+                {
+                  "id": "mBu0hsCRfCXtITnzX",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Basic Set/Basic Set Traits.adq",
+                    "id": "mpI-MFLT0jUoEXyQO"
+                  },
+                  "name": "Weak",
+                  "reference": "B53",
+                  "local_notes": "Quarter body ST",
+                  "cost_adj": "-50%"
+                },
+                {
+                  "id": "mbCIxUg-5o4eBgSPb",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Basic Set/Basic Set Traits.adq",
+                    "id": "mHxnoD7dy7NDF1Ror"
+                  },
+                  "name": "Weapon Mount",
+                  "reference": "B53",
+                  "cost_adj": "-80%",
+                  "disabled": true
+                },
+                {
+                  "id": "meQUvLbbN0mo4-gc0",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Basic Set/Basic Set Traits.adq",
+                    "id": "madd_pwVzAc1jtW5M"
+                  },
+                  "name": "No Grasping Hand",
+                  "reference": "MATG28",
+                  "cost_adj": "-40%",
+                  "disabled": true
+                },
+                {
+                  "id": "mlrx9Ko64zvOZK_fX",
+                  "source": {
+                    "library": "richardwilkes/gcs_master_library",
+                    "path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+                    "id": "mpgXdAagogt4zVPtE"
+                  },
+                  "name": "Switchable",
+                  "reference": "PU4:17",
+                  "cost_adj": "10%"
+                }
+              ],
+              "points_per_level": 10,
+              "can_level": true,
               "levels": 1,
-              "disabled": true
+              "calc": {
+                "points": 4,
+                "current_level": 1
+              }
             },
             {
-              "id": "mqZg0qCdMPfPGn8Bo",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "mSGbdtO-DZBOaWAoA"
-              },
-              "name": "Foot Manipulators",
-              "reference": "B53",
-              "cost_adj": "-30%",
-              "disabled": true
-            },
-            {
-              "id": "mk9_q6o45kWDwQROC",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "mTUB-Bxsd5N5I3oNZ"
-              },
-              "name": "No Physical Attack",
-              "reference": "B53",
-              "cost_adj": "-50%"
-            },
-            {
-              "id": "msfYiIYFgHbi3sXGY",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "m89lI8CJ8eNDfHWep"
-              },
-              "name": "Short",
-              "reference": "B53",
-              "cost_adj": "-50%"
-            },
-            {
-              "id": "m40lrZ7Gnp6lzHMqo",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "mc2NdhAqBuOzyWJmZ"
-              },
-              "name": "Weak",
-              "reference": "B53",
-              "local_notes": "Half body ST",
-              "cost_adj": "-25%",
-              "disabled": true
-            },
-            {
-              "id": "mBu0hsCRfCXtITnzX",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "mpI-MFLT0jUoEXyQO"
-              },
-              "name": "Weak",
-              "reference": "B53",
-              "local_notes": "Quarter body ST",
-              "cost_adj": "-50%"
-            },
-            {
-              "id": "mbCIxUg-5o4eBgSPb",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "mHxnoD7dy7NDF1Ror"
-              },
-              "name": "Weapon Mount",
-              "reference": "B53",
-              "cost_adj": "-80%",
-              "disabled": true
-            },
-            {
-              "id": "meQUvLbbN0mo4-gc0",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "madd_pwVzAc1jtW5M"
-              },
-              "name": "No Grasping Hand",
-              "reference": "MATG28",
-              "cost_adj": "-40%",
-              "disabled": true
-            },
-            {
-              "id": "mroVdnvaRXnh_TZwU",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "mCXxiI6HbVwzKMQ4R"
-              },
-              "name": "Racial Skill Bonus: Erotic Art",
-              "cost_adj": "2",
+              "id": "tHp-aBGNOw9FpC0E5",
+              "name": "Racial Skill Bonus (Erotic Art)",
+              "tags": [
+                "Sol Mahina"
+              ],
+              "base_points": 2,
+              "local_notes": "Separate +1 racial Erotic Art bonus [2]. Purchased once per package; not inside the discounted Extra Arm base.",
               "features": [
                 {
                   "type": "skill_bonus",
@@ -1655,40 +1678,21 @@
                   },
                   "amount": 1
                 }
-              ]
-            },
-            {
-              "id": "mGtmBBXTRpsbOnies",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Basic Set/Basic Set Traits.adq",
-                "id": "mb1WWa7oMZPMAArbM"
-              },
-              "name": "Trait Modifier"
-            },
-            {
-              "id": "mlrx9Ko64zvOZK_fX",
-              "source": {
-                "library": "richardwilkes/gcs_master_library",
-                "path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
-                "id": "mpgXdAagogt4zVPtE"
-              },
-              "name": "Switchable",
-              "reference": "PU4:17",
-              "cost_adj": "10%"
+              ],
+              "calc": {
+                "points": 2
+              }
             }
           ],
-          "points_per_level": 10,
-          "can_level": true,
-          "levels": 1,
+          "local_notes": "MM total [6] = Extra Arm [4] + racial Erotic Art bonus [2]. The older additive illustration was [4]. Do not buy this package a second time if already included in Slit.",
           "calc": {
-            "points": 3,
-            "current_level": 1
+            "points": 6
           }
         }
       ],
+      "local_notes": "Updated MM total [7]: Payload 1 [1] + Prehensile Dick package [6]. Slit Accommodation is a separately learned technique. Resident anatomy does not count as incoming size for that check.",
       "calc": {
-        "points": 4
+        "points": 7
       }
     },
     {
@@ -1842,13 +1846,12 @@
       "name": "Tight Anus",
       "reference": "SexAndPreg:20",
       "reference_highlight": "Large Penis or Tight Vagina/Anus",
-      "local_notes": "Distinctive sexual feature plus +1 Erotic Art. Size/accommodation interactions use Stuffing and related techniques.",
+      "local_notes": "Distinctive sexual feature plus +1 Erotic Art. Size/accommodation interactions use Stuffing and related techniques.\n\nRecorded campaign pricing is [1/level]. Apply only the anatomy-specific source effects; this does not impose an unrelated Slit Accommodation penalty.",
       "tags": [
         "Perk",
         "Physical",
         "Sexual"
       ],
-      "base_points": 1,
       "features": [
         {
           "type": "skill_bonus",
@@ -1857,11 +1860,16 @@
             "compare": "is",
             "qualifier": "Erotic Art"
           },
-          "amount": 1
+          "amount": 1,
+          "per_level": true
         }
       ],
+      "points_per_level": 1,
+      "can_level": true,
+      "levels": 1,
       "calc": {
-        "points": 1
+        "points": 1,
+        "current_level": 1
       }
     },
     {
@@ -1869,13 +1877,12 @@
       "name": "Tight Vagina",
       "reference": "SexAndPreg:20",
       "reference_highlight": "Large Penis or Tight Vagina/Anus",
-      "local_notes": "Distinctive sexual feature plus +1 Erotic Art. Size/accommodation interactions use Stuffing and related techniques.",
+      "local_notes": "Distinctive sexual feature plus +1 Erotic Art. Size/accommodation interactions use Stuffing and related techniques.\n\nRecorded campaign pricing is [1/level]. Apply only the anatomy-specific source effects; this does not impose an unrelated Slit Accommodation penalty.",
       "tags": [
         "Perk",
         "Physical",
         "Sexual"
       ],
-      "base_points": 1,
       "features": [
         {
           "type": "skill_bonus",
@@ -1884,11 +1891,16 @@
             "compare": "is",
             "qualifier": "Erotic Art"
           },
-          "amount": 1
+          "amount": 1,
+          "per_level": true
         }
       ],
+      "points_per_level": 1,
+      "can_level": true,
+      "levels": 1,
       "calc": {
-        "points": 1
+        "points": 1,
+        "current_level": 1
       }
     },
     {
@@ -2071,7 +2083,6 @@
           "levels": 1,
           "calc": {
             "points": 2,
-            "resolved_notes": "Payload will be calculated when added to a character sheet",
             "current_level": 1
           }
         }
@@ -2163,6 +2174,181 @@
       "base_points": -15,
       "calc": {
         "points": -15
+      }
+    },
+    {
+      "id": "tzXVKd3-tiFRDDNCX",
+      "name": "Total Communion (Sol Mahina)",
+      "tags": [
+        "Feature",
+        "Sol Mahina"
+      ],
+      "local_notes": "Dedicated relationship feature [0] within the established paid architecture; not generic free telepathy.\n\n**Status:** Dedicated relationship-specific operating rule, recorded as a [0] feature of the established architecture.\n\nSol receives Tsar's complete conscious experiential state continuously and involuntarily: senses, thoughts, emotions, body schema, compartments, recalled memories, Mindscapes, telepresence, incoming familiar streams, and reactions.\n\nThere is no selection, concealment, falsification, delay, or redaction while this dedicated communion exists. Ending it requires severing the dedicated communion. Tsar receives Sol through the Familiar Bond.\n\nThis differs from Tsar's ordinary deliberately selected outbound Telesend. Recursive Perspective Integrity applies to their nested mutual awareness.",
+      "calc": {
+        "points": 0
+      }
+    },
+    {
+      "id": "tsjS3xFaEb8Eb-CYt",
+      "name": "Sexual Enthrallment Applications",
+      "tags": [
+        "Rules Reference",
+        "Sol Mahina"
+      ],
+      "local_notes": "Rules reference [0]; use existing purchased Enthrallment skills.\n\n**Status:** Accepted application of the normal Enthrallment skills, September 10.  \n**Placement:** Skill applications, not four newly purchased duplicate skills.\n\nUse the character's existing **Persuade, Sway Emotions, Suggest, and Captivate** skills for the appropriate application.\n\nThe discussed source permits presentation through Erotic Art, musical performance, Illusion, or another suitable influence skill. The recovered prerequisite was **Erotic Art or Sex Appeal 12+**, with **Attractive or better appearance**. The source also described a target-dependent alternative physical prerequisite; it is not a universal waiver for every audience.\n\n| Existing skill | Stimulation on success | On ordinary failure |\n|---|---:|---:|\n| Persuade | **1** | **0** |\n| Sway Emotions | **3** | **2** |\n| Suggest | **5** | **3** |\n| Captivate | **7** | **4** |\n\nA **Different Default Skill** perk was discussed for formalizing an altered presentation/default where needed. The application does not waive the parent Enthrallment skill's other procedures or resistance rules.\n\nTsar's suggested skill levels of 60 were not recovered as a final purchase. Record his actual sheet values rather than automatically assigning that level to all four skills.",
+      "calc": {
+        "points": 0
+      }
+    },
+    {
+      "id": "t69MswG3KoSYCwzS3",
+      "name": "Encounter and Shared-Sensation Rules",
+      "tags": [
+        "Rules Reference",
+        "Sol Mahina"
+      ],
+      "local_notes": "Rules reference [0], not an independent advantage.\n\n### General resolution reminders\n\n**Source:** September 10–11 discussion of the existing encounter subsystem.\n\nUnless a technique overrides the rule:\n\n- One resolution normally represents **one minute**.\n- Success applies the listed Stimulation; ordinary failure applies the parenthesized value.\n- Critical success doubles the Stimulation generated by that technique and avoids the associated FP check.\n- Critical failure drops the recipient one Arousal Level, in addition to any specific technique consequences.\n- **Extra Effort:** Spend 1 FP and use the discussed Erotic Art margin-of-success contribution to Stimulation.\n\nRecovered general modifiers:\n\n| Circumstance | Modifier |\n|---|---:|\n| Lacking required Position | −2 |\n| At one-third FP | −4 |\n| New/unfamiliar technique | −2 |\n| Generic self-use | +3, subject to the nonstacking convention above |\n| Receiving partner's coaching | +2 |\n| Providing that coaching while performing one's own technique | −1 |\n\nSpecialized defaults and defined self-use techniques still take precedence over a generic bonus. These reminders do not replace the source's full critical-failure, fatigue, anatomy, or Position rules.\n\n### Independent simultaneous sources\n\n**Status:** September 13 parallel-input proposal, developed in the September 21 accommodation discussion.\n\nWhen independent sources act on one recipient, resolve the appropriate active techniques and accommodation checks, then combine the resulting Stimulation on that recipient's **shared Stimulation/Inhibition track**.\n\nThe proposed aggregate rule permits **no more than one Arousal Level transition per resolution**. Distinct local sensations can remain distinguishable without creating separate whole-person tracks.\n\n**Double Play** is the coordination of two techniques performed by one character. **Multiple Partners** addresses the relevant multi-participant coordination. Neither is automatically required merely because two other characters independently affect the same recipient. Particular configurations, such as the preserved Spit Roast rule, may expressly require them.\n\n### Physical and Mindscape input\n\n**Status:** Established September 20 operating interpretation of Tsar's custom Cosmic Mindscape.\n\nAn embodied mental environment can contribute to a participant's real physiological state. Real sensory input can coexist with the Mindscape, and the participant can retain the identity of each stream.\n\n- Independent streams may contribute together.\n- Re-presenting the same event does **not** multiply its contribution.\n- Nested shared perspectives do not create infinite feedback.\n- Stigmata and the established custom healing/sensory enhancements provide the agreed bodily effects.\n- Mental sensory contact does not transfer a physical Blood Agent, create a physical conception event, or accumulate Divine Union doses.\n\nThe complete paid Mindscape and communication suite is in **Tsar Workbook.md**. These are applications of that suite, not free abilities acquired by every character who knows a technique.\n\n### Ordinary climax versus Ecstasy\n\n**Established requirement:** An ordinary approximately one-minute climax should impair Tsar without automatically rendering him completely helpless.\n\n**Proposed implementation:** Decreased Time Rate 1 for the interval. A second “level” representing quarter-speed would be a house extension.\n\nNo final replacement impairment rule was recovered. Do not apply incapacitating **Affliction (Ecstasy)** automatically to ordinary bodily responses, and do not treat the proposed impairment as an adopted disadvantage purchase.\n\n### Spit Roast — Composite Configuration\n\n**Participants:** Three  \n**Techniques Required:** Multiple Partners for both outside participants; Double Play for the central participant; appropriate constituent sexual techniques.\n\nA Spit Roast is not a separate technique. It is a coordinated use of Multiple Partners and Double Play. The two outside participants each make a **ST-based Multiple Partners** roll, representing their ability to support, position, and coordinate the central participant. The central participant makes **Double Play**, specialized for one mouth-based maneuver and one vaginal or anal-position maneuver.\n\nWhen Double Play is used in this configuration, its two component techniques may affect different partners. Resolve Stimulation separately for each component rather than adding both values to a single recipient.\n\nFor anal penetration, make any required **Anal accommodation** roll separately. Anal itself supplies no Stimulation; use an appropriate penetrative position as the second component of Double Play.\n\nFailure by one outside participant means that participant loses proper coordination/support; the GM may end the configuration or impose -2 on the other participants' associated techniques until position is restored. Critical failure may cause the central participant to be dropped or badly mispositioned, at the GM's discretion.\n\nFailure of the central participant's Double Play means the two actions aren't successfully coordinated and should use the normal failure results of the constituent techniques.\n\n---",
+      "calc": {
+        "points": 0
+      }
+    },
+    {
+      "id": "TRWIkJVZzLBhoO-nH",
+      "name": "Draft Traits and Setting Concepts",
+      "container_type": "meta_trait",
+      "children": [
+        {
+          "id": "tW5s43yPwdqTwGfZy",
+          "name": "Time-Dragon Deathsight — DRAFT",
+          "tags": [
+            "Draft",
+            "Needs Review",
+            "Sol Mahina"
+          ],
+          "base_points": 25,
+          "modifiers": [
+            {
+              "id": "mjSJFBn40g2uYUKLk",
+              "name": "One Event — Death",
+              "cost_adj": "-40%"
+            },
+            {
+              "id": "mNfL08JYVAG_ul6Rq",
+              "name": "Passive Only",
+              "cost_adj": "-20%"
+            },
+            {
+              "id": "me2JuQr7E0TU9v5gN",
+              "name": "Cosmic",
+              "cost_adj": "100%",
+              "local_notes": "No Roll Required"
+            },
+            {
+              "id": "moDCvmbVpWugxmPNj",
+              "name": "Cosmic",
+              "cost_adj": "50%",
+              "local_notes": "Guaranteed Trigger on Encounter"
+            },
+            {
+              "id": "mrS5h19PUehGM_krW",
+              "name": "Cosmic",
+              "cost_adj": "50%",
+              "local_notes": "Clear Death Scene and Approximate Interval"
+            },
+            {
+              "id": "m0cFvekb_W7o-KUW5",
+              "name": "Cosmic",
+              "cost_adj": "50%",
+              "local_notes": "Unrestricted Future Horizon"
+            },
+            {
+              "id": "muFh-OJNdcTitS3tf",
+              "name": "Excludes Time Dragons, Gods and Godlike Beings",
+              "cost_adj": "-10%"
+            }
+          ],
+          "reference": "B77",
+          "disabled": true,
+          "local_notes": "INCOMPLETE OR PROPOSED BUILD. Disabled deliberately. A displayed zero is not a free power; finalize the specification and price before use.\n\n**Source:** September 16, “Building a GURPS Power.”  \n**Status:** The perceptual concept and exclusions are canon; the detailed build is a **proposal**.\n\n### Canonical effect\n\nTime dragons can perceive an individual's **moment of death** and an **approximate interval into the future**.\n\nIt does not work on:\n\n- Other time dragons.\n- Gods.\n- Godlike beings.\n\nAn unreadable subject is not thereby proven immortal or invulnerable.\n\n### Proposed GURPS build\n\n**Precognition [25]**:\n\n| Modifier | Proposed value |\n|---|---:|\n| One Event — Death | −40% |\n| Passive Only | −20% |\n| Cosmic — No Roll Required | +100% |\n| Cosmic — Guaranteed Trigger on Encounter | +50% |\n| Cosmic — Clear Death Scene and Approximate Interval | +50% |\n| Cosmic — Unrestricted Future Horizon | +50% |\n| Excludes Time Dragons, Gods, and Godlike Beings | −10% |\n\n**Original quoted additive price:** 25 × 2.80 = **[70]**.\n\n**Campaign MM price for exactly those proposed modifiers:** 25 × 3.50 × 0.30 = 26.25 → **[27]**.\n\nThe difference is the pricing convention, not a changed power. The custom modifier values, including the −10% exclusion, remain provisional; [27] should not be mistaken for a finalized campaign valuation.\n\n### Proposed operation\n\n- Triggers automatically and immediately when encountering or perceiving an eligible individual.\n- Supplies an intelligible death scene and a broad interval, such as hours, decades, or millennia.\n- Requires no concentration or FP in the proposed construction.\n- Does not supply a continuously exact countdown.\n\n### Still unresolved\n\nThe recovered conversation left the relationship between foresight and changeable fate to the setting's time-change rules. It did not establish whether intervention changes the vision, whether the sight follows one current branch, or how updates are perceived. Those rules remain open instead of being invented here.",
+          "calc": {
+            "points": 0
+          }
+        },
+        {
+          "id": "tMxLNf_Kwo7R2F9hL",
+          "name": "Compulsive Sexual Activity (Aylin; Full Moon Only) — DRAFT",
+          "tags": [
+            "Draft",
+            "Needs Review",
+            "Sol Mahina"
+          ],
+          "disabled": true,
+          "local_notes": "INCOMPLETE OR PROPOSED BUILD. Disabled deliberately. A displayed zero is not a free power; finalize the specification and price before use.\n\n**Source:** September 15 discussion.  \n**Recorded self-control number:** **6**.  \n**Final point cost:** Not recovered.\n\nThe discussed trigger is a full moon of **any natural moon on the current world**:\n\n- In Sol Mahina, a full Freya, Artemis, or Embyr moon can trigger it.\n- Several full moons do not stack the compulsion.\n- Once satisfied, the trigger is dormant until the next local day.\n- A moonless world cannot trigger this lunar condition.\n\nUse the current world's actual lunar state. Do not transplant Sol Mahina's three-moon timetable into an unrelated world's sky.",
+          "cr": 6,
+          "calc": {
+            "points": 0
+          }
+        },
+        {
+          "id": "ttXzpnep-oBKtMU5a",
+          "name": "Opportunity-Triggered Voyeurism (Tsargoth) — DRAFT",
+          "tags": [
+            "Draft",
+            "Needs Review",
+            "Sol Mahina"
+          ],
+          "disabled": true,
+          "local_notes": "INCOMPLETE OR PROPOSED BUILD. Disabled deliberately. A displayed zero is not a free power; finalize the specification and price before use.\n\n**Established September 14 preference:** The trigger only arises when a suitable opportunity already exists. It does **not** compel Tsar to seek out or manufacture opportunities.\n\nThe final trait name, self-control value, limitation percentage, and point cost were not recovered. Preserve this behavioral constraint in any future build.",
+          "calc": {
+            "points": 0
+          }
+        },
+        {
+          "id": "tJQWgAoDVz4lcvbO3",
+          "name": "Body and Reproductive Control (Banendeem) — DRAFT",
+          "tags": [
+            "Draft",
+            "Needs Review",
+            "Sol Mahina"
+          ],
+          "disabled": true,
+          "local_notes": "INCOMPLETE OR PROPOSED BUILD. Disabled deliberately. A displayed zero is not a free power; finalize the specification and price before use.\n\nSeptember discussion reaffirmed complete physical/reproductive control: she can change sex, species, and physical features, including incorporating features she has observed.\n\nNo final September point build was recovered. Her current form's ordinary racial limitations do not automatically define the full scope of her established control.",
+          "calc": {
+            "points": 0
+          }
+        },
+        {
+          "id": "t3vQGfHgMe8VTOMAc",
+          "name": "Ordinary Climax Impairment — DRAFT",
+          "tags": [
+            "Draft",
+            "Needs Review",
+            "Sol Mahina"
+          ],
+          "disabled": true,
+          "local_notes": "INCOMPLETE OR PROPOSED BUILD. Disabled deliberately. A displayed zero is not a free power; finalize the specification and price before use.\n\n**Established requirement:** An ordinary approximately one-minute climax should impair Tsar without automatically rendering him completely helpless.\n\n**Proposed implementation:** Decreased Time Rate 1 for the interval. A second “level” representing quarter-speed would be a house extension.\n\nNo final replacement impairment rule was recovered. Do not apply incapacitating **Affliction (Ecstasy)** automatically to ordinary bodily responses, and do not treat the proposed impairment as an adopted disadvantage purchase.",
+          "calc": {
+            "points": 0
+          }
+        },
+        {
+          "id": "t5zahZ2iXHouKAXk7",
+          "name": "Reproduction, Hybridization and Gestation — DRAFT",
+          "tags": [
+            "Draft",
+            "Needs Review",
+            "Sol Mahina"
+          ],
+          "disabled": true,
+          "local_notes": "INCOMPLETE OR PROPOSED BUILD. Disabled deliberately. A displayed zero is not a free power; finalize the specification and price before use.\n\nThe September discussions distinguish ordinary biological reproduction, magically enabled compatibility, specifically divine compatibility, and nonbiological creation.\n\n**Divine Union:** When Tsar intends conception and the partner willingly permits it, the intended Cosmic effect can overcome the discussed barriers of species, sex, anatomy, infertility, and ordinary reproductive compatibility.\n\nThat exception does not establish universal species-wide compatibility for all inhabitants.\n\nThe minimum-one-child Fertility-roll idea was proposed during September 12. A final offspring-count table was not recovered.\n\nFor the fictional fully functional intersex anatomies discussed later in September, self-fertilization may be possible if both gametes and a functional route are present. Reproductive control can determine whether such an event is permitted. No universal probability or new default self-fertilization trait was agreed.\n\nThe user specified that the relevant Sol Mahina genetics do not carry ordinary levels of hereditary risk from close relatedness. This remains a setting-specific biological assumption; it should not be silently applied to every imported species.\n\nOviparous development was discussed as **internal gestation plus external incubation**, rather than treating the entire development period as pregnancy.\n\nExamples using 29- or 32-month totals and a suggested minimum one-third internal period appeared in September 12 discussion. A six-month template entry was also questioned. The retrieved evidence does not establish one final universal gestation/incubation duration, so these remain examples and a template-review item rather than a new realm-wide rule.",
+          "calc": {
+            "points": 0
+          }
+        }
+      ],
+      "local_notes": "Disabled working designs. Existing generic source traits retain their original values; a source value is not automatically the final character-specific cost.",
+      "calc": {
+        "points": 0
       }
     }
   ]
