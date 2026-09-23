@@ -1,0 +1,5679 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "TqYpUr0Pe92Gp7kxO",
+			"name": "Time Bubble",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "tBQeu_f7lbo3j1xKf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "t6PGPHm9Ne6rxNIxG"
+					},
+					"name": "Control (@Element@)",
+					"reference": "P90",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"replacements": {
+						"Element": "Time"
+					},
+					"modifiers": [
+						{
+							"id": "mFTpMcFa95xtf2e4w",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mLOeloeWUHxhmADxT"
+							},
+							"name": "Persistent",
+							"reference": "P91",
+							"cost_adj": "40%",
+							"disabled": true
+						},
+						{
+							"id": "mAaJH1t-46IdNNbVS",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "myFwgq6dbxI6g085G"
+							},
+							"name": "Ranged",
+							"reference": "P91",
+							"cost_adj": "40%"
+						},
+						{
+							"id": "mxf3x8VJ7Wan21l9L",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mrZMGi9DCIUw7WGLB"
+							},
+							"name": "Collective",
+							"reference": "P92",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "m1hpwsDZwVxRYRhnO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mJRKp8HQzDLLMYxpZ"
+							},
+							"name": "Natural Phenomena",
+							"reference": "P92",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "m2BeOX1DiIRq7HtA9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mAistfjOIY7DNLNDh"
+							},
+							"name": "Cosmetic",
+							"reference": "P92",
+							"cost_adj": "-80%",
+							"disabled": true
+						},
+						{
+							"id": "mwzZG82YYGrP4z3s0",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "ma65u9IKQdXXditgq"
+							},
+							"name": "Super-Effort",
+							"reference": "SU26",
+							"cost_adj": "400%",
+							"disabled": true
+						},
+						{
+							"id": "mlkxm9JRPROUeSBHs",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mDod8Q12szZONv1Ti"
+							},
+							"name": "Rare",
+							"reference": "P90",
+							"cost_adj": "x2",
+							"disabled": true
+						},
+						{
+							"id": "mqwbNvKO89hh0qRKx",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m9450hITROx90r8N5"
+							},
+							"name": "Occasional",
+							"reference": "P90",
+							"cost_adj": "x3",
+							"disabled": true
+						},
+						{
+							"id": "mXU3XNI6z5xDsXfEg",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mp5Oh5QnLYzTQTdkz"
+							},
+							"name": "Common",
+							"reference": "P90",
+							"cost_adj": "x4",
+							"disabled": true
+						},
+						{
+							"id": "mPvTz2a6hhyisms9I",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Ability other than an attack or a defense",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mcC53sioK2LyZ1OA4",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mN8uzsyp52XUdqRIb"
+							},
+							"name": "Reduced Fatigue Cost",
+							"reference": "B108,P105",
+							"cost_adj": "20%",
+							"levels": 1
+						},
+						{
+							"id": "mQcSZ9FT1V5OcJOWC",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mUCjV40yAeps5rjRS"
+							},
+							"name": "Selective Area",
+							"reference": "B108,P105",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "mS9VYgmdLymC1GsSy",
+							"name": "Power Modifier",
+							"reference": "P26",
+							"local_notes": "Divine",
+							"cost_adj": "-10%"
+						},
+						{
+							"id": "maQL2UIY11LajEwYW",
+							"name": "God-Like",
+							"reference": "P90",
+							"cost_adj": "x8"
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 108,
+						"current_level": 1
+					}
+				}
+			],
+			"calc": {
+				"points": 108
+			}
+		},
+		{
+			"id": "T-ne1T23FthNilorj",
+			"source": {
+				"library": "/tsargoth/Sol-Mahina",
+				"path": "Library/Sol Mahina/Meta-Traits/Meta Traits.adq",
+				"id": "TGMYxtSYzvOLDzUa4"
+			},
+			"name": "God-like Time Bubble",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "tGQxo2HRUo3EiKXHf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "t6PGPHm9Ne6rxNIxG"
+					},
+					"name": "Control (@Element@)",
+					"reference": "P90",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"replacements": {
+						"Element": "Time"
+					},
+					"modifiers": [
+						{
+							"id": "mi81wZHylwKv2PdJ7",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mLOeloeWUHxhmADxT"
+							},
+							"name": "Persistent",
+							"reference": "P91",
+							"cost_adj": "40%",
+							"disabled": true
+						},
+						{
+							"id": "mzFjV__6Cp_uek42N",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "myFwgq6dbxI6g085G"
+							},
+							"name": "Ranged",
+							"reference": "P91",
+							"cost_adj": "40%"
+						},
+						{
+							"id": "mtLhgS-wUrIKkRQ2F",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mrZMGi9DCIUw7WGLB"
+							},
+							"name": "Collective",
+							"reference": "P92",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mS1wKyewUn0E9uqLb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mJRKp8HQzDLLMYxpZ"
+							},
+							"name": "Natural Phenomena",
+							"reference": "P92",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "m2pEWygS1S48TSPxz",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mAistfjOIY7DNLNDh"
+							},
+							"name": "Cosmetic",
+							"reference": "P92",
+							"cost_adj": "-80%",
+							"disabled": true
+						},
+						{
+							"id": "m08HoIW9BoEOLsRCb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "ma65u9IKQdXXditgq"
+							},
+							"name": "Super-Effort",
+							"reference": "SU26",
+							"cost_adj": "400%"
+						},
+						{
+							"id": "m8mFjsMaEHMx5CIbL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mDod8Q12szZONv1Ti"
+							},
+							"name": "Rare",
+							"reference": "P90",
+							"cost_adj": "x2",
+							"disabled": true
+						},
+						{
+							"id": "m_qQvdFUYK-8JnDDM",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m9450hITROx90r8N5"
+							},
+							"name": "Occasional",
+							"reference": "P90",
+							"cost_adj": "x3",
+							"disabled": true
+						},
+						{
+							"id": "mdI0U7-X3LpI5c3oL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mp5Oh5QnLYzTQTdkz"
+							},
+							"name": "Common",
+							"reference": "P90",
+							"cost_adj": "x4",
+							"disabled": true
+						},
+						{
+							"id": "m8p5R8P-GE6HtpUB_",
+							"name": "God-Like",
+							"reference": "P90",
+							"cost_adj": "x8"
+						},
+						{
+							"id": "mBBGS6xks7bAVTHX6",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Ability other than an attack or a defense",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mxggERCMtGXR9IlJM",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mN8uzsyp52XUdqRIb"
+							},
+							"name": "Reduced Fatigue Cost",
+							"reference": "B108,P105",
+							"cost_adj": "20%",
+							"levels": 1
+						},
+						{
+							"id": "mqdfQWEhc00OVOP2y",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mUCjV40yAeps5rjRS"
+							},
+							"name": "Selective Area",
+							"reference": "B108,P105",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "m13mxVQNL84sm7vGW",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Modifiers.adm",
+								"id": "mwFciq5taGETxgTSp"
+							},
+							"name": "Cosmic",
+							"reference": "P26",
+							"local_notes": "Power cannot be Negated",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "mQ-FP970fK61aXZIm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mAhlwPrxGuFJnBG-6"
+							},
+							"name": "Cosmic",
+							"reference": "PU4:8",
+							"local_notes": "No die roll required",
+							"cost_adj": "+100%"
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 9,
+					"calc": {
+						"points": 2988,
+						"current_level": 9
+					}
+				}
+			],
+			"calc": {
+				"points": 2988
+			}
+		},
+		{
+			"id": "tN_OlvNdaw7MiAsx7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tRaD38dfYa7Iuyh97"
+			},
+			"name": "Mind Control",
+			"reference": "B68,P61,PSI15",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental"
+			],
+			"replacements": {
+				"Attribute": "IQ, HT, or Will",
+				"Avoided drawback": "Target must be personally known, uniquely identifiable, or currently located through another appropriate sense/ability.",
+				"Avoided drawback2": "The recipient can process arbitrarily accelerated transmitted memories/experiences without neurological damage, sensory overload, unconsciousness, or lasting cognitive harm. Subjective comprehension and memory formation occur normally despite the compression."
+			},
+			"modifiers": [
+				{
+					"id": "mkMlC1ZyIzq1-dWvY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "m9Prhuwy3uGp39ona"
+					},
+					"name": "Conditioning",
+					"reference": "B69",
+					"cost_adj": "50%",
+					"disabled": true
+				},
+				{
+					"id": "mEjH9NVV7MG-8bKFs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "ma0WjT5SygIShibu6"
+					},
+					"name": "Reliable",
+					"reference": "B98",
+					"cost_adj": "5%",
+					"levels": 10
+				},
+				{
+					"id": "mY-H7UrDwX4A96RZR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mr0CC7Amtpaa_eERR"
+					},
+					"name": "No Memory",
+					"reference": "B69",
+					"cost_adj": "10%",
+					"disabled": true
+				},
+				{
+					"id": "mDjmjZB-971YFjvHj",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mWhAf893gubf7G6Ry"
+					},
+					"name": "Conditioning Only",
+					"reference": "B69",
+					"cost_adj": "-50%",
+					"disabled": true
+				},
+				{
+					"id": "m1Jra7i0xmrmOACuQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mvK1VurbXhcLDtCjm"
+					},
+					"name": "Puppet",
+					"reference": "B69",
+					"cost_adj": "-40%",
+					"disabled": true
+				},
+				{
+					"id": "mF2FfFmvSzco5CIH9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mBDCm4MbOznTO-pRE"
+					},
+					"name": "Independent",
+					"reference": "P61",
+					"cost_adj": "70%"
+				},
+				{
+					"id": "ms12jCX7SHTEJw5y0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mfjt9i15mmJoQfSGf"
+					},
+					"name": "Cosmic",
+					"reference": "B103",
+					"local_notes": "Irresistible attack",
+					"cost_adj": "300%"
+				},
+				{
+					"id": "mQAkGnyUDXri40IY7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mAcXHUUlvgjQDrnKm"
+					},
+					"name": "Emotion Control",
+					"reference": "P61",
+					"cost_adj": "-50%",
+					"disabled": true
+				},
+				{
+					"id": "myb7SkNheYsvuDzmP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "m33oDsb8lmTsYbLOM"
+					},
+					"name": "One Emotion Only",
+					"reference": "H17",
+					"cost_adj": "-80%",
+					"disabled": true
+				},
+				{
+					"id": "msy2d3dvDcndKChtE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "muuCKUZkqLLOlhbm7"
+					},
+					"name": "Suggestion",
+					"reference": "P61",
+					"cost_adj": "-40%",
+					"disabled": true
+				},
+				{
+					"id": "mPbNsTb4hZKiWCXd9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mXuzU8SuvygccSa3H"
+					},
+					"name": "Rationalization",
+					"reference": "PSI15",
+					"cost_adj": "20%",
+					"disabled": true
+				},
+				{
+					"id": "mWVwX3AjCwVkW-j5W",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mkeRiGMvSDIXHzLCk"
+					},
+					"name": "Slow and Sure",
+					"reference": "PSI15",
+					"local_notes": "1 hour",
+					"cost_adj": "80%",
+					"disabled": true
+				},
+				{
+					"id": "mYc0jFBk2maVJIhW1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mwS72Djl_QV9Ev912"
+					},
+					"name": "Slow and Sure Only",
+					"reference": "PSI15",
+					"local_notes": "1 hour",
+					"cost_adj": "40%",
+					"disabled": true
+				},
+				{
+					"id": "m2R86nAou2V1sQFzw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mM3QXTkgrLy8DUTYe"
+					},
+					"name": "Slow and Sure",
+					"reference": "PSI15",
+					"local_notes": "10 minutes",
+					"cost_adj": "110%",
+					"disabled": true
+				},
+				{
+					"id": "mHXky58P1yMbzZDCC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mF3u6EYYa-Q0WvamW"
+					},
+					"name": "Slow and Sure Only",
+					"reference": "PSI15",
+					"local_notes": "10 minutes",
+					"cost_adj": "70%",
+					"disabled": true
+				},
+				{
+					"id": "mHr9xRd7Arp-DxzXv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mUFww3lRubl2V4Qz3"
+					},
+					"name": "Slow and Sure",
+					"reference": "PSI15",
+					"local_notes": "10 seconds",
+					"cost_adj": "155%",
+					"disabled": true
+				},
+				{
+					"id": "mYAS_YjO1nkTeS7Ai",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mifNzyW7ZBEVa9Ije"
+					},
+					"name": "Slow and Sure Only",
+					"reference": "PSI15",
+					"local_notes": "10 seconds",
+					"cost_adj": "115%",
+					"disabled": true
+				},
+				{
+					"id": "mSLZ9sW2ev15X_EvV",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mp6v-_UjZd8ZMDblq"
+					},
+					"name": "Mind Tricks",
+					"reference": "PSI15",
+					"cost_adj": "-30%",
+					"disabled": true
+				},
+				{
+					"id": "m22wfb2y4QTyl4MFG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mCsIKBy7rW_6bXh1d"
+					},
+					"name": "Cosmic",
+					"reference": "B103",
+					"local_notes": "No Multiple-Subject Penalty",
+					"cost_adj": "50%"
+				},
+				{
+					"id": "m6NyfAG4qg-9sZXyX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mCsIKBy7rW_6bXh1d"
+					},
+					"name": "Cosmic",
+					"reference": "B103",
+					"local_notes": "Ability other than an attack or a defense",
+					"cost_adj": "50%",
+					"disabled": true
+				},
+				{
+					"id": "mtsHg2NFKUCcE7fEn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mVIPwP64p4POxRhkL"
+					},
+					"name": "Link",
+					"reference": "B106,P103",
+					"local_notes": "@linked abilities@, must be used as a single ability",
+					"cost_adj": "10%",
+					"disabled": true
+				},
+				{
+					"id": "m0ZHlO-LqkceoubqS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "m6a1aTfBRAaUvv1sr"
+					},
+					"name": "Based on @Attribute@",
+					"reference": "B102",
+					"local_notes": "Must manually alter advantage for Attribute chosen",
+					"cost_adj": "+60%"
+				},
+				{
+					"id": "m0cZxI1BNYFtawn2i",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+						"id": "m76xVWn9HOCphce2M"
+					},
+					"name": "Cosmic",
+					"reference": "B103, PU4:7",
+					"local_notes": "@Avoided drawback@",
+					"cost_adj": "+50%",
+					"calc": {
+						"resolved_notes": "Target must be personally known, uniquely identifiable, or currently located through another appropriate sense/ability."
+					}
+				},
+				{
+					"id": "mKUThbSYwvYrhdzOo",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+						"id": "m7WTBbaGx9WCn5yyY"
+					},
+					"name": "Cosmic",
+					"reference": "PU4:7",
+					"local_notes": "No Rule of 16",
+					"cost_adj": "+50%"
+				},
+				{
+					"id": "mIOs2lN-MgpowUIZQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mdF_YOT8TLBmhnsO-"
+					},
+					"name": "Reduced Time",
+					"reference": "B108",
+					"cost_adj": "20%",
+					"levels": 1
+				},
+				{
+					"id": "mlFH0W95BmOc5vxiw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+						"id": "m76xVWn9HOCphce2M"
+					},
+					"name": "Cosmic",
+					"reference": "B103, PU4:7",
+					"local_notes": "@Avoided drawback2@",
+					"cost_adj": "+100%",
+					"calc": {
+						"resolved_notes": "The recipient can process arbitrarily accelerated transmitted memories/experiences without neurological damage, sensory overload, unconsciousness, or lasting cognitive harm. Subjective comprehension and memory formation occur normally despite the compression."
+					}
+				}
+			],
+			"base_points": 50,
+			"calc": {
+				"points": 425
+			}
+		},
+		{
+			"id": "tYr6TuX0Nn-5TnhmD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tDHschYOgUSlMTOYN"
+			},
+			"name": "Compartmentalized Mind",
+			"reference": "B43,PSI13",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mMutIDxXz40P_foCq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mvCXQy_S93PswWUz3"
+					},
+					"name": "Massively Parallel",
+					"reference": "SU26",
+					"cost_adj": "20%"
+				},
+				{
+					"id": "m0p3McAhGSbIbg9_X",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mcuU0eQAmaSJ5cXQY"
+					},
+					"name": "Controls",
+					"reference": "B43",
+					"cost_adj": "-25",
+					"affects": "base_only",
+					"disabled": true
+				},
+				{
+					"id": "mbMiJ3s4UZUyoXJ_L",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mYvnEWrYIjJnZAQ6u"
+					},
+					"name": "Dedicated Controls",
+					"reference": "B43",
+					"cost_adj": "-40",
+					"affects": "base_only",
+					"disabled": true
+				},
+				{
+					"id": "mHvdCQY2En_MaX7E1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mM8oMEwpCEnyzAU7j"
+					},
+					"name": "Limited, One Ability",
+					"reference": "PSI13",
+					"local_notes": "@Ability@",
+					"cost_adj": "-30%",
+					"disabled": true
+				},
+				{
+					"id": "mPNbYjGkGfitowq8g",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mg2QpORn2IeHNSXbd"
+					},
+					"name": "Limited, One Power",
+					"reference": "PSI13",
+					"local_notes": "@Power@",
+					"cost_adj": "-20%",
+					"disabled": true
+				},
+				{
+					"id": "maGBogSLJ-wxsHKqz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mKWPWQqXrCLx7SR4r"
+					},
+					"name": "Mental Separation Only",
+					"reference": "PSI13",
+					"cost_adj": "-80%",
+					"disabled": true
+				},
+				{
+					"id": "mf1J7XdFvVX4CyBB2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mDN5FLdjNbMxB6u4R"
+					},
+					"name": "Mentalism",
+					"reference": "PSI14",
+					"cost_adj": "-10%",
+					"disabled": true
+				},
+				{
+					"id": "mRHfsg5KJQmShhGvK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "moeQS44aSLzqECiWF"
+					},
+					"name": "No Mental Separation",
+					"reference": "PSI14",
+					"cost_adj": "-20%",
+					"disabled": true
+				},
+				{
+					"id": "m0IslvpqPtEeFZTyD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Modifiers.adm",
+						"id": "mwFciq5taGETxgTSp"
+					},
+					"name": "Cosmic",
+					"reference": "P26",
+					"local_notes": "Power cannot be Negated",
+					"cost_adj": "50%"
+				},
+				{
+					"id": "m2U__6-Dmo_rLIBUv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+						"id": "mpgXdAagogt4zVPtE"
+					},
+					"name": "Switchable",
+					"reference": "PU4:17",
+					"cost_adj": "10%"
+				},
+				{
+					"id": "mp1t8zxQ2maz_13cv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mN8uzsyp52XUdqRIb"
+					},
+					"name": "Reduced Fatigue Cost",
+					"reference": "B108,P105",
+					"cost_adj": "20%",
+					"levels": 1
+				}
+			],
+			"points_per_level": 50,
+			"can_level": true,
+			"levels": 19,
+			"calc": {
+				"points": 1900,
+				"current_level": 19
+			}
+		},
+		{
+			"id": "tZyOnktDsL7jYAy2Z",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tW-eAzIKBWa5Yc9cI"
+			},
+			"name": "Eidetic Memory",
+			"reference": "B51",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mMJJXVDxob3zvm_Jv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "m6xLnK5M4rXf4E9WV"
+					},
+					"name": "Photographic",
+					"reference": "B51",
+					"cost_adj": "5"
+				},
+				{
+					"id": "mlsKpiOJt6mrf53DI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mCsIKBy7rW_6bXh1d"
+					},
+					"name": "Cosmic",
+					"reference": "B103",
+					"local_notes": "Total Experiential Archive",
+					"cost_adj": "+150%"
+				}
+			],
+			"base_points": 5,
+			"calc": {
+				"points": 25
+			}
+		},
+		{
+			"id": "TatonV_qcLSoyd1yF",
+			"source": {
+				"library": "/tsargoth/Sol-Mahina",
+				"path": "Library/Sol Mahina/Meta-Traits/Meta Traits.adq",
+				"id": "TL_WaMPFFJpky_zY_"
+			},
+			"name": "Mindscape",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "tI7qaYAn1UrMn1PEL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "t7cedkAy56y7BYg9q"
+					},
+					"name": "Illusion",
+					"reference": "P94,PSI14",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"replacements": {
+						"Avoided drawback": "No ordinary line-of-sight or targeting requirement: a personallyknown, uniquely identifiable, or otherwise appropriately sensed subjectis sufficient.",
+						"Avoided drawback2": "Safe Compressed Experience",
+						"Avoided drawback3": "Cross-Reality / World-Spanning Targeting",
+						"Avoided drawback4": "Source-Authentic Sensorium"
+					},
+					"modifiers": [
+						{
+							"id": "mf6pnQlXip6Z_eaqh",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mzXBAjOYmXZc-sQ5Q"
+							},
+							"name": "Visual Only",
+							"reference": "P95",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "m4vj61VsR6tzEZTSj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mviOzOBR5L_NO91uf"
+							},
+							"name": "Static",
+							"reference": "P95",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "mfVh12si5V0jHgP1j",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mCW3_xtnmhAPcOd5v"
+							},
+							"name": "Mental",
+							"reference": "P95",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "mYr8_ak2P6E8KgTxv",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mye9TWEKnEEhTRRuh"
+							},
+							"name": "Initiative",
+							"reference": "P95",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "mvYFIRMehpZAn7Blp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m4S-b0HDn50e5_Yne"
+							},
+							"name": "Stigmata",
+							"reference": "P95",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "mn60l-hKpXyFTkXQn",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Irresistible attack",
+							"cost_adj": "300%"
+						},
+						{
+							"id": "mW42DlufFFzpAsOk9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m7WTBbaGx9WCn5yyY"
+							},
+							"name": "Cosmic",
+							"reference": "PU4:7",
+							"local_notes": "No Rule of 16",
+							"cost_adj": "+50%"
+						},
+						{
+							"id": "mtlFOY9TJTTt-l75V",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "No Multiple-Subject Penalty",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "mUuNQxsWQetvfYNxY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback2@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Safe Compressed Experience"
+							}
+						},
+						{
+							"id": "mvbKX_dJuKSEUo4AQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback4@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Source-Authentic Sensorium"
+							}
+						},
+						{
+							"id": "mWZ9cpq8qOpSo3TVB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Can heal as well as harm",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "m4Ol-c5rcXppN91c5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "ma0WjT5SygIShibu6"
+							},
+							"name": "Reliable",
+							"reference": "B98",
+							"cost_adj": "5%",
+							"levels": 10
+						},
+						{
+							"id": "mJmrEEQ5msvEromMt",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mOMSdlNapPhZ-GxbZ"
+							},
+							"name": "Independence",
+							"reference": "P95",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mpFNzRZn2AH6qxctq",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback@",
+							"cost_adj": "+50%",
+							"calc": {
+								"resolved_notes": "No ordinary line-of-sight or targeting requirement: a personallyknown, uniquely identifiable, or otherwise appropriately sensed subjectis sufficient."
+							}
+						},
+						{
+							"id": "mt_nCUTJgn3auft3h",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mdF_YOT8TLBmhnsO-"
+							},
+							"name": "Reduced Time",
+							"reference": "B108",
+							"cost_adj": "20%",
+							"levels": 1
+						},
+						{
+							"id": "mR97g9U5fO2QYQjWb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback3@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Cross-Reality / World-Spanning Targeting"
+							}
+						},
+						{
+							"id": "mx-vkwPjK2puD87_e",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mCyc5Rzr7IttExQ0u"
+							},
+							"name": "Hallucinations",
+							"reference": "PSI14",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mKZkeKF0U-y-liG0U",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mVf6turBAuZ0RtFFo"
+							},
+							"name": "Extended",
+							"reference": "P95",
+							"local_notes": "@Sense@",
+							"cost_adj": "+40%",
+							"disabled": true
+						},
+						{
+							"id": "mnGVq-0nCxrfd_MRV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mBdt4Cq7zcxUYJeEH"
+							},
+							"name": "Cosmic",
+							"reference": "PU4:7",
+							"local_notes": "Memory-Perfect Reconstruction",
+							"cost_adj": "+50%",
+							"disabled": true
+						},
+						{
+							"id": "md9VY22nsP9gSmyDU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m3lQzeAMMYXTmP6Bq"
+							},
+							"name": "Auditory Only",
+							"reference": "P95",
+							"cost_adj": "-70%",
+							"disabled": true
+						}
+					],
+					"base_points": 25,
+					"calc": {
+						"points": 318
+					}
+				}
+			],
+			"calc": {
+				"points": 318
+			}
+		},
+		{
+			"id": "TGRkWZpuHNEqQ9_Zg",
+			"name": "Familiar Bond",
+			"children": [
+				{
+					"id": "tnJ4bMRelA-y4sZ6j",
+					"name": "Familiar Bond Channel",
+					"local_notes": "A Familiar Bond establishes a standing Mindlink. Tsargoth may open a telepathic channel to that familiar; Mindlink makes this contact automatic. Once opened, the channel may remain established indefinitely regardless of distance or world. While open, Familiar Consciousness is Always On and the familiar's complete conscious stream flows continuously into Tsargoth. Tsargoth cannot selectively suppress or filter incoming information while leaving that channel open. He may deliberately close the entire channel as a free action, stopping conscious-stream reception until he reopens it. Closing the channel does not sever the underlying Mindlink.",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tXLSq5A7AUkBQLzDi",
+					"name": "Me-Stream",
+					"local_notes": "Tsargoth may combine Familiar Communion with Mindscape to deliberately share any selected portion of his current conscious experience as an immersive first-person perspective. This may include thoughts, emotions, sensory experience, body-schema, proprioception, interoception, remembered experience, and selected conscious streams currently present within his awareness. Mindscape provides the experiential representation; Familiar Communion carries Tsargoth's genuine live conscious state.",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "teY1DMCa_dTyTo5TZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tnhMF2YViX6AhTHKD"
+					},
+					"name": "Telecommunication",
+					"reference": "B91,P81,PSI17",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"replacements": {
+						"Avoided drawback": "Familiar Bond cannot be intercepted or jammed except by Cosmic effects.",
+						"Avoided drawback2": "Safe Compressed Transmission"
+					},
+					"modifiers": [
+						{
+							"id": "mXsltuhHRboXgPO_K",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mpagATfvi4EDi8nc7"
+							},
+							"name": "Telesend",
+							"reference": "B91",
+							"cost_adj": "30"
+						},
+						{
+							"id": "mHML0irESAejwwDHy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m_GNRS7lllixGgFZj"
+							},
+							"name": "Universal",
+							"reference": "B91",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "ms-K0l5V6nVkP5NFs",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "muh1Nc1xo-QAIDyQF"
+							},
+							"name": "Video",
+							"reference": "B91",
+							"cost_adj": "40%"
+						},
+						{
+							"id": "mYd0_swg193vuzLM5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mU-ZvZGrSZ-NIRyxM"
+							},
+							"name": "Sensie",
+							"reference": "P82",
+							"cost_adj": "80%"
+						},
+						{
+							"id": "mSuQVmzqXA02cePdV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mCavCxpkEg1Lbi08F"
+							},
+							"name": "Full Communion",
+							"reference": "PSI17",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "mn5tbBL5oUD1KPgPt",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback2@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Safe Compressed Transmission"
+							}
+						},
+						{
+							"id": "mBJ3Y1Mb0F47LfuHK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mXxBxWWJbiCbPz47G"
+							},
+							"name": "World Spanning",
+							"reference": "PU4:18",
+							"local_notes": "Other Worlds & Current World",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "ms1sNIeQMZw87M-1Q",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback@",
+							"cost_adj": "+50%",
+							"calc": {
+								"resolved_notes": "Familiar Bond cannot be intercepted or jammed except by Cosmic effects."
+							}
+						},
+						{
+							"id": "mzqxQaGxXHGSLffIu",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Instantaneous across any distance",
+							"cost_adj": "+200%"
+						},
+						{
+							"id": "mat0P0ZApFGpwdmeU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mjUHLi7yFcj5G3CMz"
+							},
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost_adj": "10",
+							"disabled": true
+						},
+						{
+							"id": "muUBxcVkXdidQfVFw",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mIDnhrr44UfsUXU5N"
+							},
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost_adj": "15",
+							"disabled": true
+						},
+						{
+							"id": "mbsrbt8V4rZ64_Qon",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mYjiLO9iuXumpaF7S"
+							},
+							"name": "Radio",
+							"reference": "B91",
+							"cost_adj": "10",
+							"disabled": true
+						},
+						{
+							"id": "mrmyjHVlsj3rXRSvn",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mdQGqEsvMC9tffxpa"
+							},
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mV7aQUmK3wJQo7CHg",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mqXuITjXkt8Z9CBUt"
+							},
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mxdSzfLHlqOpIEU7P",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mTxcW7_PWyNW0Ho7F"
+							},
+							"name": "Racial",
+							"reference": "B91",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "m6i5_DNh6gZuh73_b",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "msJL_jiIwCW6udUHe"
+							},
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mSmV9KdGLbTNh6-pU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "maGBfFmm8PpYucQS0"
+							},
+							"name": "Send Only",
+							"reference": "B91",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mbSz_OqNIwAizVx7s",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mMtiKGYnV5jG1jjzk"
+							},
+							"name": "Vague",
+							"reference": "B91",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "m74NyPiAuRnXHwoHd",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "ml6V6dzntV0S7FcV5"
+							},
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost_adj": "5",
+							"disabled": true
+						},
+						{
+							"id": "mhvmhzy3m3dBRwe1N",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mX5NbYQtbRJUpvbxW"
+							},
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost_adj": "20",
+							"disabled": true
+						},
+						{
+							"id": "mkGA112TL5mwdvoae",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m2fwOF6LifZFmlyyF"
+							},
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost_adj": "25",
+							"disabled": true
+						},
+						{
+							"id": "mMuoz7KW4ciba8Jh-",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mRzh0Bgtq-ioXAL5h"
+							},
+							"name": "Sonar",
+							"reference": "P81",
+							"cost_adj": "10",
+							"disabled": true
+						},
+						{
+							"id": "mcl31FOKQXtlBJWTd",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mMMu_3y6KBYIxo2ZG"
+							},
+							"name": "Burst",
+							"reference": "P81",
+							"cost_adj": "30%",
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mwJPhqXdxX9sfnTbA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mHuUCU8hgfA__hwyV"
+							},
+							"name": "FTL",
+							"reference": "P82",
+							"cost_adj": "120%",
+							"disabled": true
+						},
+						{
+							"id": "m-mL6ZvU_53zIlUwT",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mq9Yk-h8tPB021ic0"
+							},
+							"name": "Secure",
+							"reference": "P82",
+							"cost_adj": "20%",
+							"disabled": true
+						},
+						{
+							"id": "mW62JNS4-ZR569XQj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mc5Q5e-bbYNxef--L"
+							},
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost_adj": "5",
+							"disabled": true
+						},
+						{
+							"id": "m7r4uC2YB6kmZX1Aq",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mdF_YOT8TLBmhnsO-"
+							},
+							"name": "Reduced Time",
+							"reference": "B108",
+							"cost_adj": "20%",
+							"levels": 1
+						},
+						{
+							"id": "mzRGzUlC5jINQmL5U",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Modifiers.adm",
+								"id": "mwFciq5taGETxgTSp"
+							},
+							"name": "Cosmic",
+							"reference": "P26",
+							"local_notes": "Selective Mass Bond Transmission",
+							"cost_adj": "+10%",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 228
+					}
+				},
+				{
+					"id": "tIt3-Q_oUnCfe9_I4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tjp66Ocn2kW2Z8uN1"
+					},
+					"name": "Mind Probe",
+					"reference": "B69,P61",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"replacements": {
+						"Avoided drawback": "Complete Memory Access",
+						"Avoided drawback2": "Continuous Parallel Familiar Awareness",
+						"Avoided drawback3": "Unlimited Cognitive Bandwidth",
+						"Avoided drawback4": "Familiar Bond Access",
+						"Avoided drawback5": "Bond-State Analysis"
+					},
+					"modifiers": [
+						{
+							"id": "met1nBfsJV7nxKxaG",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mA7hMxkn1TvKb52f2"
+							},
+							"name": "Cybernetic",
+							"reference": "B69",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mQbn9lm9xW93VVxai",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "miVTkAJ64w-4q52Mj"
+							},
+							"name": "Invasive",
+							"reference": "P62",
+							"cost_adj": "75%"
+						},
+						{
+							"id": "m1zaFKIoE7HdtWxsQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mHRRw5dUlBVrYRkvv"
+							},
+							"name": "Universal",
+							"reference": "B69",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "mjiEuXKVMvRIdai5Z",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m_PLkyS9vK8YZefaa"
+							},
+							"name": "Sensory",
+							"reference": "B69",
+							"cost_adj": "20%",
+							"disabled": true
+						},
+						{
+							"id": "m9rGuyZgKKEZaclph",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Irresistible attack",
+							"cost_adj": "300%"
+						},
+						{
+							"id": "mRelkjRQOLv356IOh",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m7WTBbaGx9WCn5yyY"
+							},
+							"name": "Cosmic",
+							"reference": "PU4:7",
+							"local_notes": "No Rule of 16",
+							"cost_adj": "+50%"
+						},
+						{
+							"id": "mrsxF8di8-qBSbOHh",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mdF_YOT8TLBmhnsO-"
+							},
+							"name": "Reduced Time",
+							"reference": "B108",
+							"cost_adj": "20%",
+							"levels": 1
+						},
+						{
+							"id": "mC-IqChQWBanJJ1q2",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mXxBxWWJbiCbPz47G"
+							},
+							"name": "World Spanning",
+							"reference": "PU4:18",
+							"local_notes": "Other Worlds & Current World",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "m7Bka63bshYzk55WL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback3@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Unlimited Cognitive Bandwidth"
+							}
+						},
+						{
+							"id": "m-FD5jf1vYxxo2ulb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback4@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Familiar Bond Access"
+							}
+						},
+						{
+							"id": "maG-mtvDQLeJNqMK9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Complete Memory Access"
+							}
+						},
+						{
+							"id": "mCf5ggD6eyZV9Bauf",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback2@",
+							"cost_adj": "+100%",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Continuous Parallel Familiar Awareness"
+							}
+						},
+						{
+							"id": "mo60C3o7hvAZ88gZo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback5@",
+							"cost_adj": "+100%",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Bond-State Analysis"
+							}
+						},
+						{
+							"id": "m_b0MvG7d9M1mG5ED",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mV_e9YmpZx3uKbjSx"
+							},
+							"name": "Cybernetic Only",
+							"reference": "B70",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mHIn0D9cec_T5OQLU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mJ1JyWVv9exEaWyIK"
+							},
+							"name": "Racial",
+							"reference": "B70",
+							"local_notes": "@Race@",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mumQ3LFigcdcJJ02X",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mEXBX0-aLmHG9wFN-"
+							},
+							"name": "Sensory Only",
+							"reference": "B70",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mO1Uw0Peghzd2tASY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mpz4U3RzriQIa8yLp"
+							},
+							"name": "Telecommunication",
+							"reference": "B70",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mk2EU6eq5_fzePwSb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m-M45j6uKcoPckBkz"
+							},
+							"name": "Memory Bank",
+							"reference": "P62",
+							"local_notes": "IQ snapshots",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "m3aiyA_lZ_56JPKdv",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mS0Qn6gBd7UrgYsPB"
+							},
+							"name": "Memory Bank",
+							"reference": "P62",
+							"local_notes": "Unlimited snapshots",
+							"cost_adj": "150%",
+							"disabled": true
+						}
+					],
+					"base_points": 20,
+					"calc": {
+						"points": 199
+					}
+				},
+				{
+					"id": "tbrdcuPWEMYj-SDP0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tap6QZdAg9aCR_Tvf"
+					},
+					"name": "Detect",
+					"reference": "B48,P47,PSI14",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"replacements": {
+						"Avoided drawback2": "Continuous Parallel Familiar Awareness",
+						"Avoided drawback5": "Bond-State Analysis",
+						"Very Common Substance/Condition": "Followers"
+					},
+					"modifiers": [
+						{
+							"id": "m48Anbb9cujVGRvUI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mnsNPa2hsUzfnbkKY"
+							},
+							"name": "@Rare Substance/Condition@",
+							"reference": "B48",
+							"cost_adj": "5",
+							"disabled": true
+						},
+						{
+							"id": "meHWhrh0TX_n1RNxJ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mDvDpqyCGkfgiLw0x"
+							},
+							"name": "@Occasional Substance/Condition@",
+							"reference": "B48",
+							"cost_adj": "10",
+							"disabled": true
+						},
+						{
+							"id": "mIc2cl27ZI0idp_fM",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mdsnlWJ_-US-lQZ-S"
+							},
+							"name": "@Common Substance/Condition@",
+							"reference": "B48",
+							"cost_adj": "20",
+							"disabled": true
+						},
+						{
+							"id": "mOFLoE-MnBZUmUCQ9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mntz253Yj9gk03Tgr"
+							},
+							"name": "@Very Common Substance/Condition@",
+							"reference": "B48",
+							"cost_adj": "30"
+						},
+						{
+							"id": "mvFQDiHXDTgWrFvVi",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mPPmEWFiFW4xnAUQC"
+							},
+							"name": "Precise",
+							"reference": "B48",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "mnwV_HzxM0vkHLKKb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mm7NFTGMT7WAVUoUK"
+							},
+							"name": "Signal Detection",
+							"reference": "B48",
+							"disabled": true
+						},
+						{
+							"id": "mhoNr1ea6pHIMW_7P",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m3Gi0baQ4JRyWUrQ9"
+							},
+							"name": "Vague",
+							"reference": "B48",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mZHOzmEfryofCX4me",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mGdSFXcLrAT2nxDSA"
+							},
+							"name": "Analyzing",
+							"reference": "P47",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "mu9qfV929p8kCcj4F",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m7xnF5_vszgFiXnBl"
+							},
+							"name": "Lock-On",
+							"reference": "PSI14",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mlqSQtUx2tDkYdKwQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mgaprlX_XNaG30HrT"
+							},
+							"name": "Precise, Nontargeting",
+							"reference": "PSI14",
+							"cost_adj": "90%",
+							"disabled": true
+						},
+						{
+							"id": "mmiYzEhcIEj1gkz3N",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mIxoaFOb0BoMgiDhw"
+							},
+							"name": "Analysis Only",
+							"reference": "PSI14",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mTqmCe8j6Aj4ZXqw6",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mq_xs1pOJ_lu7rYHd"
+							},
+							"name": "Cannot Analyze",
+							"reference": "PSI14",
+							"cost_adj": "-10%",
+							"disabled": true
+						},
+						{
+							"id": "mskKIxqQL1tvxNLgU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mdF_YOT8TLBmhnsO-"
+							},
+							"name": "Reduced Time",
+							"reference": "B108",
+							"cost_adj": "20%",
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m2DQUT3r1TxVSPNoc",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mXxBxWWJbiCbPz47G"
+							},
+							"name": "World Spanning",
+							"reference": "PU4:18",
+							"local_notes": "Other Worlds & Current World",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "mQdqrGSGUqCLs5vZf",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Bond ignores ordinary distance/contact limits,",
+							"cost_adj": "+100%"
+						},
+						{
+							"id": "mmJFKgzV5R34CsEz0",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mAhlwPrxGuFJnBG-6"
+							},
+							"name": "Cosmic",
+							"reference": "PU4:8",
+							"local_notes": "No die roll required",
+							"cost_adj": "+100%"
+						},
+						{
+							"id": "mG-4fKwnGeqV19pXx",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mTYvKaY-Gi0-12GvL"
+							},
+							"name": "Reflexive",
+							"reference": "PU4:16",
+							"cost_adj": "40%"
+						},
+						{
+							"id": "m4W02380y_ucHldfe",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback5@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Bond-State Analysis"
+							}
+						},
+						{
+							"id": "mfslP4sZo-w4VbxGy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback2@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Continuous Parallel Familiar Awareness"
+							}
+						}
+					],
+					"calc": {
+						"points": 252
+					}
+				},
+				{
+					"id": "teOAe_eO7ZL6wvBHe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tb1cIXijh7je3wHbx"
+					},
+					"name": "Mind Reading",
+					"reference": "B69,P61",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"replacements": {
+						"Avoided drawback1": "Unlimited Cognitive Bandwidth",
+						"Avoided drawback2": "Complete Conscious Stream",
+						"Avoided drawback3": "Continuous Parallel Consciousness"
+					},
+					"modifiers": [
+						{
+							"id": "m_IRe9dnmDx8Qw5Cl",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mYc0DNnRbWN0jS5hY"
+							},
+							"name": "Sensory",
+							"reference": "B69",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "mc23B58VVaq6cgEHd",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mmOcb_-w5SX6nq8jg"
+							},
+							"name": "Universal",
+							"reference": "B69",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "mB44U7g-zPqv9b0YO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mStGOdg01wsUDzzHa"
+							},
+							"name": "Telecommunication",
+							"reference": "B70",
+							"cost_adj": "-20%"
+						},
+						{
+							"id": "mnLiph_wwDwCjH2Yy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mUPms1Ic3Z-7C6jno"
+							},
+							"name": "Multiple Contacts",
+							"reference": "P62",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "m2L38uzwJyWqJTo0B",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Irresistible attack",
+							"cost_adj": "300%"
+						},
+						{
+							"id": "mp8FrKl57BdABF4uv",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m7WTBbaGx9WCn5yyY"
+							},
+							"name": "Cosmic",
+							"reference": "PU4:7",
+							"local_notes": "No Rule of 16",
+							"cost_adj": "+50%"
+						},
+						{
+							"id": "moeIDHPZ6u87V-plN",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback1@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Unlimited Cognitive Bandwidth"
+							}
+						},
+						{
+							"id": "mS4H7SCRebtirjDs5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback3@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Continuous Parallel Consciousness"
+							}
+						},
+						{
+							"id": "mUxcW6wYzn_VERpIX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mXxBxWWJbiCbPz47G"
+							},
+							"name": "World Spanning",
+							"reference": "PU4:18",
+							"local_notes": "Other Worlds & Current World",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "me4t-EGLrXfuy9jsc",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+								"id": "m5htqAO8ALS-lTG_P"
+							},
+							"name": "Always On",
+							"reference": "B110,P99",
+							"cost_adj": "-10%"
+						},
+						{
+							"id": "may2rCQZIf_KZuzID",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback2@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Complete Conscious Stream"
+							}
+						},
+						{
+							"id": "m5-K8HG65CCBhZccY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mQfYtKIYlcQZW1vUC"
+							},
+							"name": "Sensory Only",
+							"reference": "B70",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mJ_F6OLRiLcUizv25",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "maAOEfTVy14QkjsAO"
+							},
+							"name": "Racial",
+							"reference": "B70",
+							"local_notes": "@Race@",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "m8qwo_NZVnhrIX90_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "myo-TyF0yVyifLf7X"
+							},
+							"name": "Cybernetic Only",
+							"reference": "B70",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "m58WkP_bnBpF7PQt3",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m0MHTMfmRz49hic2z"
+							},
+							"name": "Cybernetic",
+							"reference": "B69",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "meGRVJIkgOkfZxbqo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mdF_YOT8TLBmhnsO-"
+							},
+							"name": "Reduced Time",
+							"reference": "B108",
+							"cost_adj": "20%",
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"base_points": 30,
+					"calc": {
+						"points": 282
+					}
+				},
+				{
+					"id": "tucPO7TE0r0gsVtz9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Psionics/Psionics Traits.adq",
+						"id": "tkuXiY-3ZbEBpk2xl"
+					},
+					"name": "Mindlink",
+					"reference": "PSI67",
+					"tags": [
+						"Communication",
+						"Mental",
+						"Psionics",
+						"Telepathy"
+					],
+					"replacements": {
+						"Avoided drawback": "Familiar Bond cannot be intercepted or jammed except by Cosmic effects.",
+						"Who": "Followers"
+					},
+					"modifiers": [
+						{
+							"id": "mh9n3BopCVTQdzVWd",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mLA8pp1c-wZ6A1Y_B"
+							},
+							"name": "Single person",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost_adj": "5",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Followers"
+							}
+						},
+						{
+							"id": "mPWCpKII7xu3rekWa",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "moGbx2XTap9cq7nkr"
+							},
+							"name": "2-9 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost_adj": "10",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Followers"
+							}
+						},
+						{
+							"id": "m4L0DGqyDJHskKUAj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "m95kLCnOb7jMizD2g"
+							},
+							"name": "10-99 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost_adj": "20",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Followers"
+							}
+						},
+						{
+							"id": "mGMTGzHygDx60brbM",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "moQLCbb3SsVtZpeHL"
+							},
+							"name": "100-999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost_adj": "30",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Followers"
+							}
+						},
+						{
+							"id": "mIE7o99mnAm7Vgi26",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mZskrVl8UgJknQJKt"
+							},
+							"name": "1000-9999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost_adj": "40",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Followers"
+							}
+						},
+						{
+							"id": "mjotdUffFgXiAVHil",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mhkXjZJQRBJAJRPx4"
+							},
+							"name": "10000-99999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost_adj": "50",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Followers"
+							}
+						},
+						{
+							"id": "mp-OgRUKjjPDicODN",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mG25XBGOcSeVlriZd"
+							},
+							"name": "100000-999999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost_adj": "60",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Followers"
+							}
+						},
+						{
+							"id": "mhtoreKFfKVU7nflj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mYpIkv8P4vjGWwbhc"
+							},
+							"name": "1000000-9999999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost_adj": "70",
+							"calc": {
+								"resolved_notes": "Followers"
+							}
+						},
+						{
+							"id": "mACgIo-lOPGx9U1Ta",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "m3qQNXW9HzbMt7O5l"
+							},
+							"name": "100,000,000-999,999,999 people",
+							"reference": "B70",
+							"local_notes": "@Who@",
+							"cost_adj": "80",
+							"disabled": true,
+							"calc": {
+								"resolved_notes": "Followers"
+							}
+						},
+						{
+							"id": "mUWXwAE2X4oZepHPN",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mkbS2EFiBsMuQG9yL"
+							},
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mlaMqBP-P3yy_M6QT",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mvusTeKjFFOf9xp-v"
+							},
+							"name": "Cybernetic",
+							"reference": "B69",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mbjUhji1APuvDAQS3",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Irresistible attack",
+							"cost_adj": "300%",
+							"disabled": true
+						},
+						{
+							"id": "mb181i8S9H2G3UR1f",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "muDy6K6l0V2_gY-wH"
+							},
+							"name": "Sensory",
+							"reference": "B69",
+							"cost_adj": "20%",
+							"disabled": true
+						},
+						{
+							"id": "mmBHimgQ9Vjn6Zwli",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mdli7TGzpvEHejAiI"
+							},
+							"name": "Universal",
+							"reference": "B69",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mTOHsK8cfszXTZEMl",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mSlXv7aQUy-wxyGue"
+							},
+							"name": "Video",
+							"reference": "B91",
+							"cost_adj": "40%",
+							"disabled": true
+						},
+						{
+							"id": "mQuFqn71PBNVFfCiQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mPWRJu4_0bNIdLA7b"
+							},
+							"name": "Cybernetic Only",
+							"reference": "B70",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "m6gmTNJPkj9OTtvqB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "m05yu_O_wSHJ99BSU"
+							},
+							"name": "Racial",
+							"reference": "B70",
+							"local_notes": "@Race@",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mB425PWT338oH6T-N",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mQTd_F9zchi2ZUoOH"
+							},
+							"name": "Sensory Only",
+							"reference": "B70",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mBfFNGqYDnURMWaCC",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mjiNzFq2tfsk_13EU"
+							},
+							"name": "Telecommunication",
+							"reference": "B70",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mUr86A9tbHle_xWQy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "mMh14lJVkuLfUjwu4"
+							},
+							"name": "Vague",
+							"reference": "B91",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mPa2hvBzihZwdXLQr",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Psionics/Psionics Traits.adq",
+								"id": "m9yi18oE9vaGooW6o"
+							},
+							"name": "Telepathy",
+							"cost_adj": "-10%",
+							"disabled": true
+						},
+						{
+							"id": "mOw44dQhEdBA-Ft4l",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "mXxBxWWJbiCbPz47G"
+							},
+							"name": "World Spanning",
+							"reference": "PU4:18",
+							"local_notes": "Other Worlds & Current World",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "m4nNAgfsyPmcK1Ok2",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Modifiers.adm",
+								"id": "mwFciq5taGETxgTSp"
+							},
+							"name": "Cosmic",
+							"reference": "P26",
+							"local_notes": "Power cannot be Negated",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "ms_wiNj05u5HZTeTB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Bond ignores ordinary distance/contact limits: once bonded,the connection remains valid across any ordinary spatial separation,interstellar distance, or inability to establish conventionaltelepathic contact.",
+							"cost_adj": "+200%"
+						}
+					],
+					"calc": {
+						"points": 280
+					}
+				}
+			],
+			"calc": {
+				"points": 1241
+			}
+		},
+		{
+			"id": "TuAiNzwxnf7RafqaH",
+			"name": "Illusory Environment",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "tnFmKIsLU3D1CMso-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tLVBokgcrQIUNKxpD"
+					},
+					"name": "Telekinesis",
+					"reference": "B92,P82,PSI17",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"replacements": {
+						"linked abilities": "Illusory Environment"
+					},
+					"modifiers": [
+						{
+							"id": "mwQGHEGa1fthPJs90",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mrn7-Fu7-PWSIb7M4"
+							},
+							"name": "Magnetic",
+							"reference": "B92",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mJ8wMnFJBfZVq4JeX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mWAEVQRChOsMQivPF"
+							},
+							"name": "Visible",
+							"reference": "B92",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mIzWRleSDkz8bKLtI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mJ4yIdhAMSOYFIIvG"
+							},
+							"name": "Super-Effort",
+							"reference": "P83",
+							"cost_adj": "400%"
+						},
+						{
+							"id": "mXhozdgDgY5uOFZsb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mdLjL7jvYv2zMzppL"
+							},
+							"name": "Animation",
+							"reference": "P83",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mepphCiTEhIKJUpbB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mHkqdq2iUaffbkB_X"
+							},
+							"name": "Animation",
+							"reference": "P83",
+							"local_notes": "No Flight",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "mKBcnlXZ1u8WXNXL1",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mKcVcDtwawP71PBTX"
+							},
+							"name": "Attraction",
+							"reference": "P83",
+							"cost_adj": "-60%",
+							"disabled": true
+						},
+						{
+							"id": "mR1a_pIl2jbqnKdJX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mwP0yNOp-qTeVzuWY"
+							},
+							"name": "Repulsion",
+							"reference": "P83",
+							"cost_adj": "-60%",
+							"disabled": true
+						},
+						{
+							"id": "m6mmsc0Ds1hJfMnnI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m9yUn65Gqao9scPRo"
+							},
+							"name": "Attraction/Repulsion",
+							"reference": "P83",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "m7gAZlIVvssRThKLm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mv6XdMsc1xha824bC"
+							},
+							"name": "Lift Only",
+							"reference": "P83",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "maatzuVIvMNa_loWW",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mobTkm-6z31Sl9fEr"
+							},
+							"name": "Move Only",
+							"reference": "P83",
+							"cost_adj": "-40%",
+							"disabled": true
+						},
+						{
+							"id": "mnsVTG4998dQPXrg2",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mTN84EmMwgrna48LK"
+							},
+							"name": "Animate Life-forms",
+							"reference": "SU28",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "m7bf6_x-5DLrpzuhm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m5Gwo5TKQOmG8a2c7"
+							},
+							"name": "Animate Life-forms",
+							"reference": "SU28",
+							"local_notes": "Partial",
+							"cost_adj": "20%",
+							"disabled": true
+						},
+						{
+							"id": "mliCY2psNf4lLc2oK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mEx3jzmE1IgP2yUFR"
+							},
+							"name": "Super-Damage",
+							"reference": "SU29",
+							"cost_adj": "900%",
+							"disabled": true
+						},
+						{
+							"id": "mYONkrr1fevJyhX1o",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mHbvDDNhdwfeRU1Iw"
+							},
+							"name": "Cannot Affect Self",
+							"reference": "PSI17",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mGHIEVIlnzGFWDKlD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mVEOAmrnf6ldj043p"
+							},
+							"name": "Cannot Punch",
+							"reference": "PSI17",
+							"cost_adj": "-10%",
+							"disabled": true
+						},
+						{
+							"id": "mESae3N3KRyCc3sdk",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mJlMxweT9zM4wyzyq"
+							},
+							"name": "Enveloping",
+							"reference": "MATG28",
+							"cost_adj": "60%",
+							"disabled": true
+						},
+						{
+							"id": "mjPN9Ddtr1DHxz5Bq",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mgFCgTE1O8FZWBgvv"
+							},
+							"name": "Grappling Only",
+							"reference": "MATG28",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "mghZnAbILV2NFq5ga",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "maQtjiBPLv3l-gUqV"
+							},
+							"name": "Restraint Only",
+							"reference": "MATG28",
+							"cost_adj": "-45%",
+							"disabled": true
+						},
+						{
+							"id": "mjgV3DyXnLnlmot_w",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mbO8GjGu_NuPTLz6e"
+							},
+							"name": "Area Effect",
+							"reference": "B102,P100",
+							"local_notes": "<script>self.attachedTo ? `${2**self.level} yd` : \"2^level\"</script> radius",
+							"cost_adj": "50%",
+							"levels": 14,
+							"calc": {
+								"resolved_notes": "16384 yd radius"
+							}
+						},
+						{
+							"id": "mRSy5599aV_0IvScA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "muqsnVAYgouFexO3h"
+							},
+							"name": "Link",
+							"reference": "B106,P103",
+							"local_notes": "@linked abilities@",
+							"cost_adj": "+10%",
+							"calc": {
+								"resolved_notes": "Illusory Environment"
+							}
+						},
+						{
+							"id": "mKjtkLD1xB_6YzPbT",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mUCjV40yAeps5rjRS"
+							},
+							"name": "Selective Area",
+							"reference": "B108,P105",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "m8p5tinPAddEfA7QV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mN8uzsyp52XUdqRIb"
+							},
+							"name": "Reduced Fatigue Cost",
+							"reference": "B108,P105",
+							"cost_adj": "20%",
+							"levels": 1
+						},
+						{
+							"id": "mFeBeia1mBvAGkwSg",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mOMSdlNapPhZ-GxbZ"
+							},
+							"name": "Independence",
+							"reference": "P95",
+							"cost_adj": "+40%"
+						},
+						{
+							"id": "mMnrkaxVXf5DS8RRp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Modifiers.adm",
+								"id": "mwFciq5taGETxgTSp"
+							},
+							"name": "Cosmic",
+							"reference": "P26",
+							"local_notes": "Power cannot be Negated",
+							"cost_adj": "50%"
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 23,
+					"calc": {
+						"points": 1541,
+						"current_level": 23
+					}
+				},
+				{
+					"id": "tVQjnHzncwcYxhWty",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tTyoCiOimAdIrte5U"
+					},
+					"name": "Clairsentience",
+					"reference": "B42,P44,PSI13",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"replacements": {
+						"Avoided drawback": "Simultaneous Awareness",
+						"Avoided drawback2": "instead of one displaced viewpoint, Tsar's sensory viewpoint is distributed throughout the entire active External Illusion. He can perceive events anywhere inside its area rather than moving a single psychic “camera.”",
+						"Avoided drawback3": "Remote Anchor",
+						"linked abilities": "Illusory Environment"
+					},
+					"modifiers": [
+						{
+							"id": "mcYmCsRFsxENnrnG5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m8Bo3bS8fNtMTWwPr"
+							},
+							"name": "Clairaudience",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "mBkBYOeNT-NW_osbX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mgJEP6AwJAnzRzTSd"
+							},
+							"name": "Clairosmia",
+							"cost_adj": "-60%",
+							"disabled": true
+						},
+						{
+							"id": "mXKpE4YcDO2jhDobZ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "maI_bbLPLc6bA4SR2"
+							},
+							"name": "Clairvoyance",
+							"cost_adj": "-10%",
+							"disabled": true
+						},
+						{
+							"id": "miaJUbkTRwfiyz6Jf",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "miD8uN_pa3VHoOSdB"
+							},
+							"name": "Visible",
+							"cost_adj": "-10%",
+							"disabled": true
+						},
+						{
+							"id": "mdsl9MW2E2mOPnUKi",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m73BfbVTZrJAHsb2c"
+							},
+							"name": "Aware",
+							"reference": "P44",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "mSqldky56mLOsASdN",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mr-9_2waSNaDYg1x2"
+							},
+							"name": "Projection",
+							"reference": "P43",
+							"local_notes": "Only affects insubstantial world",
+							"disabled": true
+						},
+						{
+							"id": "m_xiJtN4AZ3sAlEcu",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mIon9praIhhmbapwo"
+							},
+							"name": "Projection",
+							"reference": "P44",
+							"local_notes": "Can use abilities on material world",
+							"cost_adj": "140%",
+							"disabled": true
+						},
+						{
+							"id": "m7l7a2cDd04yCAVNo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m708GTg1rEz4Gy7Hg"
+							},
+							"name": "Second Nature",
+							"reference": "P44",
+							"cost_adj": "70%"
+						},
+						{
+							"id": "mrZmmOLFlVxaItgQz",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mHNIdDOJeF9bjsq6i"
+							},
+							"name": "Fixed Range",
+							"reference": "PSI13",
+							"cost_adj": "-5%",
+							"disabled": true
+						},
+						{
+							"id": "mpTycN3EPlr61p7FH",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mGZP6ZwcSGrznrQbh"
+							},
+							"name": "Normal Sight",
+							"reference": "PSI13",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "muOFFhfNBEh6w7NM-",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "ma0WjT5SygIShibu6"
+							},
+							"name": "Reliable",
+							"reference": "B98",
+							"cost_adj": "5%",
+							"levels": 10
+						},
+						{
+							"id": "mRfyHrKsvAmtehMJK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "muqsnVAYgouFexO3h"
+							},
+							"name": "Link",
+							"reference": "B106,P103",
+							"local_notes": "@linked abilities@",
+							"cost_adj": "+10%",
+							"calc": {
+								"resolved_notes": "Illusory Environment"
+							}
+						},
+						{
+							"id": "mNA0Kj7fvNtJXFDCX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback2@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "instead of one displaced viewpoint, Tsar's sensory viewpoint is distributed throughout the entire active External Illusion. He can perceive events anywhere inside its area rather than moving a single psychic “camera.”"
+							}
+						},
+						{
+							"id": "mcdv2bUX_BMU35kW9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback3@",
+							"cost_adj": "+50%",
+							"calc": {
+								"resolved_notes": "Remote Anchor"
+							}
+						},
+						{
+							"id": "mFk8cHNGmve_afLTK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback@",
+							"cost_adj": "+50%",
+							"calc": {
+								"resolved_notes": "Simultaneous Awareness"
+							}
+						},
+						{
+							"id": "mirZmWvALVsrHSt6Y",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Modifiers.adm",
+								"id": "mwFciq5taGETxgTSp"
+							},
+							"name": "Cosmic",
+							"reference": "P26",
+							"local_notes": "Power cannot be Negated",
+							"cost_adj": "50%"
+						}
+					],
+					"base_points": 50,
+					"calc": {
+						"points": 265
+					}
+				},
+				{
+					"id": "tqIQis5F4bIqDYksV",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "t7cedkAy56y7BYg9q"
+					},
+					"name": "Illusion",
+					"reference": "P94,PSI14",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"replacements": {
+						"Avoided drawback4": "Source-Authentic Sensorium",
+						"linked abilities": "Illusory Environment"
+					},
+					"modifiers": [
+						{
+							"id": "mwvExvoL6KAZYFWpo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mVf6turBAuZ0RtFFo"
+							},
+							"name": "Extended",
+							"reference": "P95",
+							"local_notes": "@Sense@",
+							"cost_adj": "+40%",
+							"disabled": true
+						},
+						{
+							"id": "mA06YcCoaE9x1u6CQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mOMSdlNapPhZ-GxbZ"
+							},
+							"name": "Independence",
+							"reference": "P95",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mbS0rmsdqPPJ1B9lA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mye9TWEKnEEhTRRuh"
+							},
+							"name": "Initiative",
+							"reference": "P95",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "mzDXaMv6w7_GGC7Y4",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mCW3_xtnmhAPcOd5v"
+							},
+							"name": "Mental",
+							"reference": "P95",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "m7cvDd1V2BAD8h92l",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m4S-b0HDn50e5_Yne"
+							},
+							"name": "Stigmata",
+							"reference": "P95",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "msB52DO16IEvBYPc8",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m3lQzeAMMYXTmP6Bq"
+							},
+							"name": "Auditory Only",
+							"reference": "P95",
+							"cost_adj": "-70%",
+							"disabled": true
+						},
+						{
+							"id": "mwwA30XUb7eQsfMCo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mviOzOBR5L_NO91uf"
+							},
+							"name": "Static",
+							"reference": "P95",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "mk9fDTKrsvx8yU4CG",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mzXBAjOYmXZc-sQ5Q"
+							},
+							"name": "Visual Only",
+							"reference": "P95",
+							"cost_adj": "-30%",
+							"disabled": true
+						},
+						{
+							"id": "msYgxS18ZYWPKPM-c",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mCyc5Rzr7IttExQ0u"
+							},
+							"name": "Hallucinations",
+							"reference": "PSI14",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mOZyIZtsnprn_PE-T",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mbO8GjGu_NuPTLz6e"
+							},
+							"name": "Area Effect",
+							"reference": "B102,P100",
+							"local_notes": "<script>self.attachedTo ? `${2**self.level} yd` : \"2^level\"</script> radius",
+							"cost_adj": "50%",
+							"levels": 13,
+							"calc": {
+								"resolved_notes": "8192 yd radius"
+							}
+						},
+						{
+							"id": "m7dLhI-B4DFTzDe5Q",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mVIPwP64p4POxRhkL"
+							},
+							"name": "Link",
+							"reference": "B106,P103",
+							"local_notes": "@linked abilities@, must be used as a single ability",
+							"cost_adj": "10%",
+							"calc": {
+								"resolved_notes": "Illusory Environment, must be used as a single ability"
+							}
+						},
+						{
+							"id": "mR2g1NFvwg9PUrYDa",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mlMYKfQnlVJoEWb5w"
+							},
+							"name": "Ranged",
+							"reference": "B107,P105",
+							"cost_adj": "40%"
+						},
+						{
+							"id": "mKxeGjynZSO83cn1e",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mUCjV40yAeps5rjRS"
+							},
+							"name": "Selective Area",
+							"reference": "B108,P105",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "mBysnKMTH4nnimzdo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Irresistible attack",
+							"cost_adj": "300%"
+						},
+						{
+							"id": "m231XkX5V-vBqARLF",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups 4 Enhancements Enhancement Modifiers.adm",
+								"id": "m76xVWn9HOCphce2M"
+							},
+							"name": "Cosmic",
+							"reference": "B103, PU4:7",
+							"local_notes": "@Avoided drawback4@",
+							"cost_adj": "+100%",
+							"calc": {
+								"resolved_notes": "Source-Authentic Sensorium"
+							}
+						}
+					],
+					"base_points": 25,
+					"calc": {
+						"points": 330
+					}
+				}
+			],
+			"calc": {
+				"points": 2136
+			}
+		},
+		{
+			"id": "THomGIWug_q74HGIC",
+			"name": "Creates",
+			"children": [
+				{
+					"id": "t_xUQGVmRAQ4ksmXh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "t6LDnkZADo3plmfQk"
+					},
+					"name": "Divine Create (@Item@)",
+					"reference": "P92",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"replacements": {
+						"Item": "Inorganic Matter"
+					},
+					"modifiers": [
+						{
+							"id": "mRJch-_DyGtLOSxt5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "myhFGMf-S1WW5ypXI"
+							},
+							"name": "Destruction",
+							"reference": "P94",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mAwwNrhXUqGJKFg7z",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mlCmVGs2zS06HS0Fd"
+							},
+							"name": "Destruction Only",
+							"reference": "P94",
+							"disabled": true
+						},
+						{
+							"id": "m-loygEer6U1AUHNg",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "myz5XjWYLxvl-iSA3"
+							},
+							"name": "Transmutation",
+							"reference": "P94",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mSZc50Q8xXG_LnRMd",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m4GsPEkPEYastBJQU"
+							},
+							"name": "Transmutation only",
+							"reference": "P94",
+							"cost_adj": "-100%",
+							"disabled": true
+						},
+						{
+							"id": "mSSD7i3PYO8cbiaIb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mgDijUvZr9eHpVNQS"
+							},
+							"name": "Specific item",
+							"reference": "P92",
+							"cost_adj": "x1",
+							"disabled": true
+						},
+						{
+							"id": "mTaBHwK-uReDfeHi-",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mL5N3SZbVHYr3DSrU"
+							},
+							"name": "Small category",
+							"reference": "P92",
+							"cost_adj": "x2",
+							"disabled": true
+						},
+						{
+							"id": "myfSuqwCZyMEgS0mc",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mIA7uTMRl8eeg2jWm"
+							},
+							"name": "Medium category",
+							"reference": "P92",
+							"cost_adj": "x4",
+							"disabled": true
+						},
+						{
+							"id": "mLfu95tKteMqTltSf",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mELf9rqQ7l-ItgXZv"
+							},
+							"name": "Large category",
+							"reference": "P92",
+							"cost_adj": "x8"
+						},
+						{
+							"id": "mxDTKsREfkYT4qs2f",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+								"id": "mmDKV7Oodu-gYw7Rd"
+							},
+							"name": "Takes Recharge",
+							"reference": "B115,P106",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mVgTXlmbpePdWYH9z",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "muqsnVAYgouFexO3h"
+							},
+							"name": "Link",
+							"reference": "B106,P103",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "mNP54JTXJOVSh5B88",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mJ4yIdhAMSOYFIIvG"
+							},
+							"name": "Super-Effort",
+							"reference": "P83",
+							"cost_adj": "400%"
+						},
+						{
+							"id": "m9J92kZ5o0dzvG4iY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mN8uzsyp52XUdqRIb"
+							},
+							"name": "Reduced Fatigue Cost",
+							"reference": "B108,P105",
+							"cost_adj": "20%",
+							"levels": 3
+						},
+						{
+							"id": "mjLbuCR2-8qyYhLLO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "True Permanent Creation",
+							"cost_adj": "+100%"
+						},
+						{
+							"id": "mPrpHYpgqjGNuj4EZ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Structured Creation",
+							"cost_adj": "+100%"
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 50,
+					"calc": {
+						"points": 15600,
+						"current_level": 50
+					}
+				},
+				{
+					"id": "tiPaWenk8VERjdPOY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "t6LDnkZADo3plmfQk"
+					},
+					"name": "Divine Create (@Item@)",
+					"reference": "P92",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"replacements": {
+						"Item": "Dimensional Substrate"
+					},
+					"modifiers": [
+						{
+							"id": "mC-f--LrDVJnY_2kM",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "myhFGMf-S1WW5ypXI"
+							},
+							"name": "Destruction",
+							"reference": "P94",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mwmWDpbrzmiE0Loyt",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mlCmVGs2zS06HS0Fd"
+							},
+							"name": "Destruction Only",
+							"reference": "P94",
+							"disabled": true
+						},
+						{
+							"id": "mFksayat5Qxt-xPcT",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "myz5XjWYLxvl-iSA3"
+							},
+							"name": "Transmutation",
+							"reference": "P94",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mg0J0kuG3oRjIA-_0",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m4GsPEkPEYastBJQU"
+							},
+							"name": "Transmutation only",
+							"reference": "P94",
+							"cost_adj": "-100%",
+							"disabled": true
+						},
+						{
+							"id": "mEEMqBTuS63nOIpxJ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mgDijUvZr9eHpVNQS"
+							},
+							"name": "Specific item",
+							"reference": "P92",
+							"cost_adj": "x1",
+							"disabled": true
+						},
+						{
+							"id": "mTvmbxGyea9g0ZU2W",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mL5N3SZbVHYr3DSrU"
+							},
+							"name": "Small category",
+							"reference": "P92",
+							"cost_adj": "x2",
+							"disabled": true
+						},
+						{
+							"id": "mTm3FfmY_cFoMJtq_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mIA7uTMRl8eeg2jWm"
+							},
+							"name": "Medium category",
+							"reference": "P92",
+							"cost_adj": "x4",
+							"disabled": true
+						},
+						{
+							"id": "m4lT1NbzjsqTTdpfD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mELf9rqQ7l-ItgXZv"
+							},
+							"name": "Large category",
+							"reference": "P92",
+							"cost_adj": "x8"
+						},
+						{
+							"id": "mq7ViCjogfqq7NBfL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+								"id": "mmDKV7Oodu-gYw7Rd"
+							},
+							"name": "Takes Recharge",
+							"reference": "B115,P106",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mD6FWQP0Lzu-GIDwk",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "muqsnVAYgouFexO3h"
+							},
+							"name": "Link",
+							"reference": "B106,P103",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "mjL-HMQs2Y0rWQroV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mJ4yIdhAMSOYFIIvG"
+							},
+							"name": "Super-Effort",
+							"reference": "P83",
+							"cost_adj": "400%"
+						},
+						{
+							"id": "m3SMXBzdEneENYckI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mN8uzsyp52XUdqRIb"
+							},
+							"name": "Reduced Fatigue Cost",
+							"reference": "B108,P105",
+							"cost_adj": "20%",
+							"levels": 3
+						},
+						{
+							"id": "mRPWcAERzHF3QGk-_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "True Permanent Creation",
+							"cost_adj": "+100%"
+						},
+						{
+							"id": "mV1J4bXzM7UnQM8nw",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Dimensional Creation",
+							"cost_adj": "+100%"
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 50,
+					"calc": {
+						"points": 15600,
+						"current_level": 50
+					}
+				},
+				{
+					"id": "t_TFzxBP5n55Lkjli",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "t6LDnkZADo3plmfQk"
+					},
+					"name": "Divine Create (@Item@)",
+					"reference": "P92",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"replacements": {
+						"Item": "Energy – EM Radiation"
+					},
+					"modifiers": [
+						{
+							"id": "m8qC2eaRG1TKJqddp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mnIdHZFGBHi-4wUuY"
+							},
+							"name": "Large category",
+							"reference": "P92",
+							"cost_adj": "x8"
+						},
+						{
+							"id": "mz9rcxOeT_utBUVqA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "muqsnVAYgouFexO3h"
+							},
+							"name": "Link",
+							"reference": "B106,P103",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "mcv5weId3x-yPcdXX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mJ4yIdhAMSOYFIIvG"
+							},
+							"name": "Super-Effort",
+							"reference": "P83",
+							"cost_adj": "400%"
+						},
+						{
+							"id": "mOFCbkA4cj3M-DOXD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mN8uzsyp52XUdqRIb"
+							},
+							"name": "Reduced Fatigue Cost",
+							"reference": "B108,P105",
+							"cost_adj": "20%",
+							"levels": 3
+						},
+						{
+							"id": "m3ovu900hYxBFCVh1",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Full Energy Throughput",
+							"cost_adj": "300%"
+						},
+						{
+							"id": "mWR94qPC07owhs2K5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Structured Creation",
+							"cost_adj": "+100%"
+						},
+						{
+							"id": "mPrLZoRFdKVoGUlgT",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mOD17EOIuZRjiVFgW"
+							},
+							"name": "Destruction",
+							"reference": "P94",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mRn9UN0Z_Qb_UkPtJ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mOB1u4p76GJUQO-HQ"
+							},
+							"name": "Destruction Only",
+							"reference": "P94",
+							"disabled": true
+						},
+						{
+							"id": "mnFwmK3CEqTDeZ8cF",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m0pTgFGEOTRGB5wXF"
+							},
+							"name": "Transmutation",
+							"reference": "P94",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "msIRN_KbCBdRjtv2J",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mYWKRBpkzb3g7DH3d"
+							},
+							"name": "Transmutation only",
+							"reference": "P94",
+							"cost_adj": "-100%",
+							"disabled": true
+						},
+						{
+							"id": "mYXO25cdrCleKMOlK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "myd0FU3U8IA-Cna1Q"
+							},
+							"name": "Specific item",
+							"reference": "P92",
+							"cost_adj": "x1",
+							"disabled": true
+						},
+						{
+							"id": "m-BX-mHwrXuQ7kf0i",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mNoo-7liUyO02dQi2"
+							},
+							"name": "Small category",
+							"reference": "P92",
+							"cost_adj": "x2",
+							"disabled": true
+						},
+						{
+							"id": "mXj3ObojDr8rr8GOI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mJ3LUxkyXEjcpwfZz"
+							},
+							"name": "Medium category",
+							"reference": "P92",
+							"cost_adj": "x4",
+							"disabled": true
+						},
+						{
+							"id": "mX_faQIgxAYs06X04",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mZ-J37L41NpReTEAw"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "No normal Create output ceiling",
+							"cost_adj": "100%"
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 50,
+					"calc": {
+						"points": 21600,
+						"current_level": 50
+					}
+				},
+				{
+					"id": "tBvMdJSVONu6gV5zU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "t6LDnkZADo3plmfQk"
+					},
+					"name": "Divine Create (@Item@)",
+					"reference": "P92",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"replacements": {
+						"Item": "Organic + Living Beings + Functional Minds"
+					},
+					"modifiers": [
+						{
+							"id": "mGU7oJs5NPoo6TEpG",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m1L2va4QcCMiZeEHA"
+							},
+							"name": "Large category",
+							"reference": "P92",
+							"cost_adj": "x8"
+						},
+						{
+							"id": "msiKMudQALu4oPqDy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "muqsnVAYgouFexO3h"
+							},
+							"name": "Link",
+							"reference": "B106,P103",
+							"cost_adj": "20%"
+						},
+						{
+							"id": "mvPcgMA5pyIONIPJO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mJ4yIdhAMSOYFIIvG"
+							},
+							"name": "Super-Effort",
+							"reference": "P83",
+							"cost_adj": "400%"
+						},
+						{
+							"id": "m2yhzQfZtnAeMZT7H",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mN8uzsyp52XUdqRIb"
+							},
+							"name": "Reduced Fatigue Cost",
+							"reference": "B108,P105",
+							"cost_adj": "20%",
+							"levels": 3
+						},
+						{
+							"id": "mGTIW5F_3wU7WitVh",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mfjt9i15mmJoQfSGf"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "True Permanent Creation",
+							"cost_adj": "+100%"
+						},
+						{
+							"id": "me030Zn4tAkWH8jeV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Structured Creation",
+							"cost_adj": "+100%"
+						},
+						{
+							"id": "mWLF_ua6l76mR6fyw",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Living Creation",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "mJQAzO0NEHz5kpUZb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+								"id": "mCsIKBy7rW_6bXh1d"
+							},
+							"name": "Cosmic",
+							"reference": "B103",
+							"local_notes": "Functional Minds",
+							"cost_adj": "50%"
+						},
+						{
+							"id": "mkptGElZdYI66OF4A",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mHwsaWUpkrP1HjJcd"
+							},
+							"name": "Destruction",
+							"reference": "P94",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mIDZt4FoDqN8hzG35",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mbu99ZkHQ7DyAfiw3"
+							},
+							"name": "Destruction Only",
+							"reference": "P94",
+							"disabled": true
+						},
+						{
+							"id": "mB0TSTje3cgzAHDIM",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m925MTxfet6xeG3WN"
+							},
+							"name": "Transmutation",
+							"reference": "P94",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mxIyBCeoWeqaDh3oa",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m5BDCkGNcIPiBBID9"
+							},
+							"name": "Transmutation only",
+							"reference": "P94",
+							"cost_adj": "-100%",
+							"disabled": true
+						},
+						{
+							"id": "mzFZWC3L0WKKmjAG5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mIA6zjFnIxTsabLPH"
+							},
+							"name": "Specific item",
+							"reference": "P92",
+							"cost_adj": "x1",
+							"disabled": true
+						},
+						{
+							"id": "mbC8iaGsxlaOSutzV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "mbbHNI7Z74esgjTWB"
+							},
+							"name": "Small category",
+							"reference": "P92",
+							"cost_adj": "x2",
+							"disabled": true
+						},
+						{
+							"id": "mnklvEao1aoSL_Qvx",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Powers/Powers Traits.adq",
+								"id": "m4ACX4mNVV51CbBL9"
+							},
+							"name": "Medium category",
+							"reference": "P92",
+							"cost_adj": "x4",
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 50,
+					"calc": {
+						"points": 17600,
+						"current_level": 50
+					}
+				}
+			],
+			"calc": {
+				"points": 70400
+			}
+		},
+		{
+			"id": "t8OrwI6-gghihVSaj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Powers/Powers Traits.adq",
+				"id": "t6PGPHm9Ne6rxNIxG"
+			},
+			"name": "Breath of the Sacred Sky",
+			"reference": "P90",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"replacements": {
+				"Element": "Weather",
+				"linked abilities": "Genesis Suite"
+			},
+			"modifiers": [
+				{
+					"id": "mVuBwiDi2oECPTkpK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m4D6jiIchgLeNzWEe"
+					},
+					"name": "Persistent",
+					"reference": "P91",
+					"cost_adj": "40%",
+					"disabled": true
+				},
+				{
+					"id": "mntX2DKeoFQ2yqgDn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mCC6b1ES4bm9huad8"
+					},
+					"name": "Ranged",
+					"reference": "P91",
+					"cost_adj": "40%",
+					"disabled": true
+				},
+				{
+					"id": "mjBMN-vg3DJ4KbDhM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m6DOIHOuCCB7l6vIc"
+					},
+					"name": "Collective",
+					"reference": "P92",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "mpaimcc_HorqwXTsv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mg5F9vevHFGAMh9u8"
+					},
+					"name": "Natural Phenomena",
+					"reference": "P92",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "m73vJ0uAWUtKpmccL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mcjnZLtUgvoE6y1nA"
+					},
+					"name": "Cosmetic",
+					"reference": "P92",
+					"cost_adj": "-80%",
+					"disabled": true
+				},
+				{
+					"id": "mG88ZmcLZkBd9-t0r",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m-IFmKBNy1ar3Edqb"
+					},
+					"name": "Super-Effort",
+					"reference": "SU26",
+					"cost_adj": "400%",
+					"disabled": true
+				},
+				{
+					"id": "m_a80Z0klbSxZKgbj",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mlZ2ET9cRL3zbcGbM"
+					},
+					"name": "Rare",
+					"reference": "P90",
+					"cost_adj": "x2",
+					"disabled": true
+				},
+				{
+					"id": "mNZKWod3YlmUL0J3v",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mfBeIDxD3ACJ_W4Vg"
+					},
+					"name": "Occasional",
+					"reference": "P90",
+					"cost_adj": "x3",
+					"disabled": true
+				},
+				{
+					"id": "m5nLnDTNyRWCs3WD2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mNxEnSKIJYOHU3AGB"
+					},
+					"name": "Common",
+					"reference": "P90",
+					"cost_adj": "x4"
+				},
+				{
+					"id": "mHZvwUo0fjmzPIrjz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mbO8GjGu_NuPTLz6e"
+					},
+					"name": "Area Effect",
+					"reference": "B102,P100",
+					"cost_adj": "50%",
+					"levels": 14
+				},
+				{
+					"id": "mpeihURr9z2CUiNx8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mZ-J37L41NpReTEAw"
+					},
+					"name": "Cosmic",
+					"reference": "B103",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "mx5LM675OjIHY8f66",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "mb8dKIbPtFmqDLYaM"
+					},
+					"name": "Costs Fatigue",
+					"reference": "B111,P101",
+					"cost_adj": "-5%",
+					"levels": 4
+				},
+				{
+					"id": "mbOfuPfLlUwgXafV4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "minsVQc89zfX4oxg7"
+					},
+					"name": "Preparation Required",
+					"reference": "B114",
+					"cost_adj": "-30%"
+				},
+				{
+					"id": "mmYme2Jz8NeOv6Y1t",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "m5paE5onpJ-kpaPlv"
+					},
+					"name": "Takes Recharge",
+					"reference": "B115,P106",
+					"cost_adj": "-30%"
+				},
+				{
+					"id": "mSN8dlyIcC_GswGQs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "muqsnVAYgouFexO3h"
+					},
+					"name": "Link",
+					"reference": "B106,P103",
+					"cost_adj": "20%"
+				},
+				{
+					"id": "mDeOmVG_52yS3uBBj",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mFyrfmQT6yefaKkKV"
+					},
+					"name": "Permanent Duration",
+					"reference": "B105",
+					"cost_adj": "300%"
+				}
+			],
+			"points_per_level": 5,
+			"can_level": true,
+			"levels": 20,
+			"calc": {
+				"points": 5360,
+				"current_level": 20
+			}
+		},
+		{
+			"id": "tEXKKEIFZqqKAX6i_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Powers/Powers Traits.adq",
+				"id": "t6PGPHm9Ne6rxNIxG"
+			},
+			"name": "Divine Dominion — Control Dimensional Structure",
+			"reference": "P90",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"replacements": {
+				"Element": "Weather",
+				"linked abilities": "Genesis Suite"
+			},
+			"modifiers": [
+				{
+					"id": "mmIGbIeUBpzq3dknG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m4D6jiIchgLeNzWEe"
+					},
+					"name": "Persistent",
+					"reference": "P91",
+					"cost_adj": "40%",
+					"disabled": true
+				},
+				{
+					"id": "mYb2lYrg6Q7kEt7zz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mCC6b1ES4bm9huad8"
+					},
+					"name": "Ranged",
+					"reference": "P91",
+					"cost_adj": "40%",
+					"disabled": true
+				},
+				{
+					"id": "mt6oel_toukMFNuOq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m6DOIHOuCCB7l6vIc"
+					},
+					"name": "Collective",
+					"reference": "P92",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "m_YgbQPQTc5f22sUk",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mg5F9vevHFGAMh9u8"
+					},
+					"name": "Realm-Scale Phenomenon",
+					"reference": "P92",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "muIOKrYg7HPC_sEtP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mcjnZLtUgvoE6y1nA"
+					},
+					"name": "Cosmetic",
+					"reference": "P92",
+					"cost_adj": "-80%",
+					"disabled": true
+				},
+				{
+					"id": "mmdwgHU0MZiy5GAZc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m-IFmKBNy1ar3Edqb"
+					},
+					"name": "Super-Effort",
+					"reference": "SU26",
+					"cost_adj": "400%",
+					"disabled": true
+				},
+				{
+					"id": "mmNQvlM_HVLlhMljB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mlZ2ET9cRL3zbcGbM"
+					},
+					"name": "Rare",
+					"reference": "P90",
+					"cost_adj": "x2",
+					"disabled": true
+				},
+				{
+					"id": "mUpki5A4iMiDb3sK2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mfBeIDxD3ACJ_W4Vg"
+					},
+					"name": "Occasional",
+					"reference": "P90",
+					"cost_adj": "x3",
+					"disabled": true
+				},
+				{
+					"id": "mPW5as5reriy0HqdT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mNxEnSKIJYOHU3AGB"
+					},
+					"name": "Common",
+					"reference": "P90",
+					"cost_adj": "x4",
+					"disabled": true
+				},
+				{
+					"id": "mizo7BgEhMUcrui93",
+					"name": "God-Like",
+					"reference": "P90",
+					"cost_adj": "x8"
+				},
+				{
+					"id": "mze69hcmt4WkEXmSl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mbO8GjGu_NuPTLz6e"
+					},
+					"name": "Area Effect",
+					"reference": "B102,P100",
+					"cost_adj": "50%",
+					"levels": 14
+				},
+				{
+					"id": "m_-El_rq4Fus2so5e",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mZ-J37L41NpReTEAw"
+					},
+					"name": "Cosmic",
+					"reference": "B103",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "mfTYmzxlpkMISR6MZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "mb8dKIbPtFmqDLYaM"
+					},
+					"name": "Costs Fatigue",
+					"reference": "B111,P101",
+					"cost_adj": "-5%",
+					"levels": 4
+				},
+				{
+					"id": "m6hnJ82kHJEsu0N_U",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "minsVQc89zfX4oxg7"
+					},
+					"name": "Preparation Required",
+					"reference": "B114",
+					"cost_adj": "-30%"
+				},
+				{
+					"id": "matvpvh-cgpHLGeS4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "m5paE5onpJ-kpaPlv"
+					},
+					"name": "Takes Recharge",
+					"reference": "B115,P106",
+					"cost_adj": "-30%"
+				},
+				{
+					"id": "moPcxapjqLYfAuAS2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "muqsnVAYgouFexO3h"
+					},
+					"name": "Link",
+					"reference": "B106,P103",
+					"cost_adj": "20%"
+				},
+				{
+					"id": "m0nw06vVfF9BPp5O8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mFyrfmQT6yefaKkKV"
+					},
+					"name": "Permanent Duration",
+					"reference": "B105",
+					"cost_adj": "300%"
+				}
+			],
+			"points_per_level": 5,
+			"can_level": true,
+			"levels": 20,
+			"calc": {
+				"points": 10720,
+				"current_level": 20
+			}
+		},
+		{
+			"id": "tE5fbjQ0EWuBhw6rE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Powers/Powers Traits.adq",
+				"id": "t6PGPHm9Ne6rxNIxG"
+			},
+			"name": "Beacon of Divine Harmony",
+			"reference": "P90",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"replacements": {
+				"Element": "Light",
+				"linked abilities": "Genesis Suite"
+			},
+			"modifiers": [
+				{
+					"id": "mhFf8xKOMTln7Wl4D",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "muNr2wAuGcazI8WoZ"
+					},
+					"name": "Persistent",
+					"reference": "P91",
+					"cost_adj": "40%",
+					"disabled": true
+				},
+				{
+					"id": "mYvdv0iSIyJ90yrk8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mmBfZqYzHbWf-D3Qf"
+					},
+					"name": "Ranged",
+					"reference": "P91",
+					"cost_adj": "40%",
+					"disabled": true
+				},
+				{
+					"id": "mH2ZfUnkSGbuMD1BI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mZD7GFCyy0azMViWx"
+					},
+					"name": "Collective",
+					"reference": "P92",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "mrDHru_si0shzXkaw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mlWLlalYN4qjnnggB"
+					},
+					"name": "Natural Phenomena",
+					"reference": "P92",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "mOqKtuJAgFZzHf0zQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mNJoWLNIlVNUrxWzA"
+					},
+					"name": "Cosmetic",
+					"reference": "P92",
+					"cost_adj": "-80%",
+					"disabled": true
+				},
+				{
+					"id": "mYYXvcIPhs0NhTuAz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mW4QXa6hPtFgJOMvO"
+					},
+					"name": "Super-Effort",
+					"reference": "SU26",
+					"cost_adj": "400%",
+					"disabled": true
+				},
+				{
+					"id": "mmYXOh2SS8mMmn68P",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m300MYHa4SvIfv1yj"
+					},
+					"name": "Rare",
+					"reference": "P90",
+					"cost_adj": "x2",
+					"disabled": true
+				},
+				{
+					"id": "m3Du6mym1hCop-Ayc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m-upyl8Rw0g33oI3d"
+					},
+					"name": "Occasional",
+					"reference": "P90",
+					"cost_adj": "x3",
+					"disabled": true
+				},
+				{
+					"id": "myiby5CyOvf3x4gpi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "muPkOAovHGIeYf9pJ"
+					},
+					"name": "Common",
+					"reference": "P90",
+					"cost_adj": "x4"
+				},
+				{
+					"id": "mde5f-cIkkrngtj23",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mbO8GjGu_NuPTLz6e"
+					},
+					"name": "Area Effect",
+					"reference": "B102,P100",
+					"cost_adj": "50%",
+					"levels": 14
+				},
+				{
+					"id": "m14L1SJ6qdVeSMUcD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mZ-J37L41NpReTEAw"
+					},
+					"name": "Cosmic",
+					"reference": "B103",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "muPILIdePICadSOBM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "mb8dKIbPtFmqDLYaM"
+					},
+					"name": "Costs Fatigue",
+					"reference": "B111,P101",
+					"cost_adj": "-5%",
+					"levels": 4
+				},
+				{
+					"id": "mEY-I4K_wZf3t4RBH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "minsVQc89zfX4oxg7"
+					},
+					"name": "Preparation Required",
+					"reference": "B114",
+					"cost_adj": "-30%"
+				},
+				{
+					"id": "mdiLLdXx4Yu3cTlIw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "m5paE5onpJ-kpaPlv"
+					},
+					"name": "Takes Recharge",
+					"reference": "B115,P106",
+					"cost_adj": "-30%"
+				},
+				{
+					"id": "mt4Wt2fSbSShrFH8h",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "muqsnVAYgouFexO3h"
+					},
+					"name": "Link",
+					"reference": "B106,P103",
+					"cost_adj": "20%"
+				},
+				{
+					"id": "m6jvqQiAhbenJ51EK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mFyrfmQT6yefaKkKV"
+					},
+					"name": "Permanent Duration",
+					"reference": "B105",
+					"cost_adj": "300%"
+				}
+			],
+			"points_per_level": 5,
+			"can_level": true,
+			"levels": 20,
+			"calc": {
+				"points": 5360,
+				"current_level": 20
+			}
+		},
+		{
+			"id": "tGSIcwM4Dvec1f-xJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Powers/Powers Traits.adq",
+				"id": "t6PGPHm9Ne6rxNIxG"
+			},
+			"name": "Wellspring of Arcane Grace",
+			"reference": "P90",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"replacements": {
+				"Element": "Mana",
+				"linked abilities": "Genesis Suite"
+			},
+			"modifiers": [
+				{
+					"id": "meadVJy9889m_b8lf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mHz_H91VYBMHXrC9F"
+					},
+					"name": "Persistent",
+					"reference": "P91",
+					"cost_adj": "40%",
+					"disabled": true
+				},
+				{
+					"id": "m9nR5GwBiWjROILHL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m4bCE8a4lMiChX8aU"
+					},
+					"name": "Ranged",
+					"reference": "P91",
+					"cost_adj": "40%",
+					"disabled": true
+				},
+				{
+					"id": "mTJeaU_8fbbIg4mZC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mNy8t0RWpWpZupwMG"
+					},
+					"name": "Collective",
+					"reference": "P92",
+					"cost_adj": "100%",
+					"disabled": true
+				},
+				{
+					"id": "mkDAzfxy7DqcChVCb",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mJqmPtI2HW5xptHOd"
+					},
+					"name": "Natural Phenomena",
+					"reference": "P92",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "mUqNrU_73eDO2O-cX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "m5Y-Rk78egLcY_rqL"
+					},
+					"name": "Cosmetic",
+					"reference": "P92",
+					"cost_adj": "-80%",
+					"disabled": true
+				},
+				{
+					"id": "mGzwZlTWYM_Yb_LB8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mDW7cDCAdzzgIlCTz"
+					},
+					"name": "Super-Effort",
+					"reference": "SU26",
+					"cost_adj": "400%",
+					"disabled": true
+				},
+				{
+					"id": "mQkSF2tANAgt7zhzj",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mme-bfLityRy3a_YY"
+					},
+					"name": "Rare",
+					"reference": "P90",
+					"cost_adj": "x2",
+					"disabled": true
+				},
+				{
+					"id": "mJq_eP5JwxqjVauC6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mwlI3vZ3QEcNKstF5"
+					},
+					"name": "Occasional",
+					"reference": "P90",
+					"cost_adj": "x3",
+					"disabled": true
+				},
+				{
+					"id": "mseep3WkJ0uL0oVZH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "mvxMIDpWTXtqxDb6X"
+					},
+					"name": "Common",
+					"reference": "P90",
+					"cost_adj": "x4"
+				},
+				{
+					"id": "mRa6WkpNNrZ2aP6ot",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mbO8GjGu_NuPTLz6e"
+					},
+					"name": "Area Effect",
+					"reference": "B102,P100",
+					"cost_adj": "50%",
+					"levels": 14
+				},
+				{
+					"id": "mBAxqWH6lwcoZvgJn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mZ-J37L41NpReTEAw"
+					},
+					"name": "Cosmic",
+					"reference": "B103",
+					"cost_adj": "100%",
+					"disabled": true
+				},
+				{
+					"id": "mi9Ft-BTOgus61xqJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "mb8dKIbPtFmqDLYaM"
+					},
+					"name": "Costs Fatigue",
+					"reference": "B111,P101",
+					"cost_adj": "-5%",
+					"levels": 4
+				},
+				{
+					"id": "mDz3wHLgJ4Cw94BT1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "minsVQc89zfX4oxg7"
+					},
+					"name": "Preparation Required",
+					"reference": "B114",
+					"cost_adj": "-30%"
+				},
+				{
+					"id": "mp4DvjSt1Ljhw088S",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "m5paE5onpJ-kpaPlv"
+					},
+					"name": "Takes Recharge",
+					"reference": "B115,P106",
+					"cost_adj": "-30%"
+				},
+				{
+					"id": "mQ0VxqAAFUe5ti4BR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "muqsnVAYgouFexO3h"
+					},
+					"name": "Link",
+					"reference": "B106,P103",
+					"cost_adj": "20%"
+				},
+				{
+					"id": "mhQmfn9o8h7VsOzYl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mFyrfmQT6yefaKkKV"
+					},
+					"name": "Permanent Duration",
+					"reference": "B105",
+					"cost_adj": "300%"
+				}
+			],
+			"points_per_level": 5,
+			"can_level": true,
+			"levels": 20,
+			"calc": {
+				"points": 4560,
+				"current_level": 20
+			}
+		},
+		{
+			"id": "taJ8EfxbjIJjvYI8A",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t9fwzDbdQy1S9CHUx"
+			},
+			"name": "Divine Gift of Sapience",
+			"reference": "B35,P39,PSI13",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"replacements": {
+				"Advantage": "+6 IQ [120], Soul [0], Language [6], up to 124 points buy off of animalistic traits e.g. Bestial, Cannot Speak, No Fine Manipulators, Horizontal, Slave Mentality, Mute, No Legs, No Manipulators, Reprogrammable ",
+				"Attribute Penalty, Incapacitation, Irritant, Stunning": "-1 IQ, Stunning"
+			},
+			"modifiers": [
+				{
+					"id": "M137wY94jANeO6RuI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "MBLUVGzNAHQPrUMJs"
+					},
+					"name": "Attribute Penalties",
+					"children": [
+						{
+							"id": "mvzgo2WX51pfgsrd_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mrJRMnPHjAkfzgsaT"
+							},
+							"name": "DX Penalty",
+							"reference": "B36",
+							"cost_adj": "10%",
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mPuWy7fIbncRoaJND",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "maTTW21lGCml3_cxz"
+							},
+							"name": "HT Penalty",
+							"reference": "B36",
+							"cost_adj": "5%",
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mh3VBze5l8Ms9TWjr",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "muRkB2Op4qjKo_np_"
+							},
+							"name": "IQ Penalty",
+							"reference": "B36",
+							"cost_adj": "10%",
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m19I2BDF80tz5VfO2",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m4ZbcC_8q7-jN1SI6"
+							},
+							"name": "ST Penalty",
+							"reference": "B36",
+							"cost_adj": "5%",
+							"levels": 1,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "m8QTISRv-qmcPa8yD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mib_prff-CGUuQGvL"
+					},
+					"name": "Cancellation",
+					"reference": "PSI13",
+					"cost_adj": "10%"
+				},
+				{
+					"id": "ms517KMoqwQqsIRvP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "m6clriY-Tbukq5ek_"
+					},
+					"name": "Cumulative",
+					"reference": "B36",
+					"cost_adj": "400%"
+				},
+				{
+					"id": "MacWeu7hYXJ8S_97s",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "MlCS93eyXi0p6Zu_O"
+					},
+					"name": "Incapacitation",
+					"reference": "B36",
+					"children": [
+						{
+							"id": "maPehqzMhEiYIahQk",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mJCJ2DBSCJlz8-Wbq"
+							},
+							"name": "Agony",
+							"reference": "B428",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mRizPnVTO4toZQDLp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mMNCO47DIQN-kXlsX"
+							},
+							"name": "Choking",
+							"reference": "B428",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mw8PP_JygVu7s3pQQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "me_IkKsK5ewLT177C"
+							},
+							"name": "Daze",
+							"reference": "B428",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "m_ZcSapHQ_3mrozuA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mJc8_6euSntnPKXQN"
+							},
+							"name": "Ecstasy",
+							"reference": "B428",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mwpqZtqm5K_lZi5x4",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mWdcChRnaGWE3V_wp"
+							},
+							"name": "Hallucination",
+							"reference": "B429",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "m16yV8lOiY4Pf3Mwy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mAIX6SxIL6x7SnCRp"
+							},
+							"name": "Paralysis",
+							"reference": "B429",
+							"cost_adj": "150%",
+							"disabled": true
+						},
+						{
+							"id": "mNhY7kUVFNIPM01fK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mY_NUSfqNTAnYrQfJ"
+							},
+							"name": "Retching",
+							"reference": "B429",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "m65JVSOxX3XvO4BCD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mtqBYyXOHa-rf8i0D"
+							},
+							"name": "Seizure",
+							"reference": "B429",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mEnwqBLC5X8jgj2Id",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mfFvfZLRyRp_-nU6k"
+							},
+							"name": "Sleep",
+							"cost_adj": "150%",
+							"disabled": true
+						},
+						{
+							"id": "mtOelLQZTAJMJDfCF",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mGvbP3qg0uQ0hcRbd"
+							},
+							"name": "Unconsciousness",
+							"reference": "B429",
+							"cost_adj": "200%",
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "MtYxUVomHqicN5ddD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "MYQUubL6ip8HghSLW"
+					},
+					"name": "Irritations",
+					"reference": "B36",
+					"children": [
+						{
+							"id": "miP2gKHTBesvjfkrH",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mQ14fySAH1SBxfXjG"
+							},
+							"name": "Coughing",
+							"reference": "B428",
+							"cost_adj": "20%",
+							"disabled": true
+						},
+						{
+							"id": "m8vW9ocnYHOxybmZD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mPaJ3s2BHVbYKPket"
+							},
+							"name": "Drunk",
+							"reference": "B428",
+							"cost_adj": "20%",
+							"disabled": true
+						},
+						{
+							"id": "mClUhhFvmJ_1AAbPM",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mf2vDXX6oEXXxS9pN"
+							},
+							"name": "Euphoria",
+							"reference": "B428",
+							"cost_adj": "30%",
+							"disabled": true
+						},
+						{
+							"id": "mVjCWvmqOfr6vzaFi",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mxQZHMprNcKpYv__j"
+							},
+							"name": "Moderate Pain",
+							"reference": "B428",
+							"cost_adj": "20%",
+							"disabled": true
+						},
+						{
+							"id": "mnFSvK9nBTRZdyEya",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m1QSy5wAycrd6y_Qv"
+							},
+							"name": "Nauseated",
+							"reference": "B428",
+							"cost_adj": "30%",
+							"disabled": true
+						},
+						{
+							"id": "m0WqUVZAKlGPWlNUx",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m-eP3L2Q4FzTR6aax"
+							},
+							"name": "Severe Pain",
+							"reference": "B428",
+							"cost_adj": "40%",
+							"disabled": true
+						},
+						{
+							"id": "mRcso7vgvZntG9RKS",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mwyNgbiGztzLktOyw"
+							},
+							"name": "Terrible Pain",
+							"reference": "B428",
+							"cost_adj": "60%",
+							"disabled": true
+						},
+						{
+							"id": "m-AOyqz_nCzqv5eAh",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m8GsSpaZV1CmtJW2j"
+							},
+							"name": "Tipsy",
+							"reference": "B428",
+							"cost_adj": "10%",
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "M5oNHxmRdTvt0fp5Q",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "MQ8iuQ-CxlHhtGuBH"
+					},
+					"name": "Mortal Conditions",
+					"children": [
+						{
+							"id": "mYK67Hu9EWNKdA-l7",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "myPOfryTsqXS2Gjf1"
+							},
+							"name": "Coma",
+							"reference": "B429",
+							"cost_adj": "250%",
+							"disabled": true
+						},
+						{
+							"id": "mY4saXeK2YcSy_mit",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "m3l21sQDTDgFzAR2c"
+							},
+							"name": "Heart Attack",
+							"reference": "B429",
+							"cost_adj": "300%",
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "m09np_3RbFuNc-N9b",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "mmnRvgo45DTp7IO2w"
+					},
+					"name": "Stunning",
+					"reference": "B36",
+					"cost_adj": "10%",
+					"disabled": true
+				},
+				{
+					"id": "MqVqALti-1eeulUs7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "MnM9tC21EqSxf_Z23"
+					},
+					"name": "Traits",
+					"children": [
+						{
+							"id": "m0fP1birFHh2GDEGH",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mfdX_BLucpBAnpX3v"
+							},
+							"name": "Gives @Advantage@",
+							"reference": "B36",
+							"cost_adj": "10%",
+							"levels": 250
+						},
+						{
+							"id": "mGYF0Wx9w4VMaBwMD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mTi8E2cbz0gGCmtYk"
+							},
+							"name": "Gives @Disadvantage@",
+							"reference": "B36",
+							"cost_adj": "1%",
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mYU5YRc_4pDPnSppY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "mKDXW8Pl2FvMWgIPb"
+							},
+							"name": "Negates @Advantage@",
+							"reference": "B36",
+							"cost_adj": "1%",
+							"levels": 1,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "mNbIchXm0biAGVo5Z",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Power Ups/Power Ups 8 Limitations Limitation Modifiers.adm",
+						"id": "mnTGDcDeyCRahX5sZ"
+					},
+					"name": "Backlash (@Attribute Penalty, Incapacitation, Irritant, Stunning@)",
+					"reference": "PU8:11",
+					"cost_adj": "-1%",
+					"levels": 20
+				},
+				{
+					"id": "mK2Z7EZTvu1mQuNTF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mbO8GjGu_NuPTLz6e"
+					},
+					"name": "Area Effect",
+					"reference": "B102,P100",
+					"cost_adj": "50%",
+					"levels": 14
+				},
+				{
+					"id": "mXUV87g7FAzOPIipt",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mFyrfmQT6yefaKkKV"
+					},
+					"name": "Permanent Duration",
+					"reference": "B105",
+					"cost_adj": "300%"
+				},
+				{
+					"id": "mk1SRPRSDkKMcyOVL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mUCjV40yAeps5rjRS"
+					},
+					"name": "Selective Area",
+					"reference": "B108,P105",
+					"cost_adj": "20%"
+				},
+				{
+					"id": "mB_CYNZ52dflwQTZJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Enhancement Modifiers.adm",
+						"id": "mfjt9i15mmJoQfSGf"
+					},
+					"name": "Cosmic",
+					"reference": "B103",
+					"local_notes": "Divine Awakening",
+					"cost_adj": "300%"
+				},
+				{
+					"id": "mHwc_8vQ2rDfzOAiC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "mb8dKIbPtFmqDLYaM"
+					},
+					"name": "Costs Fatigue -25%",
+					"reference": "B111,P101",
+					"cost_adj": "-5%",
+					"levels": 5
+				},
+				{
+					"id": "mJi1kZ3rJEnWIWI0b",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "minsVQc89zfX4oxg7"
+					},
+					"name": "Preparation Required -30%",
+					"reference": "B114",
+					"cost_adj": "-30%",
+					"disabled": true
+				}
+			],
+			"points_per_level": 10,
+			"can_level": true,
+			"levels": 10,
+			"calc": {
+				"points": 4285,
+				"current_level": 10
+			}
+		}
+	]
+}
