@@ -901,18 +901,6 @@
 			}
 		},
 		{
-			"id": "tzXVKd3-tiFRDDNCX",
-			"name": "Total Communion (Sol Mahina)",
-			"local_notes": "Dedicated relationship feature [0] within the established paid architecture; not generic free telepathy.\n\n**Status:** Dedicated relationship-specific operating rule, recorded as a [0] feature of the established architecture.\n\nSol receives Tsar's complete conscious experiential state continuously and involuntarily: senses, thoughts, emotions, body schema, compartments, recalled memories, Mindscapes, telepresence, incoming familiar streams, and reactions.\n\nThere is no selection, concealment, falsification, delay, or redaction while this dedicated communion exists. Ending it requires severing the dedicated communion. Tsar receives Sol through the Familiar Bond.\n\nThis differs from Tsar's ordinary deliberately selected outbound Telesend. Recursive Perspective Integrity applies to their nested mutual awareness.",
-			"tags": [
-				"Feature",
-				"Sol Mahina"
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
 			"id": "tBV_ueNCQ6uwcWOWu",
 			"name": "Sterile/Barren",
 			"reference": "SexAndPreg:30",
@@ -1182,35 +1170,59 @@
 			}
 		},
 		{
-			"id": "tkQIvqXg2Co_CrOHg",
-			"name": "Attribute Substitution Innate Attack (Beam) DX -> IQ",
-			"base_points": 1,
+			"id": "TQ-N1TAlL2Jvu2Nh4",
+			"name": "Attribute Subsitition",
+			"reference": "Sol:14",
+			"local_notes": "(Max 4 per character)",
+			"children": [
+				{
+					"id": "txBJugl0CBw5VzpRW",
+					"name": "Attribute Substitution Erotic Art DX -> IQ",
+					"reference": "Sol:14",
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tiId6vsOWOUhbQ8J-",
+					"name": "Attribute Substitution Innate Attack (Breath) DX -> IQ",
+					"reference": "Sol:14",
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tySOHpshlN_0gJm_K",
+					"name": "Attribute Substitution Innate Attack (Projectile) DX -> IQ",
+					"reference": "Sol:14",
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tAfskh8ep4Ck_ncZB",
+					"name": "Attribute Substitution Innate Attack (Gaze) DX -> IQ",
+					"reference": "Sol:14",
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tkQIvqXg2Co_CrOHg",
+					"name": "Attribute Substitution Innate Attack (Beam) DX -> IQ",
+					"reference": "Sol:14",
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				}
+			],
 			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tiId6vsOWOUhbQ8J-",
-			"name": "Attribute Substitution Innate Attack (Breath) DX -> IQ",
-			"base_points": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tAfskh8ep4Ck_ncZB",
-			"name": "Attribute Substitution Innate Attack (Gaze) DX -> IQ",
-			"base_points": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tySOHpshlN_0gJm_K",
-			"name": "Attribute Substitution Innate Attack (Projectile) DX -> IQ",
-			"base_points": 1,
-			"calc": {
-				"points": 1
+				"points": 5
 			}
 		},
 		{
@@ -1561,6 +1573,7 @@
 						}
 					],
 					"points_per_level": 1,
+					"max_levels": "5",
 					"can_level": true,
 					"levels": 1,
 					"calc": {
@@ -1702,7 +1715,9 @@
 		{
 			"id": "TUZPps7LVaVkxS6rD",
 			"name": "Slit",
-			"local_notes": "Updated MM total [7]: Payload 1 [1] + Prehensile Dick package [6]. Slit Accommodation is a separately learned technique. Resident anatomy does not count as incoming size for that check.",
+			"reference": "Sol:13",
+			"reference_highlight": "Slit",
+			"local_notes": "Payload 1 [1] + Prehensile Dick package [6]. Slit Accommodation is a separately learned technique. Resident anatomy does not count as incoming size for that check.",
 			"container_type": "meta_trait",
 			"children": [
 				{
@@ -1746,7 +1761,8 @@
 				{
 					"id": "TY7SZ6Apjkn-K3FLg",
 					"name": "Prehensile Dick",
-					"local_notes": "MM total [6] = Extra Arm [4] + racial Erotic Art bonus [2]. The older additive illustration was [4]. Do not buy this package a second time if already included in Slit.",
+					"reference": "Sol:12",
+					"local_notes": "Extra Arm [4] + racial Erotic Art bonus [2]. ",
 					"container_type": "meta_trait",
 					"children": [
 						{
@@ -1898,6 +1914,7 @@
 						{
 							"id": "tHp-aBGNOw9FpC0E5",
 							"name": "Racial Skill Bonus (Erotic Art)",
+							"reference": "Sol:13",
 							"local_notes": "Separate +1 racial Erotic Art bonus [2]. Purchased once per package; not inside the discounted Extra Arm base.",
 							"tags": [
 								"Sol Mahina"
@@ -2197,6 +2214,69 @@
 			"calc": {
 				"points": 53,
 				"current_level": 1
+			}
+		},
+		{
+			"id": "tMYCGVQRewOAlTlG3",
+			"name": "Patron: Tsargoth",
+			"reference": "Sol:13",
+			"reference_highlight": "Patron: Tsargoth",
+			"local_notes": "Patron Tsargoth w/o Familiar Bond. Base Patron [30], Equipment +100%, Special Abilities +100%. Final cost [90].",
+			"tags": [
+				"Advantage",
+				"Social",
+				"Sol Mahina"
+			],
+			"modifiers": [
+				{
+					"id": "msIy3lsvKVzwZWxcb",
+					"name": "Equipment",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "mvCkzMyvqg07zsOg_",
+					"name": "Special Abilities",
+					"cost_adj": "100%"
+				}
+			],
+			"frequency": 9,
+			"base_points": 30,
+			"calc": {
+				"points": 90
+			}
+		},
+		{
+			"id": "tNP8gJHYdDXw9xWeu",
+			"name": "Patron: Tsargoth (Familiar Bond Active)",
+			"reference": "Sol:13",
+			"reference_highlight": "Patron: Tsargoth (Familiar Bond Active)",
+			"local_notes": "Patreon Tsargoth w/ Familiar Bond is active. Base Patron [30], Equipment +100%, Special Abilities +100%, Highly Available +50%. Final cost [105].",
+			"tags": [
+				"Advantage",
+				"Social",
+				"Sol Mahina"
+			],
+			"modifiers": [
+				{
+					"id": "mnCUQS9ikDtkbpB8B",
+					"name": "Equipment",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "m9LEXQiMhdm7Vm7_6",
+					"name": "Special Abilities",
+					"cost_adj": "100%"
+				},
+				{
+					"id": "mu6AG_f-eO9T6nTy1",
+					"name": "Highly Available",
+					"cost_adj": "50%"
+				}
+			],
+			"frequency": 9,
+			"base_points": 30,
+			"calc": {
+				"points": 105
 			}
 		}
 	]
